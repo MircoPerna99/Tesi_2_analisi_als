@@ -1,0 +1,16 @@
+metric,value
+validated_pairs_total,194
+gold_standard_source,custom_positive_200
+validated_pairs_warm_start,194
+validated_pairs_cold_start_drug,0
+validated_pairs_cold_start_protein,0
+validated_pairs_cold_start_both,0
+validated_drugs_total,33
+validated_drugs_warm_start,33
+als_requested_predictions_per_drug,14592
+validated_drugs_requested,33
+als_predictions_returned_total,481536
+gold_standard_positives_in_predictions,194
+gold_standard_origin_pairs_to_check,100
+gold_standard_origin_pairs_to_check_fill,72
+gold_standard_origin_test_positive_file,22

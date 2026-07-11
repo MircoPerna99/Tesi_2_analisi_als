@@ -1,0 +1,13 @@
+metric,value
+validated_pairs_total,2588
+gold_standard_source,global_dti
+validated_pairs_warm_start,1731
+validated_pairs_cold_start_drug,1
+validated_pairs_cold_start_protein,697
+validated_pairs_cold_start_both,159
+validated_drugs_total,1170
+validated_drugs_warm_start,741
+als_requested_predictions_per_drug,14592
+validated_drugs_requested,1170
+als_predictions_returned_total,14752512
+gold_standard_positives_in_predictions,1731

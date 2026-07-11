@@ -1,0 +1,1 @@
+{"class":"org.apache.spark.ml.feature.StringIndexerModel","timestamp":1782552754896,"sparkVersion":"4.1.2","uid":"StringIndexer_809ad70b0a28","paramMap":{"inputCol":"protein_id","outputCol":"protein_id_index"},"defaultParamMap":{"handleInvalid":"error","outputCol":"StringIndexer_809ad70b0a28__output","stringOrderType":"frequencyDesc"}}

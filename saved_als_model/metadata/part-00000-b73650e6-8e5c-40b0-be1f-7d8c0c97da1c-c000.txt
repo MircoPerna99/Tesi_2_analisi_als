@@ -1,0 +1,1 @@
+{"class":"org.apache.spark.ml.recommendation.ALSModel","timestamp":1782552755581,"sparkVersion":"4.1.2","uid":"ALS_19470e001a22","paramMap":{"blockSize":4096,"coldStartStrategy":"drop","itemCol":"protein_id_index","userCol":"drug_id"},"defaultParamMap":{"blockSize":4096,"coldStartStrategy":"nan","itemCol":"item","predictionCol":"prediction","userCol":"user"},"rank":30}

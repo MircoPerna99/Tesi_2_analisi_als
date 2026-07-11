@@ -1,0 +1,1431 @@
+drug_structure,protein_id,prediction,drug_name,gene_name,protein_name
+C1CN(CC2=C1SC=C2)CC3=CC=CC=C3Cl,P25787,0.99951386,Ticlopidine,PSMA2,Proteasome subunit alpha type-2
+C1CN(CCC12C(=O)NCN2C3=CC=CC=C3)CCCC(C4=CC=C(C=C4)F)C5=CC=C(C=C5)F,P25787,0.999813,Fluspirilene,PSMA2,Proteasome subunit alpha type-2
+CN(C)CCCN1C2=CC=CC=C2SC3=CC=CC=C31,P25787,0.993747,Promazine,PSMA2,Proteasome subunit alpha type-2
+CO/C=C(C1=CC=CC=C1OC2=NC=NC(=C2)OC3=CC=CC=C3C#N)/C(=O)OC,P14927,0.99998295,,UQCRB,Cytochrome b-c1 complex subunit 7
+C[C@@]1(C(=O)N(C(=O)O1)NC2=CC=CC=C2)C3=CC=C(C=C3)OC4=CC=CC=C4,P14927,0.99999857,(S)-famoxadone,UQCRB,Cytochrome b-c1 complex subunit 7
+C[C@@H]([C@@H](CCC1=C(C(=CC=C1)Cl)Cl)N2C=C(N=C2)C(=O)N)O,P14927,0.9919367,FR239087,UQCRB,Cytochrome b-c1 complex subunit 7
+C1CN(CCC1CC2=CC3=CC=CC=C3N=C2)C(=O)O,P28072,0.9999989,4-(Quinolin-3-ylmethyl)piperidine-1-carboxylic acid,PSMB6,Proteasome subunit beta type-6
+C1COC2=C([C@]13C(=O)NC(=O)N3)C=C(C=C2)F,P28072,0.99999964,Sorbinil,PSMB6,Proteasome subunit beta type-6
+C1=CC(=C(C=C1F)OCC(=O)O)C(=S)NCC2=C(C=C(C=C2)Br)F,P28072,0.9999975,Idd594,PSMB6,Proteasome subunit beta type-6
+CC1=C(C(=CC=C1)NC2=CC=CC=C2C(=O)O)C,P28072,0.99994934,Mefenamic Acid,PSMB6,Proteasome subunit beta type-6
+C1CN(CC2=C1SC=C2)CC3=CC=CC=C3Cl,P28072,0.9999995,Ticlopidine,PSMB6,Proteasome subunit beta type-6
+C1=CC2=C3C(=C1)C(=O)N(C(=O)C3=CC=C2)CC(=O)O,P28072,0.99993896,Alrestatin,PSMB6,Proteasome subunit beta type-6
+C1CN(CCC12C(=O)NCN2C3=CC=CC=C3)CCCC(C4=CC=C(C=C4)F)C5=CC=C(C=C5)F,P28072,0.9999943,Fluspirilene,PSMB6,Proteasome subunit beta type-6
+CSCC[C@@H](C(=O)O)NC=O,P28072,0.9999994,N-Formylmethionine,PSMB6,Proteasome subunit beta type-6
+CN(C)CCCN1C2=CC=CC=C2SC3=CC=CC=C31,P28072,0.9998276,Promazine,PSMB6,Proteasome subunit beta type-6
+C1[C@@H](OC2=C([C@]13C(=O)NC(=O)N3)C=C(C=C2)F)C(=O)N,P28072,0.9990988,"(2R,4S)-2-Aminoformyl-6-fluoro-spiro[chroman-4,4'-imidazolidine]-2',5'-dione",PSMB6,Proteasome subunit beta type-6
+C1=CC(=CC(=C1)[N+](=O)[O-])C2=NOC(=N2)CCCC(=O)O,P28072,1.0,"4-[3-(3-Nitrophenyl)-1,2,4-oxadiazol-5-yl]butanoic acid",PSMB6,Proteasome subunit beta type-6
+C1=CC2=C(C=C1Cl)N=C(S2)CN3C(=O)C=CN(C3=O)CC(=O)O,P28072,1.0,"(3-((5-Chloro-1,3-benzothiazol-2-YL)methyl)-2,4-dioxo-3,4-dihydropyrimidin-1(2H)-YL)acetic acid",PSMB6,Proteasome subunit beta type-6
+C[C@H](C(C)(C)C)O[P@H](=O)C,P28072,0.9930294,"[(2R)-3,3-dimethylbutan-2-yl]oxy-methyl-oxophosphanium",PSMB6,Proteasome subunit beta type-6
+COC1=C(C2=C[N+]3=C(C=C2C=C1)C4=CC5=C(C=C4CC3)OCO5)OC,P28072,0.959312,Berberine,PSMB6,Proteasome subunit beta type-6
+COC1=CC=C(C=C1)S(=O)(=O)N2CCN(CC2)S(=O)(=O)C3=CC4=C(C=C3)OCCO4,P67775,0.99851257,"1-(2,3-Dihydro-1,4-benzodioxin-6-ylsulfonyl)-4-((4-methoxyphenyl)sulfonyl)piperazine",PPP2CA,Serine/threonine-protein phosphatase 2A catalytic subunit alpha isoform
+CC1=CC2=C(S1)C3=C(N2C)C(=O)N(N=C3)CC4=CC=CC=C4F,P67775,0.9999999,"6-(2-fluorobenzyl)-2,4-dimethyl-4,6-dihydro-5H-thieno(2',3':4,5)pyrrolo(2,3-d)pyridazin-5-one",PPP2CA,Serine/threonine-protein phosphatase 2A catalytic subunit alpha isoform
+C1C(OC(=N1)N)C2=CC=CC=C2,P10415,0.9998822,Aminorex,BCL2,Apoptosis regulator Bcl-2
+CC1=CC(=C2C(=C1)C(=O)C3=CC(=CC(=C3C2=O)O)O)O,P10415,0.9999943,Emodin,BCL2,Apoptosis regulator Bcl-2
+CCCCOC1=C(C=CC(=C1)C[C@@H]2CNC(=O)N2)OC,P10415,0.99967074,(4R)-4-(3-butoxy-4-methoxybenzyl)imidazolidin-2-one,BCL2,Apoptosis regulator Bcl-2
+C1=CC=C(C=C1)C2=CC3=C(C4=C(N3CCC(=O)O)C=CC(=C4)O)C5=C2C(=O)NC5=O,P10415,0.9999876,"3-(9-hydroxy-1,3-dioxo-4-phenyl-2,3-dihydropyrrolo[3,4-c]carbazol-6(1H)-yl)propanoic acid",BCL2,Apoptosis regulator Bcl-2
+C1=CC=C(C=C1)COC2=C(N=CC=C2)N,P10415,0.999997,2-Amino-3-benzyloxypyridine,BCL2,Apoptosis regulator Bcl-2
+CC1=C(C(=CC=C1)C)NC2=NC=C(N3C2=CN=C3)C4=CC=CC=C4,P10415,0.9999999,"N-(2,6-Dimethylphenyl)-5-phenylimidazo[1,5-a]pyrazin-8-amine",BCL2,Apoptosis regulator Bcl-2
+C[C@@]1(CC[C@@H]2[C@@]1(C=CC3=C4CCC(=O)C=C4CC[C@@H]23)C)O,P10415,0.99663156,Methyltrienolone,BCL2,Apoptosis regulator Bcl-2
+CC1=CC2=C(C=C1)N(C3=C2C4=C(C(=C3)C)C(=O)NC4=O)CCCN,P10415,0.9999995,"6-(3-Aminopropyl)-4,9-dimethylpyrrolo[3,4-C]carbazole-1,3(2H,6H)-dione",BCL2,Apoptosis regulator Bcl-2
+CC1=CC(=C(C=C1)C)OC[C@H](CN2CCOCC2)O,P10415,0.99997044,"(2S)-1-(2,5-dimethylphenoxy)-3-morpholin-4-ylpropan-2-ol",BCL2,Apoptosis regulator Bcl-2
+C1=CC(=CC=C1[C@H](CO)O)NC(=O)C2=CC3=C(N2)C=CC(=C3)Cl,P10415,0.9972717,"5-Chloro-N-{4-[(1r)-1,2-Dihydroxyethyl]phenyl}-1h-Indole-2-Carboxamide",BCL2,Apoptosis regulator Bcl-2
+C1=CC(=C(C=C1I)C(=O)O)NC(=O)C(=O)O,P10415,0.9999999,Novo Nordisk a/S Compound,BCL2,Apoptosis regulator Bcl-2
+CCCCN1C(=NC2=C1N=C(N=C2N)F)CC3=CC4=C(C=C3)OCO4,P10415,0.99996126,"8-Benzo(1,3)Dioxol-,5-Ylmethyl-9-Butyl-2-Fluoro-9h-Purin-6-Ylamine",BCL2,Apoptosis regulator Bcl-2
+C1=C(C=C(C(=C1Br)O)Br)C[C@@H](C(=O)O)N,P10415,0.99999976,"3,5-dibromo-L-tyrosine",BCL2,Apoptosis regulator Bcl-2
+CC1=NC(=O)C2=C(N1)CCSC2,P10415,1.0,"2-Methyl-3,5,7,8-tetrahydrothiopyrano(4,3-d)pyrimidine-4-one",BCL2,Apoptosis regulator Bcl-2
+C[N+](C)(C)CCOC(=O)CCC(=O)OCC[N+](C)(C)C,P10415,0.9989165,Succinylcholine,BCL2,Apoptosis regulator Bcl-2
+CC(=O)NC1=C(NN=C1)C(=O)NC2=CC=C(C=C2)F,P10415,1.0,4-(acetylamino)-N-(4-fluorophenyl)-1H-pyrazole-3-carboxamide,BCL2,Apoptosis regulator Bcl-2
+CCCN1CCC(CC1)C2=NC3=C(C=CC=C3N2)C(=O)N,P10415,0.9999858,2-(1-propylpiperidin-4-yl)-1H-benzimidazole-4-carboxamide,BCL2,Apoptosis regulator Bcl-2
+COC(=O)C1=C(C=CC=C1OC/C=C/C2=CC=CC(=C2)C3=C(C(=NO3)C(=O)O)CO)O,P10415,0.99999905,,BCL2,Apoptosis regulator Bcl-2
+C1=CC(=CC=C1CCSC(=N)N)CCSC(=N)N,P10415,0.99999976,"S,S'-(1,4-Phenylene-Bis(1,2-Ethanediyl))Bis-Isothiourea",BCL2,Apoptosis regulator Bcl-2
+C1CNCCC1(C2=CC=C(C=C2)C3=CNN=C3)C4=CC=C(C=C4)Cl,P10415,0.99999845,AT-7867,BCL2,Apoptosis regulator Bcl-2
+COC1=CC=CC=C1N2C(=NC3=C(C2=O)C(=CC=C3)Cl)CSC4=NC=NC5=C4NC=N5,P10415,1.0,2-((9H-Purin-6-ylthio)methyl)-5-chloro-3-(2-methoxyphenyl)quinazolin-4(3H)-one,BCL2,Apoptosis regulator Bcl-2
+CN1C=C(C=N1)C2=NN3C(=NN=C3SC4=CC5=C(C=C4)N=CC=C5)C=C2,P10415,1.0,Sgx-523,BCL2,Apoptosis regulator Bcl-2
+CCS(=O)(=O)NC1=C(C(=C(C=C1)F)C(=O)C2=CNC3=NC=C(C=C23)C4=CN=CC=C4)F,P10415,1.0,"N-(2,4-difluoro-3-((5-pyridin-3-yl-1H-pyrrolo(2,3-b)pyridin-3-yl)carbonyl)phenyl)ethanesulfonamide",BCL2,Apoptosis regulator Bcl-2
+CC#CCNC1=CC=C(C=C1)S(=O)(=O)CC2(CCN(CC2)C(=O)OC(C)(C)C)C(=O)NO,P10415,0.99999905,,BCL2,Apoptosis regulator Bcl-2
+C1=CC(=CC(=C1)Cl)C2=CNN/C2=C/3C=C(N=C3)C(=O)N[C@H](CO)C4=CC(=C(C=C4)F)Cl,P10415,0.9999211,,BCL2,Apoptosis regulator Bcl-2
+CC1=CC2=C(C=C1C(=C)C3=CC=C(C=C3)C(=O)O)C(CCC2(C)C)(C)C,P10415,0.99993265,Bexarotene,BCL2,Apoptosis regulator Bcl-2
+C[C@@H](C(=O)N1CCOCC1)N2CC[C@@H](C2=O)NS(=O)(=O)C3=CC4=C(S3)C=CC(=C4)Cl,P10415,0.9999943,5-Chloro-N-((3S)-1-((1S)-1-methyl-2-morpholin-4-YL-2-oxoethyl)-2-oxopyrrolidin-3-YL)-1-benzothiophene-2-sulfonamide,BCL2,Apoptosis regulator Bcl-2
+CC1=C(C=C(C=C1)C(=O)NC)NC2=NC=NC3=C2C=NN3C4=CC=CC=C4,P10415,0.99999976,"N,4-dimethyl-3-({1-phenyl-1H-pyrazolo[3,4-d]pyrimidin-4-yl}amino)benzamide",BCL2,Apoptosis regulator Bcl-2
+CN1C2=C(N=CC(=C2)C3=CC=CC=C3)N=C1N,P10415,1.0,"2-Amino-1-Methyl-6-Phenylimidazo(4,5-b)Pyridine",BCL2,Apoptosis regulator Bcl-2
+CCOCCOCCOCCOCCOCCOCCOCCOCCO,P10415,0.99999917,"2-(2-(2-(2-(2-(2-(2-(2-Ethoxy-Ethoxy)-Ethoxy)-Ethoxy)-Ethoxy)-Ethoxy)-Ethoxy)-Ethoxy)-Ethanol, Polyethyleneglycol Peg400",BCL2,Apoptosis regulator Bcl-2
+CC1=NC2=C(N1)CCN(C3=CC=CC=C32)C(=O)C4=CC=C(C=C4)NC(=O)C5=CC=CC=C5C6=CC=CC=C6,P10415,1.0,Conivaptan,BCL2,Apoptosis regulator Bcl-2
+C[C@@H](C(=O)N1CCOCC1)N2CC[C@@H](C2=O)NS(=O)(=O)CCC3=CC=C(S3)Cl,P10415,0.9999902,2-(5-Chloro-2-thienyl)-N-{(3S)-1-[(1S)-1-methyl-2-morpholin-4-YL-2-oxoethyl]-2-oxopyrrolidin-3-YL}ethanesulfonamide,BCL2,Apoptosis regulator Bcl-2
+COC1=CC2=NC=CC(=C2C=C1)OCC3=NN=C4N3N=C(C=C4)C5=CC=CC=C5,P10415,1.0,Amg-208,BCL2,Apoptosis regulator Bcl-2
+CCOC(=O)C1=C(N(N=C1C)C2=CC(=CC=C2)[N+](=O)[O-])C,P10415,1.0,"3,5-Dimethyl-1-(3-nitrophenyl)-1H-pyrazole-4-carboxylic acid ethyl ester",BCL2,Apoptosis regulator Bcl-2
+CS(=O)(=O)CCNCC1=CC=C(O1)C2=CC3=C(C=C2)N=CN=C3NC4=CC(=C(C=C4)OCC5=CC(=CC=C5)F)Cl,P10415,0.9999989,Lapatinib,BCL2,Apoptosis regulator Bcl-2
+C1=C/C(=C2/NC3=C(O2)C=C(C=C3)O)/C4=CC=CC(=O)C4=C1,P10415,0.99985766,,BCL2,Apoptosis regulator Bcl-2
+C[C@@H](C(=O)O)NC(=O)OCC1=CC=CC=C1,P10415,0.99822634,N-carbobenzyloxyalanine,BCL2,Apoptosis regulator Bcl-2
+C1CCC(CC1)COC2=NC(=NC(=C2N=O)N)N,P10415,0.99999964,NU-6027,BCL2,Apoptosis regulator Bcl-2
+CC(C)(C)OC(=O)NC1=C(N=CC=C1)C(=O)NC2=NC=CS2,P10415,0.9999951,"Tert-butyl {2-[(1,3-thiazol-2-ylamino)carbonyl]pyridin-3-YL}carbamate",BCL2,Apoptosis regulator Bcl-2
+CCCOC1=C(C=CC(=C1)[C@@]2(CNC(=O)O2)C)OC,P10415,0.9999206,Mesopram,BCL2,Apoptosis regulator Bcl-2
+C1CN(C[C@H](N1)C(=O)NCCCS)CC2=CC=C(C=C2)F,P10415,0.9999999,(2S)-4-(4-fluorobenzyl)-N-(3-sulfanylpropyl)piperazine-2-carboxamide,BCL2,Apoptosis regulator Bcl-2
+CC1=CC(=NC(=C1)N)C[C@H]2CNC[C@@H]2NCCNCC3=CC(=CC=C3)Cl,P10415,0.99961096,"N-((3R,4S)-4-((6-amino-4-methylpyridin-2-yl)methyl)pyrrolidin-3-yl)-N'-(3-chlorobenzyl)ethane-1,2-diamine",BCL2,Apoptosis regulator Bcl-2
+COC1=CC2=C(C=C1)SC3=C2NC[C@H](NC3=O)CN,P10415,0.999859,"(3R)-3-(aminomethyl)-9-methoxy-1,2,3,4-tetrahydro-5H-[1]benzothieno[3,2-e][1,4]diazepin-5-one",BCL2,Apoptosis regulator Bcl-2
+CC1=CC[C@H]2C[C@@H]1[C@@H](OC2(C)C)C3=CC=C(C=C3)O,P10415,0.999899,"4-((1S,2R,5S)-4,4,8-trimethyl-3-oxabicyclo(3.3.1)non-7-en-2-yl)phenol",BCL2,Apoptosis regulator Bcl-2
+C1=CC=C2C(=C1)C(=CN2)OS(=O)(=O)O,P10415,0.99999964,Indoxyl Sulfate,BCL2,Apoptosis regulator Bcl-2
+C1=CC2=C(C(=C(C=C2Cl)I)O)N=C1,P10415,0.9999994,Clioquinol,BCL2,Apoptosis regulator Bcl-2
+CN1C2=C(C=N1)N=CN=C2NCCC3=CN=C(S3)NC(=O)NC4=CC=CC(=C4)C(F)(F)F,P10415,0.9999999,"1-(5-{2-[(1-methyl-1H-pyrazolo[4,3-d]pyrimidin-7-yl)amino]ethyl}-1,3-thiazol-2-yl)-3-[3-(trifluoromethyl)phenyl]urea",BCL2,Apoptosis regulator Bcl-2
+CN1C(=C(C2=C1C(=O)C=C(C2=O)N3CC3)CO)CCCO,P10415,0.99999845,"3-Hydroxymethyl-5-Aziridinyl-1methyl-2-(1h-Indole-4,7-Dione)-Propanol",BCL2,Apoptosis regulator Bcl-2
+C1CCC(C1)N(CCO)[C@@H](CNC(=O)C2=CC3=C(N2)C=CC(=C3)Cl)O,P10415,0.99994683,5-Chloro-1H-indole-2-carboxylic acid{[cyclopentyl-(2-hydroxy-ethyl)-carbamoyl]-methyl}-amide,BCL2,Apoptosis regulator Bcl-2
+CC1=NC=C(N1C2CC2)C3=NC(=NC=C3)NC4=CC=C(C=C4)S(=O)(=O)NC,P10415,0.9999758,4-((4-(1-Cyclopropyl-2-methyl-1H-imidazol-5-YL)pyrimidin-2-YL)amino)-N-methylbenzenesulfonamide,BCL2,Apoptosis regulator Bcl-2
+COCCNC1=C(C=CC(=C1)N2C3=C(C(=O)CCC3)C4=CC=CC=C42)C(=O)N,P10415,0.9999887,"2-[(2-methoxyethyl)amino]-4-(4-oxo-1,2,3,4-tetrahydro-9H-carbazol-9-yl)benzamide",BCL2,Apoptosis regulator Bcl-2
+C1C[C@H]([C@@H](CNC1)NC(=O)C2=CC=C(C=C2)O)OC(=O)C3=CC=C(C=C3)O,P10415,0.9989575,3-[(4-Hydroxybenzoyl)amino]azepan-4-YL 4-hydroxybenzoate,BCL2,Apoptosis regulator Bcl-2
+C1=CC(=CC=C1NC2=CN=CC(=N2)Cl)S(=O)(=O)N,P10415,0.99999964,4-[(6-Chloropyrazin-2-yl)amino]benzenesulfonamide,BCL2,Apoptosis regulator Bcl-2
+CC1=C(SC(=N1)C)C2=NC(=NC=C2)NC3=CC=C(C=C3)C(F)(F)F,P10415,1.0,"4-(2,4-Dimethyl-1,3-thiazol-5-yl)-N-[4-(trifluoromethyl)phenyl]-2-pyrimidinamine",BCL2,Apoptosis regulator Bcl-2
+CN1C[C@H](C2=CC(=O)C(=O)C=C21)O,P10415,0.9993236,"(3S)-3-hydroxy-1-methyl-2,3-dihydro-1H-indole-5,6-dione",BCL2,Apoptosis regulator Bcl-2
+CCCC1=C(C=CC2=C1C=CC(=C2)C(=O)C3=CC=CC=C3)OCCCOC4=CC5=C(C=C4)N(C=C5)CC(=O)O,P10415,0.99999666,2-{5-[3-(6-Benzoyl-1-propylnaphthalen-2-yloxy)propoxy]indol-1-yl}ethanoic acid,BCL2,Apoptosis regulator Bcl-2
+C1=CC=C(C=C1)NC(=O)C2=CC=NN2,P10415,0.99999917,N-Phenyl-1H-pyrazole-3-carboxamide,BCL2,Apoptosis regulator Bcl-2
+CC1=CNC(=C1CCC(=O)O)/C=C2/C3=CC=CC=C3NC2=O,P10415,0.99976903,,BCL2,Apoptosis regulator Bcl-2
+C1=CC=C2C(=C1)C(=NN2)C(=O)NC3=CC=C(C=C3)S(=O)(=O)N,P10415,0.9999994,N-(4-sulfamoylphenyl)-1H-indazole-3-carboxamide,BCL2,Apoptosis regulator Bcl-2
+CC1=C(C2=C(N1C)C(=O)C=C(C2=O)OC)COC3=CC=CC=C3,P10415,0.99996674,"5-Methoxy-1,2-Dimethyl-3-(Phenoxymethyl)Indole-4,7-Dione",BCL2,Apoptosis regulator Bcl-2
+CCC1=CC=C(C=C1)NC(=O)P(=O)(O)O,P10415,0.99999785,Iso24,BCL2,Apoptosis regulator Bcl-2
+COC1=CC=C(C=C1)NCCNC(=O)[C@H](CC2CCCCC2)NC3=NC4=CC=CC=C4O3,P10415,0.99999976,"N~2~-1,3-Benzoxazol-2-YL-3-cyclohexyl-N-{2-[(4-methoxyphenyl)amino]ethyl}-L-alaninamide",BCL2,Apoptosis regulator Bcl-2
+CCC/C(=C/C1=CC=C(O1)C2=CC(=CC=C2)C(=O)O)/[N+](=O)[O-],P10415,1.0,,BCL2,Apoptosis regulator Bcl-2
+CC(C)CCOP(=O)(O)OP(=O)(O)O,P10415,0.9661922,Isopentyl Pyrophosphate,BCL2,Apoptosis regulator Bcl-2
+C1=CC(=C(C=C1S)C(=O)O)[N+](=O)[O-],P10415,1.0,2-Nitro-5-sulfanylbenzoic acid,BCL2,Apoptosis regulator Bcl-2
+C1=CC=C(C=C1)C2=CN3C(=CN=C3C(=C2)NCC4=CN=CN=C4)Br,P10415,0.9999999,"3-bromo-6-phenyl-N-(pyrimidin-5-ylmethyl)imidazo[1,2-a]pyridin-8-amine",BCL2,Apoptosis regulator Bcl-2
+C1CN(CCN1CCC(=O)C2=CC(=C(C(=C2)O)O)[N+](=O)[O-])C3=CC=CC(=C3)C(F)(F)F,P10415,1.0,BIA-3-335 free base,BCL2,Apoptosis regulator Bcl-2
+C[C@@]1(CCCN1)C2=NC3=C(C=CC=C3N2)C(=O)N,P10415,0.9990777,Veliparib,BCL2,Apoptosis regulator Bcl-2
+COC1=C(C=C2C(=C1)C(=NC=N2)NC3=CC(=CC=C3)O)OC,P10415,0.99999034,"4-(3-Hydroxyanilino)-6,7-Dimethoxyquinazoline",BCL2,Apoptosis regulator Bcl-2
+C1CN(CCC1CC2=CC3=CC=CC=C3N=C2)C(=O)O,P10415,0.99999964,4-(Quinolin-3-ylmethyl)piperidine-1-carboxylic acid,BCL2,Apoptosis regulator Bcl-2
+C1=CC=C(C(=C1)/C=N/OCCC(=O)O)C(F)(F)F,P10415,1.0,,BCL2,Apoptosis regulator Bcl-2
+C(CCCCC(=O)O)CCCC(=O)O,P10415,0.99777126,Sebacic Acid,BCL2,Apoptosis regulator Bcl-2
+C1C=CC(=C1C(=O)O)C(=O)NC2=C(C(=C(C(=C2F)F)C3=CC(=CC=C3)OC(F)(F)F)F)F,P10415,1.0,"2-({[2,3,5,6-Tetrafluoro-3'-(trifluoromethoxy)biphenyl-4-YL]amino}carbonyl)cyclopenta-1,3-diene-1-carboxylic acid",BCL2,Apoptosis regulator Bcl-2
+C([C@@H](C(=O)O)N)SCC(=O)N,P10415,0.99861276,S-Carbamidomethylcysteine,BCL2,Apoptosis regulator Bcl-2
+C1CC1C2=CC(=NN2)NC(=O)CC3=CC4=CC=CC=C4C=C3,P10415,0.9999999,Pnu-292137,BCL2,Apoptosis regulator Bcl-2
+C1=CC=C2C(=C1)C(=CN2)C[C@@H](C(=O)O)N,P10415,0.9996797,L-Tryptophan,BCL2,Apoptosis regulator Bcl-2
+C1C(CN1C(=O)[C@H](CC2=CC=CC=C2)NC(=O)C3=CC4=C(N3)C=CC(=C4)Cl)C(=O)O,P10415,0.9999515,[5-Chloro-1H-indol-2-carbonyl-phenylalaninyl]-azetidine-3-carboxylic acid,BCL2,Apoptosis regulator Bcl-2
+CC(C)C[C@@H](C(=O)N[C@@H]1CCN(C1)C#N)NC(=O)OCC2=CC=CC=C2,P10415,0.99999905,,BCL2,Apoptosis regulator Bcl-2
+C1COCCN1[C@@H]2C[C@H](C=C(C2)C(=O)NC3=CC(=C(C=C3)Cl)COC4=CN=CC=C4)F,P10415,0.9902777,N-[4-Chloro-3-(pyridin-3-yloxymethyl)-phenyl]-3-fluoro-,BCL2,Apoptosis regulator Bcl-2
+CCC[N+]#[C-],P10415,0.96633685,,BCL2,Apoptosis regulator Bcl-2
+CCOC(=O)C1=C(NN=C1C)C,P10415,0.9999294,"ethyl 3,5-dimethyl-1H-pyrazole-4-carboxylate",BCL2,Apoptosis regulator Bcl-2
+C1=CC=C2C(=C1)NC(=N2)C3=CSC=N3,P10415,1.0,Thiabendazole,BCL2,Apoptosis regulator Bcl-2
+C([C@@H](C(=O)O)N)O,P10415,0.9943399,L-Serine,BCL2,Apoptosis regulator Bcl-2
+C[N+](C)(C)C[C@@H](CC(=O)[O-])O,P10415,0.99246913,(-)-Carnitine,BCL2,Apoptosis regulator Bcl-2
+C1=CC(=CC=C1C2=C(C3=C(C2=O)C=C(C=C3)O)Br)O,P10415,0.9999999,3-bromo-6-hydroxy-2-(4-hydroxyphenyl)-1H-inden-1-one,BCL2,Apoptosis regulator Bcl-2
+CC1=C(OC2=C(C1=O)C=C(C=C2)O)C3=CC(=C(C(=C3)Br)O)Br,P10415,1.0,"2-(3,5-Dibromo-4-hydroxyphenyl)-6-hydroxy-3-methyl-4H-1-benzopyran-4-one",BCL2,Apoptosis regulator Bcl-2
+C1CCC(CC1)C[C@@H](C(=O)O)N,P10415,0.9990559,3-Cyclohexyl-L-alanine,BCL2,Apoptosis regulator Bcl-2
+C1=CC(=CC=C1C[C@@H](C(=O)N)NC(=O)CSC2=CC=C(C=C2)Cl)N=C(N)N,P10415,0.9999846,2-[2-(4-Chloro-Phenylsulfanyl)-Acetylamino]-3-(4-Guanidino-Phenyl)-Propionamide,BCL2,Apoptosis regulator Bcl-2
+C1[C@H](C(=O)NC2=CC=CC=C21)NC(=O)C3=CC4=C(N3)SC(=C4)Cl,P10415,0.9999989,"2-chloro-N-[(3R)-2-oxo-1,2,3,4-tetrahydroquinolin-3-yl]-6H-thieno[2,3-b]pyrrole-5-carboxamide",BCL2,Apoptosis regulator Bcl-2
+C1CCC(CC1)C2=C(C=CC(=C2)CCN)O,P10415,0.9999635,4-(2-Aminoethyl)-2-cyclohexylphenol,BCL2,Apoptosis regulator Bcl-2
+C(C[C@@H](C(=O)O)N)CNC(=S)N,P10415,0.9835374,L-Thiocitrulline,BCL2,Apoptosis regulator Bcl-2
+CCOCCO,P10415,0.999984,Glycol monoethyl ether,BCL2,Apoptosis regulator Bcl-2
+CN1CCC2=C(C1)SC(=N2)C(=O)N[C@@H]3CCCC[C@H]3NC(=O)C4=CC5=C(N4)C=CC(=C5)Cl,P10415,0.9999267,"N-((1R,2R)-2-(5-Chloro-1H-indole-2-carboxamido)cyclohexyl)-5-methyl-4,5,6,7-tetrahydrothiazolo[5,4-C]pyridine-2-carboxamide",BCL2,Apoptosis regulator Bcl-2
+C1=CC(=CC=C1C2=CC3=C(C=C2)C(=C(C=C3)O)Cl)O,P10415,0.9990277,1-Chloro-6-(4-hydroxyphenyl)-2-naphthol,BCL2,Apoptosis regulator Bcl-2
+C1=CC=NC(=C1)COC2=C(C=C(C=C2)C3=CC4=C(C=C3)C=CN4)CNC5=C(N=CC=C5)N,P10415,0.99999964,"N~3~-[5-(1H-Indol-6-YL)-2-(pyridin-2-ylmethoxy)benzyl]pyridine-2,3-diamine",BCL2,Apoptosis regulator Bcl-2
+C1CN=C(N1)NC2=C(C=CC3=NSN=C32)Cl,P10415,0.99999833,Tizanidine,BCL2,Apoptosis regulator Bcl-2
+C1=CC(=CC=C1C2=CC3=C(O2)C(=CC(=C3)O)C#N)O,P10415,0.9999988,,BCL2,Apoptosis regulator Bcl-2
+CS(=O)(=O)NC1=CC=CC(=C1)NC2=NC=CC(=N2)NC3=C(C=CC4=C3OCO4)Cl,P10415,0.99999225,"N-[3-[[4-[(5-Chloro-1,3-benzodioxol-4-YL)amino]pyrimidin-2-YL]amino]phenyl]methanesulfonamide",BCL2,Apoptosis regulator Bcl-2
+C1=CC2=C(C(=C1)OP(=O)(O)O)N=C(C=C2)C#N,P10415,1.0,,BCL2,Apoptosis regulator Bcl-2
+C1CN(CCN1C(=O)C2=CC3=C(S2)C=CC=[N+]3[O-])S(=O)(=O)C4=CC5=C(N4)C=CC(=C5)Cl,P10415,1.0,"2-({4-[(5-Chloro-1H-indol-2-YL)sulfonyl]piperazin-1-YL}carbonyl)thieno[3,2-B]pyridine 4-oxide",BCL2,Apoptosis regulator Bcl-2
+C(CC=O)CC=O,P10415,0.9983224,Glutaraldehyde,BCL2,Apoptosis regulator Bcl-2
+CC1=C(N2C=CC=CC2=N1)C3=NC(=NC=C3)NC(=O)C,P10415,1.0,"N-[4-(2-Methylimidazo[1,2-A]pyridin-3-YL)-2-pyrimidinyl]acetamide",BCL2,Apoptosis regulator Bcl-2
+C([C@H](C=O)O)OP(=O)(O)O,P10415,0.9980154,Triose phosphate,BCL2,Apoptosis regulator Bcl-2
+C1=CC=C2C=C(C(=CC2=C1)C(=O)O)NC(=O)C(=O)O,P10415,0.9999471,3-(Oxalyl-Amino)-Naphthalene-2-Carboxylic Acid,BCL2,Apoptosis regulator Bcl-2
+CN(C)C/C=C/C(=O)NC1=CC2=C(C=C1)N=CN=C2NC3=CC(=CC=C3)Br,P10415,0.99999976,,BCL2,Apoptosis regulator Bcl-2
+C1CCC2=NC3=CC=CC=C3C(=C2C1)NCCN4C(=CN=N4)CCCCCC[N+]5=C6C=C(C=CC6=C7C=CC(=CC7=C5C8=CC=CC=C8)N)N,P10415,0.9999989,"3,8-Diamino-6-Phenyl-5-[6-[1-[2-[(1,2,3,4-Tetrahydro-9-Acridinyl)Amino]Ethyl]-1h-1,2,3-Triazol-5-Yl]Hexyl]-Phenanthridinium",BCL2,Apoptosis regulator Bcl-2
+C[C@@H](C(=O)O)NC(=O)[C@H](CC1=CC=CC=C1)CC(=O)NO,P10415,0.9918765,"N-((2R)-4-(Hydroxyamino)-1,4-dioxo-2-(phenylmethyl)butyl)-L-alanine",BCL2,Apoptosis regulator Bcl-2
+C1[C@H](NC(=O)NC1=O)C(=O)O,P10415,0.99996185,"Hydroorotic acid, L-",BCL2,Apoptosis regulator Bcl-2
+C[S@@](=O)C1=CC=C(C=C1)C2=NC(=C(N2)C3=CC=NC=C3)C4=CC(=CC=C4)I,P10415,0.9999999,4-(5-(3-Iodo-phenyl)-2-(4-methanesulfinyl-phenyl)-1H-imidazol-4-YL)-pyridine,BCL2,Apoptosis regulator Bcl-2
+C1COCC(=O)N1C2=CC=C(C=C2)N3C[C@@H](OC3=O)CNC(=O)C4=CC=C(S4)Cl,P10415,0.9985185,Rivaroxaban,BCL2,Apoptosis regulator Bcl-2
+CC1=C(C2=C(N1C)C(=O)C=C(C2=O)OC)COC3=CC=C(C=C3)[N+](=O)[O-],P10415,1.0,"5-Methoxy-1,2-dimethyl-3-((4-nitrophenoxy)methyl)indole-4,7-dione",BCL2,Apoptosis regulator Bcl-2
+C1=CC(=CC=C1CN)NC(=O)C(=O)O,P10415,0.99167913,"[[4-(Aminomethyl)Phenyl]Amino]Oxo-Acetic Acid,",BCL2,Apoptosis regulator Bcl-2
+C1=CN=C(N=C1C2=C(SC(=C2)Cl)Cl)N,P10415,1.0,"4-(2,5-Dichloro-Thiophen-3-Yl)-Pyrimidin-2-Ylamine",BCL2,Apoptosis regulator Bcl-2
+C1[C@H](CN[C@@H]1CNS(=O)(=O)C2=CC=CC3=C2C=CN=C3)OCC4=CC=C(C=C4)Cl,P10415,0.9947626,"(4R,2S)-5'-(4-(4-Chlorobenzyloxy)pyrrolidin-2-ylmethanesulfonyl)isoquinoline",BCL2,Apoptosis regulator Bcl-2
+C[C@@]1(C(=O)N(C(=O)O1)NC2=CC=CC=C2)C3=C(C=C(C=C3)F)F,P10415,1.0,"(5S)-3-Anilino-5-(2,4-difluorophenyl)-5-methyl-1,3-oxazolidine-2,4-dione",BCL2,Apoptosis regulator Bcl-2
+C1=CC(=C(C(=C1)Cl)C2=C3C=CC(=NN3C=NC2=O)SC4=C(C=C(C=C4)F)F)Cl,P10415,1.0,"5-(2,6-Dichlorophenyl)-2-((2,4-difluorophenyl)thio)-6H-pyrimido(1,6-b)pyridazin-6-one",BCL2,Apoptosis regulator Bcl-2
+COC1=C(C=C2C(=C1)C(=NC=N2)N3CC[C@H](C3)OC4=CC5=CC=CC=C5C=C4)OC,P10415,0.9998647,"6,7-Dimethoxy-4-[(3R)-3-(2-naphthyloxy)pyrrolidin-1-YL]quinazoline",BCL2,Apoptosis regulator Bcl-2
+C[C@@H](C(=O)N[C@@H](C)NC=O)NC(=O)OC(C)(C)C,P10415,0.99191964,(Tert-butyloxycarbonyl)-alanyl-amino ethyl-formamide,BCL2,Apoptosis regulator Bcl-2
+C1=CC2=C(C=CC(=C2)C(F)(F)P(=O)(O)O)C=C1C(=O)O,P10415,1.0,6-(Difluoro-phosphono-methyl)-naphthalene-2-carboxylic acid,BCL2,Apoptosis regulator Bcl-2
+CN1C2=C(C=CC(=C2)OCCCCCCN(C)CC=C)C(=N1)C3=CC=C(C=C3)Br,P10415,0.9999994,N-Allyl-6-{[3-(4-bromophenyl)-1-methyl-1H-indazol-6-yl]oxy}-N-methyl-1-hexanamine,BCL2,Apoptosis regulator Bcl-2
+CN1C=NC=C1[C@@H](C2=CC=C(C=C2)C#N)OCC3=C(C=C(C(=N3)Cl)C#N)C4=CC(=CC=C4)Cl,P10415,0.9999994,,BCL2,Apoptosis regulator Bcl-2
+CN(C)C[C@@H](COC1=CC=C(C=C1)NC2=NC=C(C(=N2)NC3=CC=CC=C3)Br)O,P10415,0.99993193,(2S)-1-{4-[(4-Anilino-5-bromo-2-pyrimidinyl)amino]phenoxy}-3-(dimethylamino)-2-propanol,BCL2,Apoptosis regulator Bcl-2
+CCCNCC(COC1=CC=CC=C1C(=O)CCC2=CC=CC=C2)O,P10415,0.9985839,Propafenone,BCL2,Apoptosis regulator Bcl-2
+C1=CC=C(C=C1)C2=CC(=O)OC3=C2C=CC(=C3O)O,P10415,0.9998696,"4-Phenyl-7,8-dihydroxycoumarin",BCL2,Apoptosis regulator Bcl-2
+CN1C=NC2=C1C(=O)N(C(=O)N2C)C,P10415,0.9999896,Caffeine,BCL2,Apoptosis regulator Bcl-2
+C[C@@H]([C@H](C(=O)O)N)OP(=O)(O)O,P10415,0.99957556,Phosphonothreonine,BCL2,Apoptosis regulator Bcl-2
+CO[C@@H]1C[C@@H](N(C1)C(=O)NC2=CC=C(C=C2)Cl)C(=O)NC3=C(C=C(C=C3)N4C=CC=CC4=O)F,P10415,0.99999106,Eribaxaban,BCL2,Apoptosis regulator Bcl-2
+CC1=CC(=NC(=N1)OC2=CC=C(C=C2)N3C=CN=C3)OC4=CC5=C(C=C4)OCO5,P10415,1.0,"4-(1,3-Benzodioxol-5-yloxy)-2-[4-(1H-imidazol-1-YL)phenoxy]-6-methylpyrimidine",BCL2,Apoptosis regulator Bcl-2
+C1[C@@H]2COC(=O)N2C3=C(N1)NC(=NC3=O)N,P10415,0.99992836,"5,6-Cyclic-Tetrahydropteridine",BCL2,Apoptosis regulator Bcl-2
+C1=CC=C2C(=C1)C(=C3N2C4=CC=CC=C4C(=O)N3)CC(=O)O,P10415,0.9990677,"(5-Oxo-5,6-dihydroindolo(1,2-a)quinazolin-7-yl)acetic acid",BCL2,Apoptosis regulator Bcl-2
+C1=CC(=CC(=C1)Cl)CNCCC2=CC=C(C=C2)N=C(C3=CC=CS3)N,P10415,0.9999999,N-(4-{2-[(3-chlorobenzyl)amino]ethyl}phenyl)thiophene-2-carboximidamide,BCL2,Apoptosis regulator Bcl-2
+CC1=NC=C(C(=C1O)CN)COP(=O)(O)O,P10415,0.9999974,Pyridoxamine 5'-phosphate,BCL2,Apoptosis regulator Bcl-2
+C([C@H](C(=O)O)OP(=O)(O)O)O,P10415,0.97775227,2-Phospho-D-Glyceric Acid,BCL2,Apoptosis regulator Bcl-2
+C[C@@H](C(=O)C1=CC=CC=C1)N,P10415,0.98599744,Cathinone,BCL2,Apoptosis regulator Bcl-2
+C1=CC=C(C=C1)NCC2=CN=CC=C2,P10415,0.99954295,N-(pyridin-3-ylmethyl)aniline,BCL2,Apoptosis regulator Bcl-2
+C1=CC=C(C(=C1)C(=O)N)NC2=NC(=NC=C2)NC3=CC(=CC=C3)O,P10415,0.999977,2-((2-((3-Hydroxyphenyl)amino)pyrimidin-4-yl)amino)benzamide,BCL2,Apoptosis regulator Bcl-2
+COC1=CC=C(C=C1)S(=O)(=O)N2C=C(C3=C2C=CC(=C3)OC)CCC(=O)O,P10415,0.99999917,Indeglitazar,BCL2,Apoptosis regulator Bcl-2
+COC1=C(C=C(C=C1)CSC2=NN=C(O2)C3=CC4=C(C=C3)OCO4)F,P10415,1.0,"2-(1,3-Benzodioxol-5-yl)-5-((3-fluoro-4-methoxybenzyl)sulfanyl)-1,3,4-oxadiazole",BCL2,Apoptosis regulator Bcl-2
+CSC(=NCCCCCCCCCCCCCCN=C(N)SC)N,P10415,0.999997,"N1,N14-Bis((S-Methyl)Isothioureido)Tetradecane",BCL2,Apoptosis regulator Bcl-2
+C[C@H](CCC1=CC=C(C=C1)O)NC(=O)CC2=C(NC3=CC=CC=C32)C4=CC=CC=C4,P10415,0.9997359,N-((1R)-3-(4-Hydroxyphenyl)-1-methylpropyl)-2-(2-phenyl-1H-indol-3-YL)acetamide,BCL2,Apoptosis regulator Bcl-2
+C1CC1C(=O)NC2=CC=CC(=C2)NC3=NC=CC(=N3)NC4=CC=CC(=C4)C(F)(F)F,P10415,0.99999976,C-1368,BCL2,Apoptosis regulator Bcl-2
+C(=O)(C(=O)O)O,P10415,0.9976255,Oxalic Acid,BCL2,Apoptosis regulator Bcl-2
+C[C@]12CC[C@H]3[C@H]([C@@H]1CC[C@]2(C#C)O)CCC4=CC(=O)CC[C@H]34,P10415,0.9865298,,BCL2,Apoptosis regulator Bcl-2
+C1C[C@@H](NC1)COC2=CC=C(C=C2)C(=O)C3=CC=C(C=C3)C4=CSC=C4,P10415,0.99999964,{4-[(2R)-pyrrolidin-2-ylmethoxy]phenyl}(4-thiophen-3-ylphenyl)methanone,BCL2,Apoptosis regulator Bcl-2
+C1=CSC(=C1)C2=CC=C(C=C2)CN,P10415,0.99998534,[4-(Thiophen-2-yl)phenyl]methanamine,BCL2,Apoptosis regulator Bcl-2
+C1=CC2=C(C=CC(=C2N=C1)O)[N+](=O)[O-],P10415,1.0,Nitroxoline,BCL2,Apoptosis regulator Bcl-2
+C1CNC[C@H]([C@@H]1C2=CC=C(C=C2)F)COC3=CC4=C(C=C3)OCO4,P10415,0.99994874,Paroxetine,BCL2,Apoptosis regulator Bcl-2
+CC1=CC(=C(C=C1)NC2=C(C=CC=C2Cl)F)CC(=O)O,P10415,0.99999,Lumiracoxib,BCL2,Apoptosis regulator Bcl-2
+C1C[C@H](N(C1)C(=O)[C@@H]2CCCN2C(=O)OCC3=CC=CC=C3)C=O,P10415,0.999997,Z-Pro-Prolinal,BCL2,Apoptosis regulator Bcl-2
+C1=CC(=NC(=C1)N)CCC2=CC3=C(C=C2)C=CN3,P10415,0.99999976,6-(2-(1H-Indol-6-yl)ethyl)pyridin-2-amine,BCL2,Apoptosis regulator Bcl-2
+CC1=CC=CC=C1C2=NC3=C(C=NN3C(=C2)NCC4=C[N+](=CC=C4)[O-])Br,P10415,1.0,"3-((3-Bromo-5-o-tolylpyrazolo(1,5-a)pyrimidin-7-ylamino)methyl)pyridine 1-oxide",BCL2,Apoptosis regulator Bcl-2
+CCC1=C(C=CC(=C1)CCN)O,P10415,0.99937785,4-(2-Aminoethyl)-2-ethylphenol,BCL2,Apoptosis regulator Bcl-2
+C1CC1COC2=C(C=CC(=C2)C(=O)NC3=C(C=NC=C3Cl)Cl)OC(F)F,P10415,0.99998987,Roflumilast,BCL2,Apoptosis regulator Bcl-2
+CC1=C(SCCO1)C(=O)NC2=CC=CC=C2,P10415,0.9999918,Carboxin,BCL2,Apoptosis regulator Bcl-2
+C1=C(C=C(C=C1C(=O)O)C(=O)O)C(=O)O,P10415,0.96802384,"1,3,5-Benzenetricarboxylic acid",BCL2,Apoptosis regulator Bcl-2
+C(CCC(=O)O)CCN,P10415,0.99959,6-Aminohexanoic Acid,BCL2,Apoptosis regulator Bcl-2
+CC1=CC(=CC(=C1)NC2=NC=CC(=N2)C3=NC(=C(S3)C(=O)N[C@@H](C)CO)C)C,P10415,0.9999832,"2-{2-[(3,5-dimethylphenyl)amino]pyrimidin-4-yl}-N-[(1S)-2-hydroxy-1-methylethyl]-4-methyl-1,3-thiazole-5-carboxamide",BCL2,Apoptosis regulator Bcl-2
+C1=CC=C(C=C1)CNC2=CC=CC(=C2)C3=C(C(=C(S3)C(=O)O)OCC(=O)O)Br,P10415,1.0,5-[3-(Benzylamino)phenyl]-4-bromo-3-(carboxymethoxy)thiophene-2-carboxylic acid,BCL2,Apoptosis regulator Bcl-2
+CC1=CC(=C(C(=C1S(=O)(=O)NC[C@H]([C@H](CC2=CC=CC=C2)N)O)C)C)OC,P10415,0.9879931,"N-((2R,3S)-3-Amino-2-hydroxy-4-phenylbutyl)-4-methoxy-2,3,6-trimethylbenzenesulfonamide",BCL2,Apoptosis regulator Bcl-2
+CNS(=O)(=O)C1=CC=C(C=C1)C2=CC=C(O2)/C=C3/C(=O)N=C(S3)N,P10415,0.9993405,,BCL2,Apoptosis regulator Bcl-2
+C1CCCC(CCC1)NCC(=O)N2CCC[C@H]2C(=O)NCC3=CC=C(C=C3)C(=N)N,P10415,0.9997843,N-cyclooctylglycyl-N-(4-carbamimidoylbenzyl)-L-prolinamide,BCL2,Apoptosis regulator Bcl-2
+C1=CC=C(C=C1)C[C@@H](C(=O)O)OC2=CC=C(C=C2)C3=CC=CC=C3,P10415,0.9972057,LT175,BCL2,Apoptosis regulator Bcl-2
+C1=CC(=CC=C1C(=N)N)NC(=O)NC2=CC=C(C=C2)Cl,P10415,0.99999976,1-(4-Amidinophenyl)-3-(4-Chlorophenyl)Urea,BCL2,Apoptosis regulator Bcl-2
+C1=CC=C(C(=C1)C(=O)NC2=CC=C(C=C2)Cl)NCC3=CC=NC=C3,P10415,0.99997234,N-(4-Chlorophenyl)-2-[(pyridin-4-ylmethyl)amino]benzamide,BCL2,Apoptosis regulator Bcl-2
+CCCCCCCCO[C@@H]1[C@H]([C@@H]([C@H](O[C@H]1O)CO)O)O,P10415,0.9893678,B-2-Octylglucoside,BCL2,Apoptosis regulator Bcl-2
+CCC[C@@H](C(=O)O)N,P10415,0.9971686,L-Norvaline,BCL2,Apoptosis regulator Bcl-2
+C1=CC=C(C=C1)C(=O)C2=C(C(=C(C=C2)O)O)[N+](=O)[O-],P10415,1.0,"3,4-Dihydroxy-2-nitrobenzophenone",BCL2,Apoptosis regulator Bcl-2
+C([C@@H](C(=O)O)N)SCC(=O)O,P10415,0.99999857,Carbocysteine,BCL2,Apoptosis regulator Bcl-2
+CC(C)(C)N1C2=C(C(=N1)C3=CC(=CC=C3)O)C(=NC=N2)N,P10415,1.0,"3-{4-amino-1-tert-butyl-1H-pyrazolo[3,4-d]pyrimidin-3-yl}phenol",BCL2,Apoptosis regulator Bcl-2
+C1=C(C=C(C(=C1Cl)O)Cl)C2=CC(=C(C(=C2)Cl)O)Cl,P10415,0.99999833,"3,3',5,5'-Tetrachloro-4,4'-biphenyldiol",BCL2,Apoptosis regulator Bcl-2
+CC(C)C1=NCCC2=C1C=C(C=C2)NC(=O)C3=CC4=C(C=C3)C=C(C=C4)C(=N)N,P10415,0.9999994,"6-(N-(1-Isopropyl-3,4-Dihydro-7-Isoquinolinyl)Carbamyl)-2-Naphthalenecarboxamidine",BCL2,Apoptosis regulator Bcl-2
+COC1=CC=CC(=C1)C2=CC(=CC=C2)CCC3=NC(=CC=C3)N,P10415,0.9999976,6-(2-(3'-Methoxybiphenyl-3-YL)ethyl)pyridin-2-amine,BCL2,Apoptosis regulator Bcl-2
+CCCCCCCS[C@H]1[C@@H]([C@H]([C@@H]([C@H](O1)CO)O)O)O,P10415,0.9999598,n-Heptyl beta-D-thioglucoside,BCL2,Apoptosis regulator Bcl-2
+CC#CCOC1=CC=C(C=C1)S(=O)(=O)N2CCSC([C@@H]2C(=O)NO)(C)C,P10415,1.0,,BCL2,Apoptosis regulator Bcl-2
+CC(C)C1=NC2=C(N1)C(=NC(=N2)N)OCC3CCCCC3,P10415,0.9999994,6-(Cyclohexylmethoxy)-8-isopropyl-9H-purin-2-amine,BCL2,Apoptosis regulator Bcl-2
+C1=CC=C(C=C1)OC2=CC=C(C=C2)NC(=O)NC3=CC=C(C=C3)C(=N)N,P10415,0.9999987,1-(2-Amidinophenyl)-3-(Phenoxyphenyl)Urea,BCL2,Apoptosis regulator Bcl-2
+C1CCC(CC1)C[C@H](C(=O)N2CCC[C@H]2C(=O)NCC3=CC(=CC=C3)Cl)N,P10415,0.99999714,3-cyclohexyl-D-alanyl-N-(3-chlorobenzyl)-L-prolinamide,BCL2,Apoptosis regulator Bcl-2
+C[C@H]1CNCCCN1S(=O)(=O)C2=CC=CC3=CN=CC(=C32)C,P10415,0.9956697,H-1152,BCL2,Apoptosis regulator Bcl-2
+C1=CC(=C(C=C1C(=O)O)OC(F)(F)F)NC(=O)NC(=O)C2=CC(=C(C=C2Cl)F)F,P10415,1.0,"4-[3-(2-Chloro-4,5-Difluoro-Benzoyl)ureido]-3-Trifluoromethoxybenzoic Acid",BCL2,Apoptosis regulator Bcl-2
+CN1C2=C(C3=C(C(=C2)C4=CC=CC=C4Cl)C(=O)NC3=O)C(=C1C(=O)NCCO)Br,P10415,0.99999666,"8-bromo-4-(2-chlorophenyl)-N-(2-hydroxyethyl)-6-methyl-1,3-dioxo-1,2,3,6-tetrahydropyrrolo[3,4-e]indole-7-carboxamide",BCL2,Apoptosis regulator Bcl-2
+C[C@@H](C(=O)N1CCOCC1)N2CC[C@@H](C2=O)NS(=O)(=O)C3=NC(=NN3)C4=CC=C(S4)Cl,P10415,0.9950486,"5-(5-Chloro-2-thienyl)-N-{(3S)-1-[(1S)-1-methyl-2-morpholin-4-YL-2-oxoethyl]-2-oxopyrrolidin-3-YL}-1H-1,2,4-triazole-3-sulfonamide",BCL2,Apoptosis regulator Bcl-2
+CC1=NC=C(C=C1)C2=NC=C(C=C2C3=CC=C(C=C3)S(=O)(=O)C)Cl,P10415,0.9999999,Etoricoxib,BCL2,Apoptosis regulator Bcl-2
+CC1=CC=CC(=C1N(CC2=CN=CC=C2)S(=O)(=O)C3=CC=C(C=C3)OC)C(=O)NO,P10415,1.0,Way-151693,BCL2,Apoptosis regulator Bcl-2
+C1=CC(=CC=C1C(C(F)(F)F)(C(F)(F)F)O)NCC(F)(F)F,P10415,0.9998652,"1,1,1,3,3,3-Hexafluoro-2-{4-[(2,2,2-trifluoroethyl)amino]phenyl}propan-2-ol",BCL2,Apoptosis regulator Bcl-2
+CC1=C(C2=CC=CC=C2N1)CCNC(=O)C3=CC=CS3,P10415,0.9999981,N-(2-(2-Methylindol-3-yl)ethyl)-2-thienylcarboxamide,BCL2,Apoptosis regulator Bcl-2
+CC(C)(C)C(=O)NC1=C(N=CC=C1)C(=O)NC2=NC=CS2,P10415,0.99999154,"3-((2,2-Dimethylpropanoyl)amino)-N-1,3-thiazol-2-ylpyridine-2-carboxamide",BCL2,Apoptosis regulator Bcl-2
+CC1=C(C=C(C=C1)C(=O)NC2=CC=CC(=C2)C(F)(F)F)C3=CC4=CN=C(N=C4C=C3)N,P10415,1.0,3-(2-aminoquinazolin-6-yl)-4-methyl-N-(3-(trifluoromethyl)phenyl)benzamide,BCL2,Apoptosis regulator Bcl-2
+COC1=CN=CC(=C1)C2=CC(=CC=C2)CNC3=C(N=CC=C3)N,P10415,0.9999957,"N~3~-[3-(5-Methoxypyridin-3-YL)benzyl]pyridine-2,3-diamine",BCL2,Apoptosis regulator Bcl-2
+CS(=O)(=O)C1=CC=C(C=C1)C2=C(C(=O)OC2)C3=CC=CC=C3,P10415,0.9999994,Rofecoxib,BCL2,Apoptosis regulator Bcl-2
+CN1C2=C(CCC3=CN=C(N=C32)NC4=CC=CC=C4)C(=N1)C(=O)O,P10415,1.0,"1-methyl-8-(phenylamino)-4,5-dihydro-1H-pyrazolo(4,3-h)quinazoline-3-carboxylic acid",BCL2,Apoptosis regulator Bcl-2
+CCCCCCC#CC1=CC=CC=C1/C=C/C(=O)O,P10415,0.9938769,,BCL2,Apoptosis regulator Bcl-2
+CC(=O)N[C@@H](CCSC)C(=O)O,P10415,0.9999988,N-acetyl-L-methionine,BCL2,Apoptosis regulator Bcl-2
+C([C@@H](C(=O)O)N)C(=O)OP(=O)(O)O,P10415,0.9999871,beta-Aspartyl phosphate,BCL2,Apoptosis regulator Bcl-2
+CC(C)(C)OC(=O)N1CC2=C(C[C@@H]1C(=O)NC)C=CC(=C2)NS(=O)(=O)O,P10415,0.9998684,"((3R)-3-(Methylcarbamoyl)-2-(((2-methyl-2-propanyl)oxy)carbonyl)-1,2,3,4-tetrahydro-7-isoquinolinyl)sulfamic acid",BCL2,Apoptosis regulator Bcl-2
+COCC1=C2C(=CC(=C1)O)[C@@H]3CC(C[C@@H]3[C@@H](O2)C4=CC=C(C=C4)O)(F)F,P10415,0.99612075,"(3aS,4R,9bR)-2,2-difluoro-4-(4-hydroxyphenyl)-6-(methoxymethyl)-1,2,3,3a,4,9b-hexahydrocyclopenta(c)chromen-8-ol",BCL2,Apoptosis regulator Bcl-2
+CCS(=O)(=O)O,P10415,0.999956,Ethanesulfonic acid,BCL2,Apoptosis regulator Bcl-2
+C1=CC=C(C=C1)C(=O)NO,P10415,0.9997465,Benzohydroxamic acid,BCL2,Apoptosis regulator Bcl-2
+C(CN)C(=O)O,P10415,0.9989955,Beta-Alanine,BCL2,Apoptosis regulator Bcl-2
+CN1C2=CC(=C(C=C2C(=N1)C3=CC=C(C=C3)Br)F)OC/C=C/CN(C)CC=C,P10415,0.99999976,,BCL2,Apoptosis regulator Bcl-2
+CN1C2=C(C=C(C=C2)NS(=O)(=O)C3=CC=CC=C3)N=C1CC4=CC=C(C=C4)C(=N)N,P10415,0.99997866,4-(5-Benzenesulfonylamino-1-methyl-1H-benzoimidazol-2-ylmethyl)-benzamidine,BCL2,Apoptosis regulator Bcl-2
+CC1=C(N(C(=C1)CC(=O)O)C)C(=O)C2=CC=C(C=C2)Cl,P10415,0.99999774,Zomepirac,BCL2,Apoptosis regulator Bcl-2
+CN(CCCCCCOC1=CC2=C(C=C1)C(=NS2)C3=CC=C(C=C3)Br)CC=C,P10415,0.99999917,"N-(6-{[3-(4-Bromophenyl)-1,2-Benzisothiazol-6-Yl]Oxy}Hexyl)-N-Methylprop-2-En-1-Amine",BCL2,Apoptosis regulator Bcl-2
+C1=CC=C(C(=C1)C(=O)O)N,P10415,0.9987004,Anthranilic Acid,BCL2,Apoptosis regulator Bcl-2
+C1CN2C(=N1)C3=CC=CC=C3C2(C4=CC=C(C=C4)Cl)O,P10415,0.9999994,Mazindol,BCL2,Apoptosis regulator Bcl-2
+CC(=O)NC1=CC=C(C=C1)O,P10415,0.9889486,Acetaminophen,BCL2,Apoptosis regulator Bcl-2
+C1=CC=C(C=C1)NC(=O)C2=C(C=CC(=C2)[N+](=O)[O-])Cl,P10415,1.0,2-Chloro-5-nitrobenzanilide,BCL2,Apoptosis regulator Bcl-2
+CCN1C2=NC=C(C(=C2C=N1)NC3CCOCC3)C(=O)NCC4=CC=CC=C4,P10415,0.9999993,"1-ethyl-N-(phenylmethyl)-4-(tetrahydro-2H-pyran-4-ylamino)-1H-pyrazolo(3,4-b)pyridine-5-carboxamide",BCL2,Apoptosis regulator Bcl-2
+CN1C2=NC(=NC=C2C=C(C1=O)C3=C(C=CC=C3Cl)Cl)NC4=CC=CC(=C4)CO,P10415,1.0,PD-166326,BCL2,Apoptosis regulator Bcl-2
+CN1C(=O)CN=C(C2=C1C=CC(=C2)Cl)C3=CC=CC=C3,P10415,0.99999964,Diazepam,BCL2,Apoptosis regulator Bcl-2
+C1=CC(=C(C(=C1)CC(=O)O)N)C(=O)C2=CC=C(C=C2)Br,P10415,0.99999857,Bromfenac,BCL2,Apoptosis regulator Bcl-2
+B1(OCCO1)OCCCC[NH3+],P10415,0.99996483,"4-(1,3,2-Dioxaborolan-2-Yloxy)Butan-1-Aminium",BCL2,Apoptosis regulator Bcl-2
+C1=CC2=C(C=CC=C2S(=O)(=O)N)C(=C1)O,P10415,0.9999608,5-Hydroxynaphthalene-1-sulfonamide,BCL2,Apoptosis regulator Bcl-2
+C1=CC=C(C=C1)CN(CC2=CC=CC=C2)C(=O)[C@H](CC(=O)N(CC(=O)O)N)O,P10415,0.9983956,[N-(3-dibenzylcarbamoyl-oxiranecarbonyl)-hydrazino]-acetic acid,BCL2,Apoptosis regulator Bcl-2
+CN(C)C1=CC=CC2=C1C=CC=C2S(=O)(=O)O,P10415,0.99999714,Dansyl acid,BCL2,Apoptosis regulator Bcl-2
+C1=C(C(=O)NC(=O)N1)F,P10415,0.9999999,5-Fluorouracil,BCL2,Apoptosis regulator Bcl-2
+CNCCNS(=O)(=O)C1=CC=CC2=C1C=CN=C2,P10415,0.99211043,N-(2-(Methylamino)ethyl)-5-isoquinolinesulfonamide,BCL2,Apoptosis regulator Bcl-2
+CC1=CC2=C(C=C1)SC(=N2)[C@H]3[C@@H]([C@H]([C@@H]([C@H](O3)CO)O)O)O,P10415,0.9876431,"2-(Beta-D-Glucopyranosyl)-5-Methyl-1,3,4-Benzothiazole",BCL2,Apoptosis regulator Bcl-2
+C1C2=CC(=CC(=C2OCO1)CN3C4=CC=CC(=C4/C(=N/O)/C3=O)C5=CC=CC=C5)F,P10415,1.0,,BCL2,Apoptosis regulator Bcl-2
+CCCCN1C(=NC2=C1N=CN=C2N)CC3=CC4=C(C=C3)OCO4,P10415,0.9999155,"8-Benzo[1,3]dioxol-,5-ylmethyl-9-butyl-9H-",BCL2,Apoptosis regulator Bcl-2
+C(C(=O)COP(=O)(O)O)O,P10415,0.99937636,Dihydroxyacetone Phosphate,BCL2,Apoptosis regulator Bcl-2
+COC1=CC2=C(C=C1)NC(=O)/C2=CC3=CN=CN3,P10415,0.9999995,,BCL2,Apoptosis regulator Bcl-2
+C(CC(=O)O)CN,P10415,0.99877185,Gamma-Aminobutyric Acid,BCL2,Apoptosis regulator Bcl-2
+CC(C)N1CCC(CC1)NC(=O)C2=CC3=CC=CC=C3N2CC(=O)NC4=CC=C(C=C4)Cl,P10415,0.99999976,1-(2-((4-Chlorophenyl)amino)-2-oxoethyl)-N-(1-isopropylpiperidin-4-YL)-1H-indole-2-carboxamide,BCL2,Apoptosis regulator Bcl-2
+C1=C2C3=C(C(=C1O)O)OC(=O)C4=CC(=C(C(=C43)OC2=O)O)O,P10415,0.9934257,Ellagic Acid,BCL2,Apoptosis regulator Bcl-2
+B1(OCCO1)OCC2=CC=C(C=C2)C(=[NH2+])N,P10415,0.99999213,"[4-(1,3,2-Dioxaborolan-2-Yloxy)Methyl]Benzamidine",BCL2,Apoptosis regulator Bcl-2
+CCN1C2=CC3=C4CCCC5=C(NNC5=C4N=C3C=C2C(C1=O)(C)C)C,P10415,0.99999905,Aki-001,BCL2,Apoptosis regulator Bcl-2
+CC1=C(C=C(C=C1)NC(=O)C2=CC=C(C=C2)CN3CCN(CC3)C)NC4=NC=CC(=N4)C5=CN=CC=C5,P10415,0.99999976,Imatinib,BCL2,Apoptosis regulator Bcl-2
+C1=C(C=C(C(=C1Cl)O)SC2=CC(=CC(=C2O)Cl)Cl)Cl,P10415,0.99999833,Bithionol,BCL2,Apoptosis regulator Bcl-2
+C1=CC=C(C=C1)C2=CC3=C(C4=C(N3)C=CC(=C4)O)C5=C2C(=O)NC5=O,P10415,0.99999654,"9-Hydroxy-4-phenylpyrrolo[3,4-C]carbazole-1,3(2H,6H)-dione",BCL2,Apoptosis regulator Bcl-2
+C1CN(CCC1C(=O)N2CCN(CC2)S(=O)(=O)C3=CC4=C(C=C3)C=C(C=C4)Cl)C5=CC=NC=C5,P10415,0.9999981,"(4-(6-Chloro-Naphthalene-2-Sulfonyl)-Piperazin-1-Yl)-(3,4,5,6-Tetrahydro-2h-(1,4')Bipyridinyl-4-Yl)-Methanone",BCL2,Apoptosis regulator Bcl-2
+CNCCCN1C2=CC=CC=C2CCC3=CC=CC=C31,P10415,0.99862206,Desipramine,BCL2,Apoptosis regulator Bcl-2
+C1C[C@H](N(C1)C(=O)CCC2=CC=CC=C2)C(=O)NCC3=CC=C(C=C3)C(=N)N,P10415,0.99892694,N-(4-carbamimidoylbenzyl)-1-(3-phenylpropanoyl)-L-prolinamide,BCL2,Apoptosis regulator Bcl-2
+C=CC(=O)NC1=CC2=C(C=C1)N=CN=C2NC3=CC=CC=C3,P10415,0.9997527,N-(4-Phenylamino-quinazolin-6-YL)-acrylamide,BCL2,Apoptosis regulator Bcl-2
+CS(=O)(=O)C1=CC=C(C=C1)NC2=CC(=NC3=CC=NN32)Cl,P10415,0.99999964,"(5-Chloropyrazolo(1,5-a)Pyrimidin-7-Yl)-(4-Methanesulfonylphenyl)Amine",BCL2,Apoptosis regulator Bcl-2
+C[C@@H](/C=C(C)/C=C/[C@@H]([C@H](C)C(=O)O)N)[C@H](CC1=CC=CC=C1)OC,P10415,0.9953061,,BCL2,Apoptosis regulator Bcl-2
+C1=CC=C(C=C1)NC2=NC(=O)C3=C(N2)N(C=N3)CCCCO,P10415,0.9999994,9-(4-Hydroxybutyl)-N2-Phenylguanine,BCL2,Apoptosis regulator Bcl-2
+COC1=C(C(=C(C(=C1)CC2=NC3=C(N2CCCC#C)N=CN=C3N)Cl)OC)OC,P10415,0.999998,,BCL2,Apoptosis regulator Bcl-2
+CC1=C(C=C(C=C1)C(=O)NC2CC2)C3=CC=C(C=C3)C(=O)NCC4CC4,P10415,0.99999595,"N~3~-cyclopropyl-N~4~'-(cyclopropylmethyl)-6-methylbiphenyl-3,4'-dicarboxamide",BCL2,Apoptosis regulator Bcl-2
+C[C@]12CC[C@H]3[C@H]([C@@H]1CC[C@@H]2CC#N)CCC4=CC(=C(C=C34)OC)OS(=O)(=O)N,P10415,0.9951396,,BCL2,Apoptosis regulator Bcl-2
+C1=CC=C(C=C1)NC(=O)CCCCCCC(=O)NO,P10415,0.9999999,Vorinostat,BCL2,Apoptosis regulator Bcl-2
+CC(=O)C1=CC=CC(=C1)C2=CN=C3N2N=C(C=C3)NCC4CC4,P10415,0.99999833,Imidazopyridazin 1,BCL2,Apoptosis regulator Bcl-2
+CC[C@@]1(C2=C(COC1=O)C(=O)N3CC4=CC5=CC=CC=C5N=C4C3=C2)O,P10415,0.9716979,Camptothecin,BCL2,Apoptosis regulator Bcl-2
+C(=N)(N)N,P10415,0.9999999,Guanidine,BCL2,Apoptosis regulator Bcl-2
+C1=C2C(=CC(=C1Cl)Cl)N(C=N2)[C@H]3[C@@H]([C@@H]([C@H](O3)CO)O)O,P10415,0.97646403,"5,6-Dichloro-1-(beta-D-ribofuranosyl)benzimidazole",BCL2,Apoptosis regulator Bcl-2
+C[C@H](C(=O)O)NC(=O)N,P10415,0.99996805,N-Carbamoyl-Alanine,BCL2,Apoptosis regulator Bcl-2
+CC1=CC=C(C=C1)NNC(=O)[C@H]([C@@H](CC2CCCCC2)N)O,P10415,0.9999765,"N'-(2s,3r)-3-Amino-4-Cyclohexyl-2-Hydroxy-Butano-N-(4-Methylphenyl)Hydrazide",BCL2,Apoptosis regulator Bcl-2
+C1OC2=C(O1)C=C(C=C2)OC3=NC(=NC=C3)OC4=CC=C(C=C4)N5C=CN=C5,P10415,1.0,"4-(1,3-Benzodioxol-5-yloxy)-2-[4-(1H-imidazol-1-YL)phenoxy]pyrimidine",BCL2,Apoptosis regulator Bcl-2
+C1=CC(=S)NC=C1,P10415,0.99990356,2-Mercaptopyridine,BCL2,Apoptosis regulator Bcl-2
+CN1CCC2(CC1)[C@@H](C3=C(C(=O)N2)N(C4=C3C=CC(=C4Cl)Cl)C)C#N,P10415,0.9999881,,BCL2,Apoptosis regulator Bcl-2
+C/C=C(C)/CC/C=C(C)/CCC=C(C)C,P10415,0.9998561,,BCL2,Apoptosis regulator Bcl-2
+CN1CCN(CC1)CC2=CC=C(C=C2)C(=O)NC3=CC=CC(=C3)NC4=NC=CC(=N4)C5=CN=CC=C5,P10415,0.99999976,4-((4-Methyl-1-piperazinyl)methyl)-N-(3-((4-(3-pyridinyl)-2-pyrimidinyl)amino)phenyl)-benzamide,BCL2,Apoptosis regulator Bcl-2
+C1OC2=C(O1)C(=C(C=C2)Cl)NC3=NC(=NC=C3)NC4=CC(=CC=C4)S(=O)(=O)N,P10415,0.9999963,"3-((4-((5-Chloro-1,3-benzodioxol-4-yl)amino)pyrimidin-2-yl)amino)benzenesulfonamide",BCL2,Apoptosis regulator Bcl-2
+CN(C)C1=CC=C(C=C1)C2=C(N=CN=C2N)C#CC3=CN=C(C=C3)N4CCOCC4,P10415,0.9939383,,BCL2,Apoptosis regulator Bcl-2
+CN1C2=C(N=CC(=C2)C3=CC=C(C=C3)O)N=C1N,P10415,1.0,"4-{2-amino-1-methyl-1H-imidazo[4,5-b]pyridin-6-yl}phenol",BCL2,Apoptosis regulator Bcl-2
+C1=CC=C(C=C1)C2=C(C(=CC=C2)C3=CC4=CC(=C(C=C4N3)Cl)C(=[NH2+])N)O,P10415,0.9999982,6-Chloro-2-(2-hydroxy-biphenyl-3-yl)-1H-indole-5-carboxamidine,BCL2,Apoptosis regulator Bcl-2
+CCCN1C(=NC(=C1C2=NC(=NC=C2)NC3CCCCC3)C4=CC(=C(C=C4)Cl)Cl)C5CCNCC5,P10415,0.9999993,"Cyclohexyl-(4-(5-(3,4-Dichlorophenyl)-2-Piperidin-4-Yl-3-Propyl-3h-Imidazol-4-Yl)-Pyrimidin-2-Yl)Amine",BCL2,Apoptosis regulator Bcl-2
+C1C[C@H](N(C1)C(=O)[C@@H](CC2=CC=CC=C2)N)C(=O)NCC3=CC(=CC=C3)Cl,P10415,0.99998295,D-phenylalanyl-N-(3-chlorobenzyl)-L-prolinamide,BCL2,Apoptosis regulator Bcl-2
+C1CCC(CC1)OCC(=O)N2CCC[C@H]2C(=O)NCC3=CC=C(C=C3)C(=N)N,P10415,0.9908352,(S)-N-(4-carbamimidoylbenzyl)-1-(2-(cyclohexyloxy)ethanoyl)pyrrolidine-2-carboxamide,BCL2,Apoptosis regulator Bcl-2
+CC(=O)NCCC1=CNC2=C1C=C(C=C2)OC,P10415,0.9999355,Melatonin,BCL2,Apoptosis regulator Bcl-2
+CC#CCOC1=CC=C(C=C1)S(=O)(=O)CCCS,P10415,0.99999726,,BCL2,Apoptosis regulator Bcl-2
+C1=CC=C(C=C1)C2=CN=C(C3=CN=CN32)NC4=CC=CC=C4Cl,P10415,0.99999976,"N-(2-chlorophenyl)-5-phenylimidazo[1,5-a]pyrazin-8-amine",BCL2,Apoptosis regulator Bcl-2
+C1=CC=C(C=C1)C2C(=O)N=C(O2)N,P10415,0.9979504,2-Amino-5-phenyl4(5H)-oxazolone,BCL2,Apoptosis regulator Bcl-2
+CCCC[C@@H](C(=O)C(=O)NC1=CC=NN1)NC(=O)OCC2(CCC2)CC3=CC=C(C=C3)F,P10415,0.9999796,[1-(4-Fluorobenzyl)Cyclobutyl]Methyl (1s)-1-[Oxo(1h-Pyrazol-5-Ylamino)Acetyl]Pentylcarbamate,BCL2,Apoptosis regulator Bcl-2
+CC(C)C[C@@H](C(=O)N[C@@H](COCC1=CC=CC=C1)C#N)NC(=O)N2CCOCC2,P10415,0.9999999,,BCL2,Apoptosis regulator Bcl-2
+C1(=C(C(=C(C(=C1Br)Br)Br)Br)Br)O,P10415,0.99999976,Pentabromophenol,BCL2,Apoptosis regulator Bcl-2
+CC(C)[C@@H](C(=O)C(F)(F)F)NC(=O)CN1C(=CC=C(C1=O)NS(=O)(=O)NC)C2=CC=CC=C2,P10415,0.99994266,"3-(((Methylamino)sulfonyl)amino)-2-oxo-6-phenyl-N-(3,3,3-trifluoro-1-(1-methylethyl)-2-oxophenyl)-1(2H)-pyridine acetamide",BCL2,Apoptosis regulator Bcl-2
+CC(C)C[C@H](C(=O)N[C@H](CCC1=CC=CC=C1)/C=C/S(=O)(=O)C2=CC=CC=C2)NC(=O)N3CCOCC3,P10415,0.9998826,,BCL2,Apoptosis regulator Bcl-2
+CCCC(=O)SCC[N+](C)(C)C,P10415,0.9998827,Butyrylthiocholine,BCL2,Apoptosis regulator Bcl-2
+C1=CC(=C2C(=C1NCCNCCO)C(=O)C3=C(C=CC(=C3C2=O)O)O)NCCNCCO,P10415,0.99991083,Mitoxantrone,BCL2,Apoptosis regulator Bcl-2
+CC(C)C[C@H](CC(=O)NO)C(=O)N[C@@H](CC1=CC=C(C=C1)OC)C(=O)NC,P10415,0.9956885,N-(2-Isobutyl-3-(N'-hydroxycarbonylamido)propanoyl)-O-methyltyrosinemethylamide,BCL2,Apoptosis regulator Bcl-2
+C1=C(C=C2C(=C1O)C(=O)/C(=C/C3=CC(=C(C(=C3O)Br)O)Br)/O2)O,P10415,1.0,,BCL2,Apoptosis regulator Bcl-2
+CCOC(=O)C1=C(N(N=C1C)C2=CC=CC=C2Cl)C,P10415,0.9999999,"1-(2-Chlorophenyl)-3,5-Dimethyl-1h-Pyrazole-4-Carboxylic Acid Ethyl Ester",BCL2,Apoptosis regulator Bcl-2
+C1CNCCN(C1)S(=O)(=O)C2=CC=CC3=C2C=CNC3=O,P10415,0.99999726,Hydroxyfasudil,BCL2,Apoptosis regulator Bcl-2
+C1=CC=C(C=C1)CCNN,P10415,0.9988432,Phenelzine,BCL2,Apoptosis regulator Bcl-2
+CC(C)SC(=N)N,P10415,0.9999236,S-Isopropyl-Isothiourea,BCL2,Apoptosis regulator Bcl-2
+C(CNC(CO)(CO)CO)CNC(CO)(CO)CO,P10415,0.9999845,Bis-tris propane,BCL2,Apoptosis regulator Bcl-2
+C1[C@@H](C2=C(C=C(N2)C3=NC(=NC=C3)N)C(=O)N1)CCF,P10415,0.9999994,"(7S)-2-(2-aminopyrimidin-4-yl)-7-(2-fluoroethyl)-1,5,6,7-tetrahydro-4H-pyrrolo[3,2-c]pyridin-4-one",BCL2,Apoptosis regulator Bcl-2
+C1=CC=C(C=C1)C(=O)NC2=NNC3=C2C=C(C=C3)NC(=O)[C@@H](CCN)C4=CC(=CC=C4)Cl,P10415,0.9999931,N-(5-(((2S)-4-amino-2-(3-chlorophenyl)butanoyl)amino)-1H-indazol-3-yl)benzamide,BCL2,Apoptosis regulator Bcl-2
+C1=CC2=C(C=CC(=C2)C(=O)O)C=C1C(=O)O,P10415,0.9933094,"2,6-Naphthalenedicarboxylic acid",BCL2,Apoptosis regulator Bcl-2
+CC1=C(SC(=N1)C)C2=NC(=NC=C2)NC3=CC=C(C=C3)N(C)C,P10415,1.0,"N-(4-(2,4-Dimethyl-thiazol-5-YL)-pyrimidin-2-YL)-N',N'-dimethyl-benzene-1,4-diamine",BCL2,Apoptosis regulator Bcl-2
+CCCCN1C2=C(C(=O)N(C1=O)CC=C)NC(=N2)CC3=CC=C(C=C3)NC(=O)C,P10415,0.9999902,1-Allyl-3-Butyl-8-(N-Acetyl-4-Aminobenzyl)-Xanthine,BCL2,Apoptosis regulator Bcl-2
+CCCCCCO[C@H]1[C@@H]([C@H]([C@H]([C@H](O1)CO)O)O)O,P10415,0.9980616,"2-Hexyloxy-6-Hydroxymethyl-Tetrahydro-Pyran-3,4,5-Triol",BCL2,Apoptosis regulator Bcl-2
+C1=CC=C(C=C1)C2=C(C(=C(S2)C(=O)O)OCC(=O)O)Br,P10415,1.0,4-Bromo-3-(carboxymethoxy)-5-phenylthiophene-2-carboxylic acid,BCL2,Apoptosis regulator Bcl-2
+CN1C=C(N=C1)C[C@@H](C(=O)O)N,P10415,0.9845465,1-Methyl-L-histidine,BCL2,Apoptosis regulator Bcl-2
+C1=CC2=C(C=C1/C=C3/C(=O)NC(=O)S3)OC(O2)(F)F,P10415,0.99999976,,BCL2,Apoptosis regulator Bcl-2
+C1CN(C[C@@H](N1)CC2=CC=CC=C2)C3=NN=C(C(=C3)C4=CC=NC=C4)C5=CC6=CC=CC=C6C=C5,P10415,0.9999999,6((S)-3-Benzylpiperazin-1-Yl)-3-(Naphthalen-2-Yl)-4-(Pyridin-4-Yl)Pyrazine,BCL2,Apoptosis regulator Bcl-2
+C1=CC2=C(NOC2=CC1=O)C3=CC(=C(C=C3O)O)Br,P10415,1.0,"4-Bromo-6-(6-hydroxy-1,2-benzisoxazol-3-yl)benzene-1,3-diol",BCL2,Apoptosis regulator Bcl-2
+CCCCN1C(=NC2=C1N=CN=C2N)CC3=CC=C(C=C3)OC,P10415,0.99987066,9-butyl-8-(4-methoxybenzyl)-9H-purin-6-amine,BCL2,Apoptosis regulator Bcl-2
+C[C@@H]1CCN(C[C@@H]1N(C)C2=NC=NC3=C2C=CN3)C(=O)CC#N,P10415,0.99999344,,BCL2,Apoptosis regulator Bcl-2
+C/C=C/1[C@@H]2CC3=C([C@]1(CC(=C2)C)N)C=CC(=O)N3,P10415,0.99761957,,BCL2,Apoptosis regulator Bcl-2
+CCOC1=C(C(=CC(=N1)NC(=O)CC2=CC(=C(C=C2OC)Br)OC)N)C#N,P10415,0.9999999,,BCL2,Apoptosis regulator Bcl-2
+CC1=C2C=C(C=CC2=NN1)C3=CC(=CN=C3)OC[C@H](CC4=CC=C(C=C4)Br)N,P10415,0.9999999,"3-Pyridin-4-YL-2,4-dihydro-indeno(1,2-.C.) pyrazole",BCL2,Apoptosis regulator Bcl-2
+CN1C(=CC(=N1)C2=CC=CC=C2)NS(=O)(=O)O,P10415,0.9999994,1-Methyl-3-phenyl-1H-pyrazol-5-ylsulfamic acid,BCL2,Apoptosis regulator Bcl-2
+CC(=CCC/C(=C/CC/C(=C/COP(=O)(O)OP(=O)(O)O)/C)/C)C,P10415,0.99998677,,BCL2,Apoptosis regulator Bcl-2
+CN1CCN(CC1)C2=CC=C(C=C2)C(=O)NC3=NNC4=CN(C=C43)C(=O)CC5=CC=CS5,P10415,1.0,"4-(4-Methylpiperazin-1-YL)-N-(5-(2-thienylacetyl)-1,5-dihydropyrrolo(3,4-C)pyrazol-3-YL)benzamide",BCL2,Apoptosis regulator Bcl-2
+CC(C)C[C@H]([C@H](CSC1=CC=CS1)C(=O)NO)C(=O)N[C@@H](CC2=CC=CC=C2)C(=O)NC,P10415,0.998271,Batimastat,BCL2,Apoptosis regulator Bcl-2
+C1=CC(=C(C(=C1)Cl)CC(=O)N=C(N)N)Cl,P10415,0.9999461,Guanfacine,BCL2,Apoptosis regulator Bcl-2
+C1=CC(=CC=C1[C@H](CN=[N+]=[N-])O)[N+](=O)[O-],P10415,0.9999999,(R)-1-Para-Nitro-Phenyl-2-Azido-Ethanol,BCL2,Apoptosis regulator Bcl-2
+CC(C)(C)C1=NN(C(=C1)NC(=O)NC2=CC=CC3=CC=CC=C32)C4=CC(=CC=C4)N,P10415,1.0,1-[1-(3-aminophenyl)-3-tert-butyl-1H-pyrazol-5-yl]-3-naphthalen-1-ylurea,BCL2,Apoptosis regulator Bcl-2
+CC1=C(SC(=N1)N)C2=NC(=NC=C2)NC3=CC(=CC=C3)[N+](=O)[O-],P10415,1.0,4-(2-Amino-4-methyl-5-thiazolyl)-N-(3-nitrophenyl)-2-pyrimidinamine,BCL2,Apoptosis regulator Bcl-2
+C1=CC2=C(C=C(S2)C(=[NH2+])N)C(=C1)I,P10415,1.0,4-Iodobenzo(B)Thiophene-2-Carboxamidine,BCL2,Apoptosis regulator Bcl-2
+C1C[C@H](N([C@H]1C2=CC=CC=C2)C(=O)CNC(=O)[C@H](CC3=CC=CC=C3)S)C(=O)O,P10415,0.9996568,RB106,BCL2,Apoptosis regulator Bcl-2
+CCOC(=O)CO/N=C(/C1=CC=CC=N1)C2(CC2)C3=CC4=C(C=C3)N(C(=N4)CNC5=CC=C(C=C5)C(=N)N)C,P10415,0.9999974,,BCL2,Apoptosis regulator Bcl-2
+COC1=CC=C(C=C1)C(=O)C2=C(N=C(S2)NC3=CC=C(C=C3)OC)N,P10415,0.9999993,"(4-Amino-2-((4-methoxyphenyl)amino)-1,3-thiazol-5-yl)(4-methoxyphenyl)methanone",BCL2,Apoptosis regulator Bcl-2
+C1CN(CCC1NCC2=CC=CC=C2O)S(=O)(=O)NC3=CC(=CC=C3)OC4=CC=C(C=C4)F,P10415,0.99999845,4-(2-Hydroxybenzylamino)-N-(3-(4-fluorophenoxy)phenyl)piperidine-1-sulfonamide,BCL2,Apoptosis regulator Bcl-2
+C[C@]12CCC(=O)C=C1CC[C@@H]3[C@@H]2[C@H](C[C@]4([C@H]3CC[C@@]4(C(=O)CO)O)C)O,P10415,0.9651393,Cortisol,BCL2,Apoptosis regulator Bcl-2
+CS(=O)(=O)N1CCC(CC1)[C@H]2C3=C(C=C(C=C3)Cl)C(=CC4=C2N=CC=C4)N5CCNCC5,P10415,0.9999975,"(11S)-8-Chloro-11-[1-(methylsulfonyl)piperidin-4-YL]-6-piperazin-1-YL-11H-benzo[5,6]cyclohepta[1,2-B]pyridine",BCL2,Apoptosis regulator Bcl-2
+CC1=NC=C(C(=C1O)C=O)COP(=O)(O)O,P10415,0.9999999,Pyridoxal 5'-phosphate,BCL2,Apoptosis regulator Bcl-2
+C1=CC(=CC=C1C2=COC3=CC(=CC(=C3C2=O)O)O)O,P10415,0.99998033,Genistein,BCL2,Apoptosis regulator Bcl-2
+C[C@H]([C@@H]([C@@H](C#CC1=C(C=CC2=C1/C(=C/C3=C(C=CN3)OC)/C(=O)N2)F)O)N)O,P10415,0.99977225,,BCL2,Apoptosis regulator Bcl-2
+C1=CC=C(C=C1)C2=NN3C=CC=CC3=C2C4=CC5=C(NN=C5N=N4)N,P10415,1.0,FR-180204,BCL2,Apoptosis regulator Bcl-2
+CCSC(=N)N,P10415,0.9999989,S-Ethylisothiourea,BCL2,Apoptosis regulator Bcl-2
+CCCS(=O)(=O)NC1=C(C(=C(C=C1)F)C(=O)C2=CNC3=NC=C(C=C23)Cl)F,P10415,0.99999917,Plx-4720,BCL2,Apoptosis regulator Bcl-2
+CC1=C(C(=O)C2=CC=CC=C2C1=O)CCCCCC(=O)O,P10415,0.99905795,"6-(3-Methyl-1,4-dioxo-1,4-dihydronaphthalen-2-yl)hexanoic acid",BCL2,Apoptosis regulator Bcl-2
+CC1=C(SC(=N1)C)C2=NC(=NC=C2)N,P10415,1.0,"4-(2,4-Dimethyl-Thiazol-5-Yl)-Pyrimidin-2-Ylamine",BCL2,Apoptosis regulator Bcl-2
+COC1=CC=C(C=C1)S(=O)(=O)C[C@@H]2CCCC[C@H]2C(=O)NCCN,P10415,0.99948716,"(1R,2R)-N-(2-Aminoethyl)-2-(((4-methoxyphenyl)sulfonyl)methyl)cyclohexanecarboxamide",BCL2,Apoptosis regulator Bcl-2
+CCCCCC1=CC=C(C=C1)C(=O)NC2=CC=C(C=C2)S(=O)(=O)N(CCN3CCOCC3)[C@H](C(C)C)C(=O)NO,P10415,0.99934834,SC-74020,BCL2,Apoptosis regulator Bcl-2
+C1CCC(C1)N2C3=C(C(=N2)C4=CN=C5C(=C4)C=CN5)C(=NC=N3)N,P10415,0.9999995,PP121,BCL2,Apoptosis regulator Bcl-2
+C1CCC(CC1)COC2=NC(=NC3=C2NC=N3)NC4=CC=C(C=C4)S(=O)(=O)N,P10415,0.9999982,O6-Cyclohexylmethoxy-2-(4'-sulphamoylanilino) purine,BCL2,Apoptosis regulator Bcl-2
+C1=CC=C2C(=C1)C(=NO2)CS(=O)(=O)N,P10415,0.99999964,Zonisamide,BCL2,Apoptosis regulator Bcl-2
+C1=CC=C(C=C1)COC2=CC=C(C=C2)NC(=O)CN,P10415,0.99996495,N-[4-(benzyloxy)phenyl]glycinamide,BCL2,Apoptosis regulator Bcl-2
+CC(C)(C)O,P10415,0.9938308,tert-Butanol,BCL2,Apoptosis regulator Bcl-2
+CNC1=NC=CC(=N1)C2=CC=C(S2)C(=O)N[C@@H](CC3=C(C=C(C=C3)Cl)Cl)CN,P10415,0.9999944,"N-((1S)-2-Amino-1-(2,4-dichlorobenzyl)ethyl)-5-(2-(methylamino)pyrimidin-4-YL)thiophene-2-carboxamide",BCL2,Apoptosis regulator Bcl-2
+CC(C)N1C2=C(C(=N1)C3=CC(=CC=C3)O)C(=NC=N2)N,P10415,0.999998,"3-(4-Azanyl-1-propan-2-YL-pyrazolo(3,4-D)pyrimidin-3-YL)phenol",BCL2,Apoptosis regulator Bcl-2
+C1=CC(=C(C=C1OC2=C(C=C(C=C2I)C[C@@H](C(=O)O)N)I)I)O,P10415,0.99999976,Liothyronine,BCL2,Apoptosis regulator Bcl-2
+COC1=C(C(=C(C=C1)F)F)C(=O)C2=CN=C(N=C2N)NC3CCN(CC3)S(=O)(=O)C,P10415,0.99999976,"(4-Amino-2-(1-methanesulfonylpiperidin-4-ylamino)pyrimidin-5-yl)(2,3-difluoro-6-methoxyphenyl)methanone",BCL2,Apoptosis regulator Bcl-2
+CC1=C(C(=NC(=N1)C2=CC=CC=N2)NCCC3=CC=CC=C3)Cl,P10415,0.9999989,5-Chloro-6-methyl-N-(2-phenylethyl)-2-pyridin-2-ylpyrimidin-4-amine,BCL2,Apoptosis regulator Bcl-2
+CCCCC=O,P10415,0.99961424,Pentanal,BCL2,Apoptosis regulator Bcl-2
+C12=C(NC(=O)N1)NC(=O)NC2=O,P10415,0.99985445,Uric Acid,BCL2,Apoptosis regulator Bcl-2
+CN,P10415,0.99988115,Methylamine,BCL2,Apoptosis regulator Bcl-2
+C(=C(O)/[O-])[C@H](C(=O)[O-])O,P10415,0.9839146,,BCL2,Apoptosis regulator Bcl-2
+CC1=C(SC(=N1)NC)C2=NC(=NC=C2)NC3=CC=C(C=C3)O,P10415,0.999689,4-[4-(4-Methyl-2-Methylamino-Thiazol-5-Yl)-Pyrimidin-2-Ylamino]-Phenol,BCL2,Apoptosis regulator Bcl-2
+C1C2=CC=CC=C2C3=C1C(=NN3)C4=CC=NC=C4,P10415,1.0,"3-Pyridin-4-yl-1,4-dihydroindeno(1,2-C)pyrazole",BCL2,Apoptosis regulator Bcl-2
+CCOCCOCCOCC,P10415,0.9999999,Diethylene glycol diethyl ether,BCL2,Apoptosis regulator Bcl-2
+CC1=C(C=C(C=C1)C(=O)NC2CC2)C3=CC4=CN=C(N=C4C=C3)NCCN5CCOCC5,P10415,0.9999999,N-cyclopropyl-4-methyl-3-{2-[(2-morpholin-4-ylethyl)amino]quinazolin-6-yl}benzamide,BCL2,Apoptosis regulator Bcl-2
+CC[C@H](CO)NC1=NN2C(=NC=C2C3=CC=C(C=C3)C(=O)O)C=C1,P10415,0.9998772,"4-(6-{[(1R)-1-(hydroxymethyl)propyl]amino}imidazo[1,2-b]pyridazin-3-yl)benzoic acid",BCL2,Apoptosis regulator Bcl-2
+C1CNCCN(C1)C(=O)C2=C(C=CC(=C2)CC3=NNC(=O)C4=CC=CC=C43)F,P10415,1.0,KU-0058948,BCL2,Apoptosis regulator Bcl-2
+CN1C2=C(C=CC(=C2)Cl)C3=C1C(=O)NC4([C@@H]3C#N)CCNCC4,P10415,0.99999785,,BCL2,Apoptosis regulator Bcl-2
+C1CCC(CC1)COC2=NC(=NC3=C2NC=N3)NC4=CC=CC=C4,P10415,1.0,2-Anilino-6-cyclohexylmethoxypurine,BCL2,Apoptosis regulator Bcl-2
+C1=CC2=C(C=C1[N+](=O)[O-])NN=C2,P10415,1.0,6-Nitroindazole,BCL2,Apoptosis regulator Bcl-2
+CC1=C(C=C(C=C1)O)NC2=C3C=CC(=CC3=NC=C2)C4=CSC(=N4)C=O,P10415,0.99999976,"4-(4-((5-Hydroxy-2-methylphenyl)amino)quinolin-7-yl)-1,3-thiazole-2-carbaldehyde",BCL2,Apoptosis regulator Bcl-2
+C1CNCCC1OC2=CC=CC(=C2)C(=O)C3=C(N(N=C3)C4=CC=C(C=C4)F)N,P10415,0.9999999,[5-Amino-1-(4-fluorophenyl)-1H-pyrazol-4-YL][3-(piperidin-4-yloxy)phenyl]methanone,BCL2,Apoptosis regulator Bcl-2
+B1(OCCO1)OCCC[NH+]=C(N)N,P10415,0.99856025,"Diamino-N-[3-(1,3,2-dioxaborolan-2-yloxy)propyl]methaniminium",BCL2,Apoptosis regulator Bcl-2
+C1=CC(=C(C=C1C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)O)O)O,P10415,0.998882,Quercetin,BCL2,Apoptosis regulator Bcl-2
+CN1C=C(C2=CC=CC=C21)C3=C(C(=O)NC3=O)C4=CN(C5=CC=CC=C54)CCCN,P10415,0.9998147,Bisindolylmaleimide VIII,BCL2,Apoptosis regulator Bcl-2
+C1CCC(CC1)OC2=NC3=NC=NN3C(=C2)NC4=CC=C(C=C4)S(=O)(=O)N,P10415,0.99997413,"4-((5-(Cyclohexyloxy)(1,2,4)triazolo(1,5-A)pyrimidin-7-YL)amino)benzenesulfonamide",BCL2,Apoptosis regulator Bcl-2
+C=CC(=O)NC1=CC2=C(C=C1)N=CN=C2NC3=CC(=CC=C3)Br,P10415,0.9999982,Pd 168393,BCL2,Apoptosis regulator Bcl-2
+C1C[C@@H]2C3=C(C=CC=C3NC(=O)NC4=CC=CC=N4)C(=O)N2C1,P10415,0.99999964,"N'-(Pyrrolidino(2,1-B)Isoindolin-4-On-8-Yl)-N-(Pyridin-2-Yl)Urea",BCL2,Apoptosis regulator Bcl-2
+C(CC(=O)O)[C@@H](C(=O)O)N,P10415,0.9997098,L-Glutamic Acid,BCL2,Apoptosis regulator Bcl-2
+CNC(=NC)NCCC[C@@H](C(=O)O)N,P10415,0.99930644,Symmetric Dimethylarginine,BCL2,Apoptosis regulator Bcl-2
+C1=CC(=CC(=C1)CCSC(=N)N)CCSC(=N)N,P10415,0.9999999,"S,S'-(1,3-Phenylene-Bis(1,2-Ethanediyl))Bis-Isothiourea",BCL2,Apoptosis regulator Bcl-2
+C1CC(=O)OC1,P10415,0.9979195,Gamma-Butyrolactone,BCL2,Apoptosis regulator Bcl-2
+CCN1CCCC1CNC(=O)C2=C(C=CC(=C2)S(=O)(=O)N)OC,P10415,0.9999275,Sulpiride,BCL2,Apoptosis regulator Bcl-2
+CC1=C(C=C2C(=C1)C(CCC2(C)C)(C)C)C3(CC3)C4=NC=C(C=C4)C(=O)O,P10415,0.9999957,"6-(1-(5,6,7,8-Tetrahydro-3,5,5,8,8-pentamethyl-2-naphthalenyl)cyclopropyl)-3-pyridinecarboxylic acid",BCL2,Apoptosis regulator Bcl-2
+C1=CC=C(C=C1)CNC2=C(N=CC=C2)N,P10415,0.9999958,"N~3~-Benzylpyridine-2,3-diamine",BCL2,Apoptosis regulator Bcl-2
+C(CCCO)CCO,P10415,0.99999213,"1,6-Hexanediol",BCL2,Apoptosis regulator Bcl-2
+C[As](=O)(C)O,P10415,0.999998,Dimethylarsinic Acid,BCL2,Apoptosis regulator Bcl-2
+CC1=CC(=CC=C1)C[C@@H](C(=O)O)N,P10415,0.99732345,3-Methylphenylalanine,BCL2,Apoptosis regulator Bcl-2
+C1C(=O)NS(=O)(=O)N1C2=CSC(=C2Cl)C3=CC=CC=C3,P10415,0.99999976,"5-(4-Chloro-5-phenyl-3-thienyl)-1,2,5-thiadiazolidin-3-one 1,1-dioxide",BCL2,Apoptosis regulator Bcl-2
+CSCC[C@H](C(=O)O)N,P10415,0.9999988,D-Methionine,BCL2,Apoptosis regulator Bcl-2
+C(C(F)(F)F)O,P10415,0.9997509,"2,2,2-Trifluoroethanol",BCL2,Apoptosis regulator Bcl-2
+C[N+](C)(C)C1=CC=C(C=C1)CNC(=O)C2=CC3=C(N2CC4=CC=CC(=C4)C(=N)N)C=CC(=C3)OCC5=CC=CC=C5,P10415,0.9999995,[4-({[5-Benzyloxy-1-(3-Carbamimidoyl-Benzyl)-1h-Indole-2-Carbonyl]-Amino}-Methyl)-Phenyl]-Trimethyl-Ammonium,BCL2,Apoptosis regulator Bcl-2
+CC[C@H](CO)NC1=NC2=C(C=NN2C(=N1)NCC3=CC=CC=C3)C(C)C,P10415,0.9999919,"(2R)-2-((4-(benzylamino)-8-(1-methylethyl)pyrazolo(1,5-a)(1,3,5)triazin-2-yl)amino)butan-1-ol",BCL2,Apoptosis regulator Bcl-2
+CCCC1=C(C=C(C=C1)NC(=O)C2=CC=CC=C2NCC3=CNC(=O)C=C3)C(F)(F)F,P10415,0.99998176,"2-(((6-oxo-1,6-dihydropyridin-3-yl)methyl)amino)-N-(4-propyl-3-(trifluoromethyl)phenyl)benzamide",BCL2,Apoptosis regulator Bcl-2
+C1=CC(=C(C=C1C2=C(C=C(C=C2)Cl)Cl)C(=O)O)O,P10415,0.9999089,"2',4'-Dichloro-4-hydroxy-1,1'-biphenyl-3-carboxylic acid",BCL2,Apoptosis regulator Bcl-2
+CN(C1CCC(CC1)C2=CC=C(C=C2)CN3CCCCC3)C(=O)OC4=CC=C(C=C4)Cl,P10415,0.9999999,Methyl-(4-(4-Piperidine-1-Ylmethyl-Phenyl)-Cyclohexyl)-Carbaminic Acid-(4-Chlorophenyl)-Ester,BCL2,Apoptosis regulator Bcl-2
+C(C(=O)O)N,P10415,0.9995365,Glycine,BCL2,Apoptosis regulator Bcl-2
+C1=CC2=NC(N=C2C=C1)N,P10415,0.9838335,2H-Benzimidazol-2-amine,BCL2,Apoptosis regulator Bcl-2
+CCCCC[C@@H](C(=O)N[C@@H](CC1=CC=CC=C1)C(=O)N[C@@H](C)C(=O)O)S,P10415,0.994823,"[2(R,S)-2-Sulfanylheptanoyl]-Phe-Ala",BCL2,Apoptosis regulator Bcl-2
+CC(C)(C(=O)O)OC1=CC=C(C=C1)CCNC(=O)C2=CC=C(C=C2)Cl,P10415,0.9972012,Bezafibrate,BCL2,Apoptosis regulator Bcl-2
+C(C[C@@H](C(=O)O)N)CNC(=O)N,P10415,0.99992955,Citrulline,BCL2,Apoptosis regulator Bcl-2
+C1CCN(CC1)CCOC2=CC=C(C=C2)C3=CN4C(=C(C=N4)C5=CC=NC=C5)N=C3,P10415,0.9999999,Dorsomorphin,BCL2,Apoptosis regulator Bcl-2
+C1CC(=O)N[C@@H]1CS(=O)(=O)C[C@@H](C(=O)NC2(CC2)C#N)N[C@@H](C3=CC=C(C=C3)F)C(F)(F)F,P10415,0.9999999,,BCL2,Apoptosis regulator Bcl-2
+COC1=C(C=C2C(=C1)N=CN=C2NC3=CC(=C(C=C3)F)Cl)OCCCN4CCOCC4,P10415,0.99999964,Gefitinib,BCL2,Apoptosis regulator Bcl-2
+C1COCCN1C(=O)N[C@@H](CC2=CC=CC=C2)C(=O)N[C@@H](CSCC3=CC=CC=C3)C=O,P10415,0.99999654,Morpholine-4-Carboxylic Acid (1-(2-Benzylsulfanyl-1-Formyl-Ethylcarbamoyl)-2-Phenyl-Ethyl)-Amide,BCL2,Apoptosis regulator Bcl-2
+CC1(C2=C(C=CC(=C2)C3=CC=C(N3C)C#N)NC(=S)O1)C,P10415,0.99999976,,BCL2,Apoptosis regulator Bcl-2
+CC1=C(N=C2C=CC(=CC2=C1C(=O)O)F)C3=CC=C(C=C3)C4=CC=CC=C4F,P10415,0.9999999,Brequinar,BCL2,Apoptosis regulator Bcl-2
+C1CCC(CC1)NCCCS(=O)(=O)O,P10415,0.9999964,3-(Cyclohexylamino)-1-propanesulfonic acid,BCL2,Apoptosis regulator Bcl-2
+C[C@@H](C(=O)O)N,P10415,0.9999088,L-Alanine,BCL2,Apoptosis regulator Bcl-2
+C1=C(NC=N1)C[C@@H](C(=O)O)N,P10415,0.986741,L-Histidine,BCL2,Apoptosis regulator Bcl-2
+C[C@@H](C1=CC=CN1)C2=C3C=C(C=CC3=NC2=O)NC(=O)N,P10415,0.9959849,1-{2-Oxo-3-[(1R)-1-(1H-pyrrol-2-YL)ethyl]-2H-indol-5-YL}urea,BCL2,Apoptosis regulator Bcl-2
+CN1CC[C@@H]([C@@H](C1)O)C2=C(C=C(C3=C2OC(=CC3=O)C4=CC=CC=C4Cl)O)O,P10415,0.9931068,Alvocidib,BCL2,Apoptosis regulator Bcl-2
+C[C@@H]1C[C@H]2CN1CCN3C(=O)C4=C(N3)C(=CC=C4)C5=NC6=C(C=CC=C6O2)NC5=O,P10415,0.9980732,"(13R,15S)-13-Methyl-16-oxa-8,9,12,22,24-pentaazahexacyclo(15.6.2.16,9.1,12,15.0,2,7.0,21,25)heptacosa-1(24),2,4,6,17(25),18,20-heptaene-23,26-dione",BCL2,Apoptosis regulator Bcl-2
+CC(=O)N=C1N(N=C(S1)S(=O)(=O)N)C,P10415,0.9901264,Methazolamide,BCL2,Apoptosis regulator Bcl-2
+CCCCC1C(=O)N(N(C1=O)C2=CC=CC=C2)C3=CC=CC=C3,P10415,0.9999925,Phenylbutazone,BCL2,Apoptosis regulator Bcl-2
+C1=CC(=C(C=C1C[C@@H](C(=O)O)N)[N+](=O)[O-])O,P10415,1.0,3-Nitro-L-tyrosine,BCL2,Apoptosis regulator Bcl-2
+C1(=C(C2=NNN=C2C(=C1Br)Br)Br)Br,P10415,1.0,"4,5,6,7-Tetrabromobenzotriazole",BCL2,Apoptosis regulator Bcl-2
+COC1=C(C=C2C(=C1)C(=NC(=N2)N3CCN(CC3)C(=O)C4=CC=CO4)N)OC,P10415,1.0,Prazosin,BCL2,Apoptosis regulator Bcl-2
+C1=CC(=CC(=C1)Br)C2=CC(=[N+]3C(=N2)C=CN3)NCC4=CC=NC=C4,P10415,1.0,"(5Z)-5-(3-Bromocyclohexa-2,5-dien-1-ylidene)-N-(pyridin-4-ylmethyl)-1,5-dihydropyrazolo(1,5-A)pyrimidin-7-amine",BCL2,Apoptosis regulator Bcl-2
+COC1=CC=CC=C1OCCNCC(COC2=CC=CC3=C2C4=CC=CC=C4N3)O,P10415,0.9999014,Carvedilol,BCL2,Apoptosis regulator Bcl-2
+C1CCN(CC1)CCOC2=CC=C(C=C2)C(=O)C3=C(SC4=C3C=CC(=C4)O)C5=CC=C(C=C5)O,P10415,0.9999999,Raloxifene,BCL2,Apoptosis regulator Bcl-2
+CC(C)N1C2=C(C(=N1)C3=CC4=C(C=C3)N=CC=C4)C(=NC=N2)N,P10415,0.9999999,"1-(1-methylethyl)-3-quinolin-6-yl-1H-pyrazolo(3,4-d)pyrimidin-4-amine",BCL2,Apoptosis regulator Bcl-2
+C1=CC(=C2C(=C1N)C(=O)C3=C(C=CC(=C3C2=O)O)O)N,P10415,0.99999833,"1,4-Diamino-5,8-dihydroxy-anthraquinone",BCL2,Apoptosis regulator Bcl-2
+C/C=C(C)/CC/C=C(C)/CC/C=C(C)/CCC=C(C)C,P10415,0.99975723,,BCL2,Apoptosis regulator Bcl-2
+C1C2=C(C3=CC=CC=C3NC1=O)NC4=C2C=C(C=C4)[N+](=O)[O-],P10415,1.0,Alsterpaullone,BCL2,Apoptosis regulator Bcl-2
+C1C=CC2=C(C=NC2=C1)C[C@@H](COC3=CN=CC(=C3)C4=NCC5=NN=CC5=C4)N,P10415,0.99995565,"(2S)-1-(6H-indol-3-yl)-3-[(5-{7H-pyrazolo[3,4-c]pyridin-5-yl}pyridin-3-yl)oxy]propan-2-amine",BCL2,Apoptosis regulator Bcl-2
+C/C(=NOC(=O)N)/C1=CC(=C(C=C1)OC)OC2CCCC2,P10415,0.99999905,,BCL2,Apoptosis regulator Bcl-2
+C[N+](C)(C)CCO,P10415,0.9959176,Choline,BCL2,Apoptosis regulator Bcl-2
+COC1=C(C=C(C=C1)C(=O)NC2=C(C=NC=C2Cl)Cl)OC3CCCC3,P10415,0.99999166,Piclamilast,BCL2,Apoptosis regulator Bcl-2
+CN(C)CCCN1C=C(C2=CC=CC=C21)C3=C(C(=O)NC3=O)C4=CNC5=CC=CC=C54,P10415,0.9999951,"3-(1-(3-(Dimethylamino)propyl)-1H-indol-3-yl)-4-(1H-indol-3-yl)-1H-pyrrole-2,5-dione",BCL2,Apoptosis regulator Bcl-2
+CCCCCCCCC[C@H](CC(=O)O)O,P10415,0.9937605,(3R)-3-Hydroxydodecanoic acid,BCL2,Apoptosis regulator Bcl-2
+CC(C)CN(CC(=O)NO)S(=O)(=O)C1=CC=C(C=C1)OC,P10415,0.9999975,N-isobutyl-N-(4-methoxyphenylsulfonyl)glycyl hydroxamic acid,BCL2,Apoptosis regulator Bcl-2
+CCCCCCCCCCC[C@@H](C[C@H]1[C@@H](C(=O)O1)CCCCCC)OC(=O)[C@H](CC(C)C)NC=O,P10415,0.99929154,Orlistat,BCL2,Apoptosis regulator Bcl-2
+C1=CC=C2C(=C1)C(=C(N2)C3=C4C=CC=CC4=NC3=O)NO,P10415,1.0,Indirubin-3'-monoxime,BCL2,Apoptosis regulator Bcl-2
+C1=CC(=CC=C1C(=N)N)OCCCCCOC2=CC=C(C=C2)C(=N)N,P10415,0.9999995,Pentamidine,BCL2,Apoptosis regulator Bcl-2
+CC(C)CN1C2=C(C(=O)N(C1=O)C)NC=N2,P10415,0.9999429,3-Isobutyl-1-methylxanthine,BCL2,Apoptosis regulator Bcl-2
+CC1=C(C(=CC=C1)Cl)NC(=O)C2=CN=C(S2)NC3=NC(=NC(=C3)N4CCN(CC4)CCO)C,P10415,0.9999931,Dasatinib,BCL2,Apoptosis regulator Bcl-2
+CC/C(=C(/CC)C1=CC=C(C=C1)O)/C2=CC=C(C=C2)O,P10415,0.9973814,,BCL2,Apoptosis regulator Bcl-2
+CO/C=C(C1=CC=CC=C1OC2=NC=NC(=C2)OC3=CC=CC=C3C#N)/C(=O)OC,P10415,0.9999945,,BCL2,Apoptosis regulator Bcl-2
+COC1=C(C=C(C=C1)C2=NN(C3=C2C(=NC=N3)N)C4CCC4)OC,P10415,0.9999975,"1-cyclobutyl-3-(3,4-dimethoxyphenyl)-1H-pyrazolo[3,4-d]pyrimidin-4-amine",BCL2,Apoptosis regulator Bcl-2
+C1=CC=C(C=C1)NC2=CC=CC3=C2C(=CC=C3)S(=O)(=O)O,P10415,0.99999905,8-Anilino-1-naphthalenesulfonic acid,BCL2,Apoptosis regulator Bcl-2
+CC1=C2C=C(C=CC2=NN1)C3=CC(=CN=C3)OC[C@H](CC4=CC=CC=C4)N,P10415,0.9999919,A-674563,BCL2,Apoptosis regulator Bcl-2
+CC(C)C(=O)COC1=NC(=NC2=C1NC=N2)N,P10415,0.99731904,"1-[(2-Amino-6,9-Dihydro-1h-Purin-6-Yl)Oxy]-3-Methyl-2-Butanol",BCL2,Apoptosis regulator Bcl-2
+C1=CC=C(C=C1)C[C@@H](C(=O)O)N,P10415,0.9971734,L-Phenylalanine,BCL2,Apoptosis regulator Bcl-2
+CC1=CN=C2N1C=CN=C2NCC3=CC=NC=C3,P10415,0.9999995,"3-methyl-N-(pyridin-4-ylmethyl)imidazo(1,2-a)pyrazin-8-amine",BCL2,Apoptosis regulator Bcl-2
+C1C[C@H](NC1)C(=O)O,P10415,0.99748045,L-Proline,BCL2,Apoptosis regulator Bcl-2
+CC(C)(C(=O)O)N,P10415,0.9996784,Aminoisobutyric acid,BCL2,Apoptosis regulator Bcl-2
+C1CC1CN2C=NC(=C2C3=CC=NC=C3)C4=CC=C(C=C4)F,P10415,1.0,SB-216995,BCL2,Apoptosis regulator Bcl-2
+C1=CC(=CC=C1C[C@@H](C(=O)O)N)O,P10415,0.95261484,L-Tyrosine,BCL2,Apoptosis regulator Bcl-2
+CS(=O)(=O)C1=CC=CC(=C1)NC2=NC=CC(=N2)NC3=C(C=CC4=C3OCO4)Cl,P10415,0.99999976,"N'-(5-chloro-1,3-benzodioxol-4-yl)-N-(3-methylsulfonylphenyl)pyrimidine-2,4-diamine",BCL2,Apoptosis regulator Bcl-2
+C1C=CC=C2C1=N/C(=C3/C4=CC=CCC4=NC3=O)/C2=N/OCC(=O)O,P10415,0.99474096,,BCL2,Apoptosis regulator Bcl-2
+CC1=C(C2=C(N1C(=O)C3=CC=C(C=C3)Cl)C=CC(=C2)OC)CC(=O)O,P10415,0.99999964,Indomethacin,BCL2,Apoptosis regulator Bcl-2
+C1=CC=C(C(=C1)C2=NN=C(S2)S(=O)(=O)N)Cl,P10415,0.99999976,Chlorzolamide,BCL2,Apoptosis regulator Bcl-2
+CCOCCOCCOCCOCCOCCOCC,P10415,0.9999999,"3,6,9,12,15,18-Hexaoxaeicosane",BCL2,Apoptosis regulator Bcl-2
+C1C2=C(CS1(=O)=O)C=C(C=C2)N/C=C3/C4=C(C=CC(=C4)C5=CN=CO5)NC3=O,P10415,1.0,,BCL2,Apoptosis regulator Bcl-2
+C(CO)C(CCO)(CCO)N,P10415,0.99997616,Tris(Hydroxyethyl)Aminomethane,BCL2,Apoptosis regulator Bcl-2
+CC1=NC=C(C(=C1O)C=O)CO,P10415,0.9800408,Pyridoxal,BCL2,Apoptosis regulator Bcl-2
+CC(=N)N1CCC(CC1)OC2=CC3=C(C=C2)C4=CC=CC=C4N3CC5=CC6=C(C=C5)C=CC(=C6)C(=N)N,P10415,0.99999905,Zk-806450,BCL2,Apoptosis regulator Bcl-2
+C1=CC(=CC(=C1)[N+](=O)[O-])C(=O)NC2=CC(=C(C=C2)OC3=CC(=C(C=C3)C(=O)O)C(=O)O)NC(=O)C4=CC(=CC=C4)[N+](=O)[O-],P10415,1.0,"4-{2,4-Bis[(3-Nitrobenzoyl)Amino]Phenoxy}Phthalic Acid",BCL2,Apoptosis regulator Bcl-2
+CN(C)C(=NCCC[C@@H](C(=O)O)N)N,P10415,0.9994091,"N,N-Dimethylarginine",BCL2,Apoptosis regulator Bcl-2
+C(CS)O,P10415,0.9999994,2-Mercaptoethanol,BCL2,Apoptosis regulator Bcl-2
+C1=CC=C(C(=C1)C(=O)O)NC2=CC=CC(=C2)C(F)(F)F,P10415,0.99999917,Flufenamic Acid,BCL2,Apoptosis regulator Bcl-2
+C1CNC(=O)C2=C1NC(=C2)C3=CC(=NC=C3)C4=CC=CC=C4F,P10415,0.9999999,"2-(2-(2-Fluorophenyl)pyridin-4-YL)-1,5,6,7-tetrahydro-4H-pyrrolo(3,2-C)pyridin-4-one",BCL2,Apoptosis regulator Bcl-2
+CC1=CC2=C(C=C1)N=C(N3N2C(=O)[C@@H](C3=O)CC=C)N(C)C,P10415,0.9999999,"(2S)-5-(dimethylamino)-9-methyl-2-prop-2-enylpyrazolo[1,2-a][1,2,4]benzotriazine-1,3-dione",BCL2,Apoptosis regulator Bcl-2
+CN1CCN(CC1)CCCN2C3=CC=CC=C3SC4=C2C=C(C=C4)C(F)(F)F,P10415,0.9999982,Trifluoperazine,BCL2,Apoptosis regulator Bcl-2
+C1CC1(CN)NC(=O)[C@H](CS(=O)(=O)CC2=CC=CC=C2)N[C@@H](C3=CC=C(C=C3)O)C(F)(F)F,P10415,0.999899,"N-[1-(Aminomethyl)cyclopropyl]-3-(benzylsulfonyl)-N~2~-[(1S)-2,2,2-trifluoro-1-(4-hydroxyphenyl)ethyl]-L-alaninamide",BCL2,Apoptosis regulator Bcl-2
+C1CNCCC1NC(=O)C2=C(C=NN2)NC(=O)C3=C(C=CC=C3Cl)Cl,P10415,0.9999993,"4-(2,6-dichlorobenzoylamino)-1H-pyrazole-3-carboxylic acid piperidin-4-ylamide",BCL2,Apoptosis regulator Bcl-2
+CC(C)N=C(N)NO,P10415,0.9999913,1-Hydroxy-2-isopropylguanidine,BCL2,Apoptosis regulator Bcl-2
+CC1=C(C(=NO1)C2=CC=CC=C2)C3=CC=C(C=C3)S(=O)(=O)N,P10415,0.9999999,Valdecoxib,BCL2,Apoptosis regulator Bcl-2
+C1=CC(=C(C=C1C2=CC=C(O2)/C=C3/C(=O)N=C(S3)N)C(F)(F)F)S(=O)(=O)N,P10415,1.0,,BCL2,Apoptosis regulator Bcl-2
+CC#C[C@@]1(CC[C@@H]2[C@@]1(C[C@@H](C3=C4CCC(=O)C=C4CC[C@@H]23)C5=CC=C(C=C5)N(C)C)C)O,P10415,0.99930143,,BCL2,Apoptosis regulator Bcl-2
+CCC(=O)NS(=O)(=O)C1=CC=C(C=C1)C2=C(ON=C2C3=CC=CC=C3)C,P10415,0.99999964,Parecoxib,BCL2,Apoptosis regulator Bcl-2
+CC[C@H](C=O)[C@@H](CNS(=O)(=O)C1=CC=C(C=C1)C)C(=O)O,P10415,0.98831755,"(2S,3S)-3-Formyl-2-({[(4-methylphenyl)sulfonyl]amino}methyl)pentanoic acid",BCL2,Apoptosis regulator Bcl-2
+CN(C)C[C@@H](COC1=CC=C(C=C1)NC2=NC=CC(=N2)NC3=C(C=CC(=C3)Cl)Cl)O,P10415,0.9981688,"(2S)-1-[4-({4-[(2,5-Dichlorophenyl)amino]-2-pyrimidinyl}amino)phenoxy]-3-(dimethylamino)-2-propanol",BCL2,Apoptosis regulator Bcl-2
+CC(=O)N[C@@H]1[C@H]([C@H]([C@H](O[C@H]1O)CO)O)O,P10415,0.9936982,N-acetyl-beta-D-galactosamine,BCL2,Apoptosis regulator Bcl-2
+CCCC[C@@]12CCC(=O)C(=C1C3=C(C2)C=C(C=C3)O)Br,P10415,0.9998066,"(9aS)-4-bromo-9a-butyl-7-hydroxy-1,2,9,9a-tetrahydro-3H-fluoren-3-one",BCL2,Apoptosis regulator Bcl-2
+C1=CC(=C(C(=C1)Cl)Cl)C2=NC3=C(C=NN3C(=C2)NCC4=CC=NC=C4)SC#N,P10415,0.9999999,,BCL2,Apoptosis regulator Bcl-2
+C[C@]12CCC(=O)C=C1CC[C@@H]3[C@@H]2[C@H](C[C@]4([C@H]3CC[C@@H]4C(=O)CO)C)O,P10415,0.9664483,Corticosterone,BCL2,Apoptosis regulator Bcl-2
+CCNC(=O)COC1=C(C=C(C=C1)Cl)CNC(=O)[C@@H]2CCCN2C(=O)[C@@H](C3CCCCC3)N,P10415,0.99589384,1-[2-Amino-2-cyclohexyl-acetyl]-pyrrolidine-3-carboxylic acid 5-chloro-2-(2-ethylcarbamoyl-ethoxy)-benzylamide,BCL2,Apoptosis regulator Bcl-2
+CC1=C(C=NN1)C2=CC=C(C=C2)CCN,P10415,0.9999957,2-[4-(3-Methyl-1H-pyrazol-4-YL)phenyl]ethanamine,BCL2,Apoptosis regulator Bcl-2
+C(CCNCCCN)CNCCCN,P10415,0.9999902,Spermine,BCL2,Apoptosis regulator Bcl-2
+CCOC(=O)C1=CC2=C(C=C(C=C2)O)OC1=O,P10415,0.99840266,3-Carbethoxyumbeliferone,BCL2,Apoptosis regulator Bcl-2
+CC(=O)O[C@@H]1C[C@]2([C@@H](CCC2=O)C3=C1[C@]4([C@H](OC(=O)C5=COC(=C54)C3=O)COC)C)C,P10415,0.9978612,Wortmannin,BCL2,Apoptosis regulator Bcl-2
+C[C@@H](CC(C)(C)O)O,P10415,0.99998534,"(4S)-2-Methyl-2,4-pentanediol",BCL2,Apoptosis regulator Bcl-2
+CCCCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)(O)OCC(COP(=O)(O)OC[C@@H](COC(=O)CCCCCCCCCCCCCCCCC)OC(=O)CCCCCCCCCCCCCCCCC)O)OC(=O)CCCCCCCCCCCCCCCCC,P10415,0.98575747,Tetrastearoylcardiolipin,BCL2,Apoptosis regulator Bcl-2
+CNCC1=CC=C(C=C1)C2=C3C(=NC=N2)N=CN3,P10415,0.9996631,N-Methyl-1-(4-(9H-purin-6-YL)phenyl)methanamine,BCL2,Apoptosis regulator Bcl-2
+CC1=CC=C(C=C1)N2C(=CC(=N2)C(C)(C)C)NC(=O)NC3=CC=C(C4=CC=CC=C43)OCCN5CCOCC5,P10415,1.0,Doramapimod,BCL2,Apoptosis regulator Bcl-2
+C(COCCOCCO)O,P10415,0.9999999,Triethylene Glycol,BCL2,Apoptosis regulator Bcl-2
+CCOCCOCCOC,P10415,0.99999964,1-Ethoxy-2-(2-methoxyethoxy)ethane,BCL2,Apoptosis regulator Bcl-2
+C([C@H](CS)O)O,P10415,0.9999759,"(2R)-3-sulfanylpropane-1,2-diol",BCL2,Apoptosis regulator Bcl-2
+C1=CC(=CC(=C1)CNC2=C(N=CC=C2)N)C3=CC4=C(C=C3)C=CN4,P10415,0.99999976,"N~3~-(3-(1H-Indol-6-YL)benzyl)pyridine-2,3-diamine",BCL2,Apoptosis regulator Bcl-2
+C1=CC(=CC=C1N=C(N)NO)Cl,P10415,0.9999999,N-(Chlorophenyl)-N'-Hydroxyguanidine,BCL2,Apoptosis regulator Bcl-2
+CC(C)N1C=NC2=C1N=C(N=C2NC3=CC(=CC=C3)Cl)NCCO,P10415,0.9999981,2-({6-[(3-Chlorophenyl)amino]-9-isopropyl-9H-purin-2-yl}amino)ethanol,BCL2,Apoptosis regulator Bcl-2
+CCCCCC(=O)CP(=O)(O)O,P10415,0.9996068,2-Oxoheptylphosphonic acid,BCL2,Apoptosis regulator Bcl-2
+CC1=CC(=C(C(=C1CC2=NCCN2)C)O)C(C)(C)C,P10415,0.9999956,Oxymetazoline,BCL2,Apoptosis regulator Bcl-2
+CN1CCC[C@H]1CCN2C=C(C3=CC=CC=C32)C4=C(C(=O)NC4=O)C5=CNC6=CC=CC=C65,P10415,0.99995506,"3-(1H-indol-3-yl)-4-{1-[2-(1-methylpyrrolidin-2-yl)ethyl]-1H-indol-3-yl}-1H-pyrrole-2,5-dione",BCL2,Apoptosis regulator Bcl-2
+CC1(C(=O)NC2=C(O1)C=CC(=N2)NC3=NC(=NC=C3F)NC4=CC(=C(C(=C4)OC)OC)OC)C,P10415,0.99999964,Tamatinib,BCL2,Apoptosis regulator Bcl-2
+CC1=C(C=C(C=C1)C(=O)NC2=CC(=CC(=C2)N3C=C(N=C3)C)C(F)(F)F)NC4=NC=CC(=N4)C5=CN=CC=C5,P10415,1.0,Nilotinib,BCL2,Apoptosis regulator Bcl-2
+C([C@H]([C@@H](CS)O)O)S,P10415,0.999318,"D-1,4-Dithiothreitol",BCL2,Apoptosis regulator Bcl-2
+CNC(=O)C1=NC=CC(=C1)OC2=CC=C(C=C2)NC(=O)NC3=CC(=C(C=C3)Cl)C(F)(F)F,P10415,0.99999905,Sorafenib,BCL2,Apoptosis regulator Bcl-2
+COCCOC1=C(C=C2C(=C1)C(=NC=N2)NC3=CC=CC(=C3)C#C)OCCOC,P10415,0.9999999,,BCL2,Apoptosis regulator Bcl-2
+C1=CC=C2C(=C1)C=CC=C2N(C3=CC=CC=C3C(=O)O)C(=O)C(=O)O,P10415,0.9999285,"Compound 5, 2-(Naphthalen-1-Yl-Oxalyl-Amino)-Benzoicacid",BCL2,Apoptosis regulator Bcl-2
+CCN(CC)CC(=O)NC1=C(C=CC=C1C)C,P10415,0.9999652,Lidocaine,BCL2,Apoptosis regulator Bcl-2
+C1CCC2=C(C1)C(=C(S2)NC(=O)C3=CC=CC=C3F)C#N,P10415,1.0,,BCL2,Apoptosis regulator Bcl-2
+CNC(=O)C1=CC=CC=C1NC2=NC(=NC=C2Cl)NC3=C(C=C(C=C3)N4CCOCC4)OC,P10415,0.9999995,2-((5-chloro-2-((2-methoxy-4-morpholin-4-ylphenyl)amino)pyrimidin-4-yl)amino)-N-methylbenzamide,BCL2,Apoptosis regulator Bcl-2
+CC1=NC(=NN1C2=CC(=CC(=C2)Cl)Cl)C(=O)O,P10415,1.0,"1-(3,5-Dichlorophenyl)-5-methyl-1H-1,2,4-triazole-3-carboxylic acid",BCL2,Apoptosis regulator Bcl-2
+C1CN(CCC1COC2=CC=CC3=C2C(=NC(=N3)N)N)CC4=C(C(=CC=C4)Cl)Cl,P10415,0.99999964,"5-((1-(2,3-Dichlorobenzyl)piperidin-4-yl)methoxy)quinazoline-2,4-diamine",BCL2,Apoptosis regulator Bcl-2
+C1C[C@H](NC1)C2=CC(=NN2)NC(=O)NC3=CC=CC4=C3[C@@H]5CCCN5C4=O,P10415,0.99999917,"1-(5-Oxo-2,3,5,9B-tetrahydro-1H-pyrrolo(2,1-A)isoindol-9-YL)-3-(5-pyrrolidin-2-YL-1H-pyrazol-3-YL)-urea",BCL2,Apoptosis regulator Bcl-2
+C(=C/C(=O)O)C(=O)O,P10415,0.99570566,,BCL2,Apoptosis regulator Bcl-2
+CCCC1=C(C=CC2=C1ON=C2C(F)(F)F)OCCCOC3=CC4=C(C=C3)N(C=C4)CC(=O)O,P10415,1.0,2-{5-[3-(7-Propyl-3-trifluoromethylbenzo[D]isoxazol-6-yloxy)propoxy]indol-1-YL}ethanoic acid,BCL2,Apoptosis regulator Bcl-2
+CCCCCCCCCC[N+](C)(C)[O-],P10415,0.99976164,Capric dimethyl amine oxide,BCL2,Apoptosis regulator Bcl-2
+CC1=CC=C(C=C1)C(=O)C2=CC(=C(C(=C2)O)O)[N+](=O)[O-],P10415,1.0,Tolcapone,BCL2,Apoptosis regulator Bcl-2
+COC1=CC=C(C=C1)CCN2CCC(CC2)NC3=NC4=CC=CC=C4N3CC5=CC=C(C=C5)F,P10415,0.9999993,Astemizole,BCL2,Apoptosis regulator Bcl-2
+C1=CC2=C(C=CN=C2)C(=C1)S(=O)(=O)NCCNC/C=C/C3=CC=C(C=C3)Br,P10415,0.9999938,,BCL2,Apoptosis regulator Bcl-2
+CN(C)CCCN1C2=CC=CC=C2SC3=C1C=C(C=C3)Cl,P10415,0.99999905,Chlorpromazine,BCL2,Apoptosis regulator Bcl-2
+C1=CC(=CC=C1[N+](=O)[O-])O,P10415,0.9999994,4-Nitrophenol,BCL2,Apoptosis regulator Bcl-2
+C([C@@H](C(=O)O)N)OP(=O)(O)O,P10415,0.9999925,Phospho-L-serine,BCL2,Apoptosis regulator Bcl-2
+C(CSSC[C@@H](C(=O)O)N)O,P10415,0.9999999,S-(2-Hydroxyethylthio)cysteine,BCL2,Apoptosis regulator Bcl-2
+C1CCC2=NC3=CC=CC=C3C(=C2C1)NCCCCCCCCNC4=CC=NC5=CC=CC=C54,P10415,0.9999981,Tacrine(8)-4-aminoquinoline,BCL2,Apoptosis regulator Bcl-2
+CCC1=NN(C(=O)N1CCOC2=CC=CC=C2)CCCN3CCN(CC3)C4=CC(=CC=C4)Cl,P10415,1.0,Nefazodone,BCL2,Apoptosis regulator Bcl-2
+C[C@H]1CNCCN1S(=O)(=O)C2=CC=CC3=C2C=CN=C3,P10415,0.9931206,5-{[(2S)-2-methylpiperazin-1-yl]sulfonyl}isoquinoline,BCL2,Apoptosis regulator Bcl-2
+C1=C(C(=C(C(=C1Cl)Cl)CC2=C(C(=CC(=C2Cl)Cl)Cl)O)O)Cl,P10415,0.9999995,Hexachlorophene,BCL2,Apoptosis regulator Bcl-2
+CCCCC1=C2C(=NC=CN2)NC1=C3C=CC(=O)C=C3,P10415,0.99999905,RP107,BCL2,Apoptosis regulator Bcl-2
+CCN1C2=NC(=NC=C2N=C1NC3=CC=CC=C3Cl)NC4=C(C=CC=C4F)F,P10415,0.99999976,"8-(2-Chlorophenylamino)-2-(2,6-difluorophenylamino)-9-ethyl-9H-purine-1,7-diium",BCL2,Apoptosis regulator Bcl-2
+C(C(=O)O)C(=O)O,P10415,0.9999404,Malonic Acid,BCL2,Apoptosis regulator Bcl-2
+CS(=O)C,P10415,0.9999999,Dimethyl Sulfoxide,BCL2,Apoptosis regulator Bcl-2
+OP(=O)(O)OP(=O)(O)OP(=O)(O)O,P10415,0.9999881,Triphosphoric acid,BCL2,Apoptosis regulator Bcl-2
+CC(C)[C@H](CO)NC1=NC2=C(C(=N1)NC3=CC(=CC=C3)Cl)N=CN2C(C)C,P10415,0.99998415,Purvalanol A,BCL2,Apoptosis regulator Bcl-2
+CC1=CC=C(C=C1)C2=NN(C3=C2C(=NC=N3)N)C(C)(C)C,P10415,1.0,"1-Ter-Butyl-3-P-Tolyl-1h-Pyrazolo[3,4-D]Pyrimidin-4-Ylamine",BCL2,Apoptosis regulator Bcl-2
+C([C@@H](C(=O)O)N)SO,P10415,0.9999976,Cysteinesulfenic acid,BCL2,Apoptosis regulator Bcl-2
+C1=CN=C(N=C1)NC2=C3C=C(C=CC3=CC(=C2)C(=O)NC4=CC=C(C=C4)CN)C(=N)N,P10415,0.999803,6-((Z)-Amino(Imino)Methyl)-N-(4-(Aminomethyl)Phenyl)-4-(Pyrimidin-2-Ylamino)-2-Naphthamide,BCL2,Apoptosis regulator Bcl-2
+CC(C)C[C@H](CC(=O)O)C(=O)N[C@H]1CC2=CN(CCCCCCNC1=O)C3=CC=CC=C23,P10415,0.99633104,"5-Methyl-3-(9-oxo-1,8-diaza-tricyclo(10.6.1.013,18)nonadeca-12(19),13,15,17-tetraen-10-ylcarbamoyl)-hexanoic acid",BCL2,Apoptosis regulator Bcl-2
+COCCOCCOCCOCCO,P10415,0.9999981,Tetraethylene glycol monomethyl ether,BCL2,Apoptosis regulator Bcl-2
+CN1C2=NC(=NC=C2C=C(C1=O)C3=C(C=CC=C3Cl)Cl)NC4=CC(=CC=C4)SC,P10415,1.0,PD173955,BCL2,Apoptosis regulator Bcl-2
+CCSC(=NC1=CC=CC=C1)N,P10415,0.99999785,S-Ethyl-N-Phenyl-Isothiourea,BCL2,Apoptosis regulator Bcl-2
+C1=CC(=CC=C1/C=C/C(=O)O)C(=O)O,P10415,0.97503734,,BCL2,Apoptosis regulator Bcl-2
+CCCCCCCC(=O)O,P10415,0.99317425,Octanoic Acid,BCL2,Apoptosis regulator Bcl-2
+CC(=O)S[C@@H]1CC2=CC(=O)CC[C@@]2([C@@H]3[C@@H]1[C@@H]4CC[C@]5([C@]4(CC3)C)CCC(=O)O5)C,P10415,0.96385366,Spironolactone,BCL2,Apoptosis regulator Bcl-2
+C1=CC2=C(C=C1O)ON/C2=C3/C=CC(=O)C=C3O,P10415,1.0,,BCL2,Apoptosis regulator Bcl-2
+CC1=C(C(=C(C2=C1COC2=O)O)C/C=C(C)/CCC(=O)O)OC,P10415,0.9999597,,BCL2,Apoptosis regulator Bcl-2
+C1CCC2=NC3=CC=CC=C3C(=C2C1)N,P10415,0.9999993,Tacrine,BCL2,Apoptosis regulator Bcl-2
+C1=CC=C2C(=C1)C3=NNC4=CC=CC(=C43)C2=O,P10415,0.99999976,"anthra(1,9-cd)pyrazol-6(2H)-one",BCL2,Apoptosis regulator Bcl-2
+CCCCCCCCCCCC,P10415,0.99785656,Dodecane,BCL2,Apoptosis regulator Bcl-2
+C1=CC2=C(NN=C2C(=C1)[N+](=O)[O-])Br,P10415,1.0,3-Bromo-7-Nitroindazole,BCL2,Apoptosis regulator Bcl-2
+C([C@@H](C(=O)O)N)SS,P10415,0.99999905,Thiocysteine,BCL2,Apoptosis regulator Bcl-2
+C1=CC=C(C=C1)C(CNC2=C(C(=C(C=C2)Cl)CC(=O)NCCON=C(N)N)F)(F)F,P10415,1.0,"N-(2-(((amino(imino)methyl)amino)oxy)ethyl)-2-(6-chloro-3-((2,2-difluoro-2-phenylethyl)amino)-2-fluorophenyl)acetamide",BCL2,Apoptosis regulator Bcl-2
+C1=CC2=C(/C(=C/3C4=C(C=C(C=C4)Br)NC3=O)/N=C2C=C1)NO,P10415,1.0,,BCL2,Apoptosis regulator Bcl-2
+C1CCCC(CC1)NCC(=O)N2CCC[C@H]2C(=O)NCC3=CC=C(C=C3)C(=N)N,P10415,0.99938345,N-cycloheptylglycyl-N-(4-carbamimidoylbenzyl)-L-prolinamide,BCL2,Apoptosis regulator Bcl-2
+C1=NC2=C(N1)C(=NC=N2)N,P10415,0.9999989,Adenine,BCL2,Apoptosis regulator Bcl-2
+CC(C)(C)C1=NC2=C(N1)C3=C(C=C(C=C3)F)C4=C2C=CNC4=O,P10415,1.0,Pyridone 6,BCL2,Apoptosis regulator Bcl-2
+C1=CC=C2C=C(C=CC2=C1)NC(=O)[C@H](C3=CSC4=C3C=C(C=C4)Cl)P(=O)(O)O,P10415,1.0,[(1S)-1-(5-Chloro-1-benzothien-3-YL)-2-(2-naphthylamino)-2-oxoethyl]phosphonic acid,BCL2,Apoptosis regulator Bcl-2
+CCO,P10415,0.9999726,Ethanol,BCL2,Apoptosis regulator Bcl-2
+CC1=CC(=NN1)NC2=NC(=NC3=CC=CC=C32)C4=CC=CC=C4,P10415,1.0,N-(5-methyl-1H-pyrazol-3-yl)-2-phenylquinazolin-4-amine,BCL2,Apoptosis regulator Bcl-2
+CN1CCCCC1CCN2C3=CC=CC=C3SC4=C2C=C(C=C4)SC,P10415,0.9998987,Thioridazine,BCL2,Apoptosis regulator Bcl-2
+C(CC(=O)O)C(=O)C(=O)O,P10415,0.99801564,2-Oxoglutaric Acid,BCL2,Apoptosis regulator Bcl-2
+C1[C@@H]([C@H](CSS1)O)O,P10415,0.9999993,"(4R,5R)-1,2-dithiane-4,5-diol",BCL2,Apoptosis regulator Bcl-2
+[Fe],P10415,0.97858447,Iron,BCL2,Apoptosis regulator Bcl-2
+C(CC(=O)N[C@@H](CS)C(=O)NCC(=O)O)[C@@H](C(=O)O)N,P10415,0.999708,Glutathione,BCL2,Apoptosis regulator Bcl-2
+C(=O)C(=O)O,P10415,0.99949586,Glyoxylic Acid,BCL2,Apoptosis regulator Bcl-2
+CN(C)S(=O)(=O)C1=CC2=C(C=C1)NC(=O)/C2=CC3=CC4=C(N3)CCCC4,P10415,0.9999995,,BCL2,Apoptosis regulator Bcl-2
+CC(=O)OCC[N+](C)(C)C,P10415,0.99989665,Acetylcholine,BCL2,Apoptosis regulator Bcl-2
+[Zn],P10415,1.0,Zinc,BCL2,Apoptosis regulator Bcl-2
+C1[C@@H]([C@H]([C@@H](CN1)O)O)CO,P10415,0.9806307,Afegostat,BCL2,Apoptosis regulator Bcl-2
+C([C@@H](C(=O)O)N)S(=O)(=O)O,P10415,0.9999982,L-Cysteic acid,BCL2,Apoptosis regulator Bcl-2
+C1CCC(CC1)COC2=NC3=NC=NN3C(=C2)NC4=CC=C(C=C4)S(=O)(=O)N,P10415,0.99999845,"4-((5-(Cyclohexylmethoxy)(1,2,4)triazolo(1,5-A)pyrimidin-7-YL)amino)benzenesulfonamide",BCL2,Apoptosis regulator Bcl-2
+C1COCCO1,P10415,1.0,"1,4-Dioxane",BCL2,Apoptosis regulator Bcl-2
+COC1=CC=C(C=C1)S(=O)(=O)N2CCN(CC2)S(=O)(=O)C3=CC4=C(C=C3)OCCO4,P62714,0.96407306,"1-(2,3-Dihydro-1,4-benzodioxin-6-ylsulfonyl)-4-((4-methoxyphenyl)sulfonyl)piperazine",PPP2CB,Serine/threonine-protein phosphatase 2A catalytic subunit beta isoform
+CC1=CC2=C(S1)C3=C(N2C)C(=O)N(N=C3)CC4=CC=CC=C4F,P62714,0.99999976,"6-(2-fluorobenzyl)-2,4-dimethyl-4,6-dihydro-5H-thieno(2',3':4,5)pyrrolo(2,3-d)pyridazin-5-one",PPP2CB,Serine/threonine-protein phosphatase 2A catalytic subunit beta isoform
+C[C@@]1(C(=O)N(C(=O)O1)NC2=CC=CC=C2)C3=CC=C(C=C3)OC4=CC=CC=C4,O14818,0.9999994,(S)-famoxadone,PSMA7,Proteasome subunit alpha type-7
+C1COCCN1CC2=CC3=C(SC(=C3)S(=O)(=O)N)S(=O)(=O)N2C4=CC(=CC=C4)O,P08238,0.99999917,"Al-6619, [2h-Thieno[3,2-E]-1,2-Thiazine-6-Sulfonamide,2-(3-Hydroxyphenyl)-3-(4-Morpholinyl)-, 1,1-Dioxide]",HSP90AB1,Heat shock protein HSP 90-beta
+C1C(OC(=N1)N)C2=CC=CC=C2,P08238,0.9604924,Aminorex,HSP90AB1,Heat shock protein HSP 90-beta
+CC1=CC(=C2C(=C1)C(=O)C3=CC(=CC(=C3C2=O)O)O)O,P08238,0.9999907,Emodin,HSP90AB1,Heat shock protein HSP 90-beta
+C1=CC=C(C=C1)C2=CC3=C(C4=C(N3CCC(=O)O)C=CC(=C4)O)C5=C2C(=O)NC5=O,P08238,0.9999994,"3-(9-hydroxy-1,3-dioxo-4-phenyl-2,3-dihydropyrrolo[3,4-c]carbazol-6(1H)-yl)propanoic acid",HSP90AB1,Heat shock protein HSP 90-beta
+C1=CC=C(C=C1)COC2=C(N=CC=C2)N,P08238,0.9999927,2-Amino-3-benzyloxypyridine,HSP90AB1,Heat shock protein HSP 90-beta
+CC1=CC2=C(C=C1)N(C3=C2C4=C(C(=C3)C)C(=O)NC4=O)CCCN,P08238,0.9999999,"6-(3-Aminopropyl)-4,9-dimethylpyrrolo[3,4-C]carbazole-1,3(2H,6H)-dione",HSP90AB1,Heat shock protein HSP 90-beta
+C1=CC(=C(C=C1I)C(=O)O)NC(=O)C(=O)O,P08238,0.9999999,Novo Nordisk a/S Compound,HSP90AB1,Heat shock protein HSP 90-beta
+C1=C(C=C(C(=C1Br)O)Br)C[C@@H](C(=O)O)N,P08238,0.9999993,"3,5-dibromo-L-tyrosine",HSP90AB1,Heat shock protein HSP 90-beta
+CC1=NC(=O)C2=C(N1)CCSC2,P08238,1.0,"2-Methyl-3,5,7,8-tetrahydrothiopyrano(4,3-d)pyrimidine-4-one",HSP90AB1,Heat shock protein HSP 90-beta
+C[N+](C)(C)CCOC(=O)CCC(=O)OCC[N+](C)(C)C,P08238,0.9919362,Succinylcholine,HSP90AB1,Heat shock protein HSP 90-beta
+CC(=O)NC1=C(NN=C1)C(=O)NC2=CC=C(C=C2)F,P08238,1.0,4-(acetylamino)-N-(4-fluorophenyl)-1H-pyrazole-3-carboxamide,HSP90AB1,Heat shock protein HSP 90-beta
+COC(=O)C1=C(C=CC=C1OC/C=C/C2=CC=CC(=C2)C3=C(C(=NO3)C(=O)O)CO)O,P08238,0.99999857,,HSP90AB1,Heat shock protein HSP 90-beta
+C1=CC(=CC=C1CCSC(=N)N)CCSC(=N)N,P08238,0.99999976,"S,S'-(1,4-Phenylene-Bis(1,2-Ethanediyl))Bis-Isothiourea",HSP90AB1,Heat shock protein HSP 90-beta
+C1CNCCC1(C2=CC=C(C=C2)C3=CNN=C3)C4=CC=C(C=C4)Cl,P08238,0.99999666,AT-7867,HSP90AB1,Heat shock protein HSP 90-beta
+CC1=CNC(=O)NC1=O,P08238,0.99967587,Thymine,HSP90AB1,Heat shock protein HSP 90-beta
+CCOC(=O)[C@H](CCC1=CC=CC=C1)N[C@@H](C)C(=O)N2[C@H]3CCCC[C@@H]3C[C@H]2C(=O)O,P08238,0.9999776,Trandolapril,HSP90AB1,Heat shock protein HSP 90-beta
+C1=CC(=CC(=C1)Cl)C2=CNN/C2=C/3C=C(N=C3)C(=O)N[C@H](CO)C4=CC(=C(C=C4)F)Cl,P08238,0.9999999,,HSP90AB1,Heat shock protein HSP 90-beta
+CC1=C(C=C(C=C1)C(=O)NC)NC2=NC=NC3=C2C=NN3C4=CC=CC=C4,P08238,0.99999976,"N,4-dimethyl-3-({1-phenyl-1H-pyrazolo[3,4-d]pyrimidin-4-yl}amino)benzamide",HSP90AB1,Heat shock protein HSP 90-beta
+C1CCC(CC1)COC2=NC(=NC(=C2N=O)N)N,P08238,0.9999999,NU-6027,HSP90AB1,Heat shock protein HSP 90-beta
+CC1=CC(=[N+](C(=C1)C)CCC2=CC=C(C=C2)S(=O)(=O)N)C,P08238,0.99999046,"1-N-(4-Sulfamoylphenyl-ethyl)-2,4,6-trimethylpyridinium",HSP90AB1,Heat shock protein HSP 90-beta
+CC1=CC(=NC(=C1)N)C[C@H]2CNC[C@@H]2NCCNCC3=CC(=CC=C3)Cl,P08238,0.99997675,"N-((3R,4S)-4-((6-amino-4-methylpyridin-2-yl)methyl)pyrrolidin-3-yl)-N'-(3-chlorobenzyl)ethane-1,2-diamine",HSP90AB1,Heat shock protein HSP 90-beta
+COC1=CC2=C(C=C1)SC3=C2NC[C@H](NC3=O)CN,P08238,0.99996686,"(3R)-3-(aminomethyl)-9-methoxy-1,2,3,4-tetrahydro-5H-[1]benzothieno[3,2-e][1,4]diazepin-5-one",HSP90AB1,Heat shock protein HSP 90-beta
+CN1C2=C(C=N1)N=CN=C2NCCC3=CN=C(S3)NC(=O)NC4=CC=CC(=C4)C(F)(F)F,P08238,0.9999999,"1-(5-{2-[(1-methyl-1H-pyrazolo[4,3-d]pyrimidin-7-yl)amino]ethyl}-1,3-thiazol-2-yl)-3-[3-(trifluoromethyl)phenyl]urea",HSP90AB1,Heat shock protein HSP 90-beta
+CC1=NC=C(N1C2CC2)C3=NC(=NC=C3)NC4=CC=C(C=C4)S(=O)(=O)NC,P08238,0.9999895,4-((4-(1-Cyclopropyl-2-methyl-1H-imidazol-5-YL)pyrimidin-2-YL)amino)-N-methylbenzenesulfonamide,HSP90AB1,Heat shock protein HSP 90-beta
+CCCCCC,P08238,0.9993789,Hexane,HSP90AB1,Heat shock protein HSP 90-beta
+C1C[C@H]([C@@H](CNC1)NC(=O)C2=CC=C(C=C2)O)OC(=O)C3=CC=C(C=C3)O,P08238,0.99996555,3-[(4-Hydroxybenzoyl)amino]azepan-4-YL 4-hydroxybenzoate,HSP90AB1,Heat shock protein HSP 90-beta
+C1=CC(=CC=C1NC2=CN=CC(=N2)Cl)S(=O)(=O)N,P08238,0.99999976,4-[(6-Chloropyrazin-2-yl)amino]benzenesulfonamide,HSP90AB1,Heat shock protein HSP 90-beta
+CC1=C(SC(=N1)C)C2=NC(=NC=C2)NC3=CC=C(C=C3)C(F)(F)F,P08238,1.0,"4-(2,4-Dimethyl-1,3-thiazol-5-yl)-N-[4-(trifluoromethyl)phenyl]-2-pyrimidinamine",HSP90AB1,Heat shock protein HSP 90-beta
+C1=CC=C(C=C1)NC(=O)C2=CC=NN2,P08238,0.9999999,N-Phenyl-1H-pyrazole-3-carboxamide,HSP90AB1,Heat shock protein HSP 90-beta
+CC1=CNC(=C1CCC(=O)O)/C=C2/C3=CC=CC=C3NC2=O,P08238,0.9991811,,HSP90AB1,Heat shock protein HSP 90-beta
+C1=CC=C2C(=C1)C(=NN2)C(=O)NC3=CC=C(C=C3)S(=O)(=O)N,P08238,0.9999999,N-(4-sulfamoylphenyl)-1H-indazole-3-carboxamide,HSP90AB1,Heat shock protein HSP 90-beta
+C1=CC=C(C=C1)C2=CN3C(=CN=C3C(=C2)NCC4=CN=CN=C4)Br,P08238,0.9999995,"3-bromo-6-phenyl-N-(pyrimidin-5-ylmethyl)imidazo[1,2-a]pyridin-8-amine",HSP90AB1,Heat shock protein HSP 90-beta
+C1CN(CCN1CCC(=O)C2=CC(=C(C(=C2)O)O)[N+](=O)[O-])C3=CC=CC(=C3)C(F)(F)F,P08238,1.0,BIA-3-335 free base,HSP90AB1,Heat shock protein HSP 90-beta
+COC1=C(C=C2C(=C1)C(=NC=N2)NC3=CC(=CC=C3)O)OC,P08238,0.99996793,"4-(3-Hydroxyanilino)-6,7-Dimethoxyquinazoline",HSP90AB1,Heat shock protein HSP 90-beta
+C1=CC=C(C(=C1)/C=N/OCCC(=O)O)C(F)(F)F,P08238,1.0,,HSP90AB1,Heat shock protein HSP 90-beta
+C1C=CC(=C1C(=O)O)C(=O)NC2=C(C(=C(C(=C2F)F)C3=CC(=CC=C3)OC(F)(F)F)F)F,P08238,1.0,"2-({[2,3,5,6-Tetrafluoro-3'-(trifluoromethoxy)biphenyl-4-YL]amino}carbonyl)cyclopenta-1,3-diene-1-carboxylic acid",HSP90AB1,Heat shock protein HSP 90-beta
+C1CC1C2=CC(=NN2)NC(=O)CC3=CC4=CC=CC=C4C=C3,P08238,0.9999999,Pnu-292137,HSP90AB1,Heat shock protein HSP 90-beta
+CCC[N+]#[C-],P08238,0.97573835,,HSP90AB1,Heat shock protein HSP 90-beta
+C1=CC=C2C(=C1)NC(=N2)C3=CSC=N3,P08238,1.0,Thiabendazole,HSP90AB1,Heat shock protein HSP 90-beta
+C([C@@H](C(=O)O)N)O,P08238,0.99926966,L-Serine,HSP90AB1,Heat shock protein HSP 90-beta
+C[N+](C)(C)C[C@@H](CC(=O)[O-])O,P08238,0.99756646,(-)-Carnitine,HSP90AB1,Heat shock protein HSP 90-beta
+CC1=C(OC2=C(C1=O)C=C(C=C2)O)C3=CC(=C(C(=C3)Br)O)Br,P08238,1.0,"2-(3,5-Dibromo-4-hydroxyphenyl)-6-hydroxy-3-methyl-4H-1-benzopyran-4-one",HSP90AB1,Heat shock protein HSP 90-beta
+CN(C)C[C@H](COC1=CC=C(C=C1)NC2=CC(=NC=N2)NC3=C(C=CC=C3F)F)O,P08238,0.9947803,"(2R)-1-(4-((6-((2,6-Difluorophenyl)amino)-4-pyrimidinyl)amino)phenoxy)-3-(dimethylamino)-2-propanol",HSP90AB1,Heat shock protein HSP 90-beta
+CCCC[N+]#[C-],P08238,0.9511014,,HSP90AB1,Heat shock protein HSP 90-beta
+C(C[C@@H](C(=O)O)N)CNC(=S)N,P08238,0.9997811,L-Thiocitrulline,HSP90AB1,Heat shock protein HSP 90-beta
+CCOCCO,P08238,0.9999697,Glycol monoethyl ether,HSP90AB1,Heat shock protein HSP 90-beta
+C([C@H]([C@@H](C(=O)CO)O)O)OP(=O)(O)O,P08238,0.99938035,D-xylulose 5-phosphate,HSP90AB1,Heat shock protein HSP 90-beta
+CC1=C(N2C=CC=CC2=N1)C3=NC(=NC=C3)NC(=O)C,P08238,1.0,"N-[4-(2-Methylimidazo[1,2-A]pyridin-3-YL)-2-pyrimidinyl]acetamide",HSP90AB1,Heat shock protein HSP 90-beta
+C([C@H](C=O)O)OP(=O)(O)O,P08238,0.99993694,Triose phosphate,HSP90AB1,Heat shock protein HSP 90-beta
+C[Hg+],P08238,0.99999785,Methylmercury(1+),HSP90AB1,Heat shock protein HSP 90-beta
+C1=CC=C2C=C(C(=CC2=C1)C(=O)O)NC(=O)C(=O)O,P08238,0.9999988,3-(Oxalyl-Amino)-Naphthalene-2-Carboxylic Acid,HSP90AB1,Heat shock protein HSP 90-beta
+C1CCC2=NC3=CC=CC=C3C(=C2C1)NCCN4C(=CN=N4)CCCCCC[N+]5=C6C=C(C=CC6=C7C=CC(=CC7=C5C8=CC=CC=C8)N)N,P08238,0.9999728,"3,8-Diamino-6-Phenyl-5-[6-[1-[2-[(1,2,3,4-Tetrahydro-9-Acridinyl)Amino]Ethyl]-1h-1,2,3-Triazol-5-Yl]Hexyl]-Phenanthridinium",HSP90AB1,Heat shock protein HSP 90-beta
+C1[C@H](NC(=O)NC1=O)C(=O)O,P08238,0.9999939,"Hydroorotic acid, L-",HSP90AB1,Heat shock protein HSP 90-beta
+C[S@@](=O)C1=CC=C(C=C1)C2=NC(=C(N2)C3=CC=NC=C3)C4=CC(=CC=C4)I,P08238,0.99999964,4-(5-(3-Iodo-phenyl)-2-(4-methanesulfinyl-phenyl)-1H-imidazol-4-YL)-pyridine,HSP90AB1,Heat shock protein HSP 90-beta
+C1=CC(=CC=C1CN)NC(=O)C(=O)O,P08238,0.999627,"[[4-(Aminomethyl)Phenyl]Amino]Oxo-Acetic Acid,",HSP90AB1,Heat shock protein HSP 90-beta
+C1=CN=C(N=C1C2=C(SC(=C2)Cl)Cl)N,P08238,1.0,"4-(2,5-Dichloro-Thiophen-3-Yl)-Pyrimidin-2-Ylamine",HSP90AB1,Heat shock protein HSP 90-beta
+C1[C@H](CN[C@@H]1CNS(=O)(=O)C2=CC=CC3=C2C=CN=C3)OCC4=CC=C(C=C4)Cl,P08238,0.99942964,"(4R,2S)-5'-(4-(4-Chlorobenzyloxy)pyrrolidin-2-ylmethanesulfonyl)isoquinoline",HSP90AB1,Heat shock protein HSP 90-beta
+C1=CC(=C(C(=C1)Cl)C2=C3C=CC(=NN3C=NC2=O)SC4=C(C=C(C=C4)F)F)Cl,P08238,1.0,"5-(2,6-Dichlorophenyl)-2-((2,4-difluorophenyl)thio)-6H-pyrimido(1,6-b)pyridazin-6-one",HSP90AB1,Heat shock protein HSP 90-beta
+C1=CC2=C(C=CC(=C2)C(F)(F)P(=O)(O)O)C=C1C(=O)O,P08238,0.99999976,6-(Difluoro-phosphono-methyl)-naphthalene-2-carboxylic acid,HSP90AB1,Heat shock protein HSP 90-beta
+CN(C)C[C@@H](COC1=CC=C(C=C1)NC2=NC=C(C(=N2)NC3=CC=CC=C3)Br)O,P08238,0.99999285,(2S)-1-{4-[(4-Anilino-5-bromo-2-pyrimidinyl)amino]phenoxy}-3-(dimethylamino)-2-propanol,HSP90AB1,Heat shock protein HSP 90-beta
+C1=CC=C(C=C1)C2=CC(=O)OC3=C2C=CC(=C3O)O,P08238,0.9990403,"4-Phenyl-7,8-dihydroxycoumarin",HSP90AB1,Heat shock protein HSP 90-beta
+CC1=CC(=NC(=N1)OC2=CC=C(C=C2)N3C=CN=C3)OC4=CC5=C(C=C4)OCO5,P08238,1.0,"4-(1,3-Benzodioxol-5-yloxy)-2-[4-(1H-imidazol-1-YL)phenoxy]-6-methylpyrimidine",HSP90AB1,Heat shock protein HSP 90-beta
+C1[C@@H]2COC(=O)N2C3=C(N1)NC(=NC3=O)N,P08238,0.9999969,"5,6-Cyclic-Tetrahydropteridine",HSP90AB1,Heat shock protein HSP 90-beta
+C1=CC=C2C(=C1)C(=C3N2C4=CC=CC=C4C(=O)N3)CC(=O)O,P08238,0.9999999,"(5-Oxo-5,6-dihydroindolo(1,2-a)quinazolin-7-yl)acetic acid",HSP90AB1,Heat shock protein HSP 90-beta
+C1=CC(=CC(=C1)Cl)CNCCC2=CC=C(C=C2)N=C(C3=CC=CS3)N,P08238,0.9999999,N-(4-{2-[(3-chlorobenzyl)amino]ethyl}phenyl)thiophene-2-carboximidamide,HSP90AB1,Heat shock protein HSP 90-beta
+C([C@H](C(=O)O)OP(=O)(O)O)O,P08238,0.9999565,2-Phospho-D-Glyceric Acid,HSP90AB1,Heat shock protein HSP 90-beta
+C[C@@H]([C@H](C(=O)O)N)C(=O)O,P08238,0.99997497,"(2R,3S)-2-amino-3-methylbutanedioic acid",HSP90AB1,Heat shock protein HSP 90-beta
+C1=CC(=CC(=C1)NC2=C(C=CC=N2)C(=O)O)C(F)(F)F,P08238,0.9999999,Niflumic Acid,HSP90AB1,Heat shock protein HSP 90-beta
+C1=CC=C(C(=C1)C(=O)N)NC2=NC(=NC=C2)NC3=CC(=CC=C3)O,P08238,0.99999213,2-((2-((3-Hydroxyphenyl)amino)pyrimidin-4-yl)amino)benzamide,HSP90AB1,Heat shock protein HSP 90-beta
+C1CC2=C(C1)C=C(C=C2)S(=O)(=O)N,P08238,0.99998784,Indane-5-sulfonamide,HSP90AB1,Heat shock protein HSP 90-beta
+CCCCC[C@H](CC(=O)NO)C(=O)N[C@@H](C(C)C)C(=O)N1CCC[C@H]1CO,P08238,0.9989793,Actinonin,HSP90AB1,Heat shock protein HSP 90-beta
+COC1=C(C=C(C=C1)CSC2=NN=C(O2)C3=CC4=C(C=C3)OCO4)F,P08238,1.0,"2-(1,3-Benzodioxol-5-yl)-5-((3-fluoro-4-methoxybenzyl)sulfanyl)-1,3,4-oxadiazole",HSP90AB1,Heat shock protein HSP 90-beta
+CSC(=NCCCCCCCCCCCCCCN=C(N)SC)N,P08238,0.9999995,"N1,N14-Bis((S-Methyl)Isothioureido)Tetradecane",HSP90AB1,Heat shock protein HSP 90-beta
+C(=O)(C(=O)O)O,P08238,0.99943763,Oxalic Acid,HSP90AB1,Heat shock protein HSP 90-beta
+C1=C(C=C(C(=C1S(=O)(=O)N)Cl)Cl)S(=O)(=O)N,P08238,0.9999994,Dichlorphenamide,HSP90AB1,Heat shock protein HSP 90-beta
+C1CNC[C@H]([C@@H]1C2=CC=C(C=C2)F)COC3=CC4=C(C=C3)OCO4,P08238,0.9999951,Paroxetine,HSP90AB1,Heat shock protein HSP 90-beta
+COC1=CC=CC(=C1)N2C=CC3=C(S2(=O)=O)SC(=C3)S(=O)(=O)N,P08238,1.0,AL6528,HSP90AB1,Heat shock protein HSP 90-beta
+C1=NC2=C(C(=N1)N)N=CN2[C@H]3[C@@H]([C@@H]([C@H](O3)CO)O)O,P08238,0.97980505,Adenosine,HSP90AB1,Heat shock protein HSP 90-beta
+C1C[C@H](N(C1)C(=O)[C@@H]2CCCN2C(=O)OCC3=CC=CC=C3)C=O,P08238,0.9999999,Z-Pro-Prolinal,HSP90AB1,Heat shock protein HSP 90-beta
+CC1=CC=CC=C1C2=NC3=C(C=NN3C(=C2)NCC4=C[N+](=CC=C4)[O-])Br,P08238,1.0,"3-((3-Bromo-5-o-tolylpyrazolo(1,5-a)pyrimidin-7-ylamino)methyl)pyridine 1-oxide",HSP90AB1,Heat shock protein HSP 90-beta
+C1=C(C=C(C=C1C(=O)O)C(=O)O)C(=O)O,P08238,0.99980336,"1,3,5-Benzenetricarboxylic acid",HSP90AB1,Heat shock protein HSP 90-beta
+C1=CC=C(C=C1)CNC2=CC=CC(=C2)C3=C(C(=C(S3)C(=O)O)OCC(=O)O)Br,P08238,1.0,5-[3-(Benzylamino)phenyl]-4-bromo-3-(carboxymethoxy)thiophene-2-carboxylic acid,HSP90AB1,Heat shock protein HSP 90-beta
+CNS(=O)(=O)C1=CC=C(C=C1)C2=CC=C(O2)/C=C3/C(=O)N=C(S3)N,P08238,0.9999999,,HSP90AB1,Heat shock protein HSP 90-beta
+C1=CC=C(C(=C1)C(=O)NC2=CC=C(C=C2)Cl)NCC3=CC=NC=C3,P08238,0.99999523,N-(4-Chlorophenyl)-2-[(pyridin-4-ylmethyl)amino]benzamide,HSP90AB1,Heat shock protein HSP 90-beta
+C1=CC=C(C=C1)C(=O)C2=C(C(=C(C=C2)O)O)[N+](=O)[O-],P08238,1.0,"3,4-Dihydroxy-2-nitrobenzophenone",HSP90AB1,Heat shock protein HSP 90-beta
+CC(C)(C)N1C2=C(C(=N1)C3=CC(=CC=C3)O)C(=NC=N2)N,P08238,1.0,"3-{4-amino-1-tert-butyl-1H-pyrazolo[3,4-d]pyrimidin-3-yl}phenol",HSP90AB1,Heat shock protein HSP 90-beta
+CC(C)C1=NC2=C(N1)C(=NC(=N2)N)OCC3CCCCC3,P08238,0.99999976,6-(Cyclohexylmethoxy)-8-isopropyl-9H-purin-2-amine,HSP90AB1,Heat shock protein HSP 90-beta
+C[C@H]1CNCCCN1S(=O)(=O)C2=CC=CC3=CN=CC(=C32)C,P08238,0.9974617,H-1152,HSP90AB1,Heat shock protein HSP 90-beta
+CN1C2=C(C3=C(C(=C2)C4=CC=CC=C4Cl)C(=O)NC3=O)C(=C1C(=O)NCCO)Br,P08238,0.9999919,"8-bromo-4-(2-chlorophenyl)-N-(2-hydroxyethyl)-6-methyl-1,3-dioxo-1,2,3,6-tetrahydropyrrolo[3,4-e]indole-7-carboxamide",HSP90AB1,Heat shock protein HSP 90-beta
+CN1C=C(C2=C1C=CC(=C2)F)C3=C(C(=O)NC3=O)C4=CC(=CC=C4)NC[C@@H](CO)O,P08238,0.99999297,"3-[3-[[(2S)-2,3-dihydroxypropyl]amino]phenyl]-4-(5-fluoro-1-methylindol-3-yl)pyrrole-2,5-dione",HSP90AB1,Heat shock protein HSP 90-beta
+CC1=C(C=C(C=C1)C(=O)NC2=CC=CC(=C2)C(F)(F)F)C3=CC4=CN=C(N=C4C=C3)N,P08238,1.0,3-(2-aminoquinazolin-6-yl)-4-methyl-N-(3-(trifluoromethyl)phenyl)benzamide,HSP90AB1,Heat shock protein HSP 90-beta
+CN1C2=C(CCC3=CN=C(N=C32)NC4=CC=CC=C4)C(=N1)C(=O)O,P08238,1.0,"1-methyl-8-(phenylamino)-4,5-dihydro-1H-pyrazolo(4,3-h)quinazoline-3-carboxylic acid",HSP90AB1,Heat shock protein HSP 90-beta
+CC(C)(C)OC(=O)N1CC2=C(C[C@@H]1C(=O)NC)C=CC(=C2)NS(=O)(=O)O,P08238,0.99994826,"((3R)-3-(Methylcarbamoyl)-2-(((2-methyl-2-propanyl)oxy)carbonyl)-1,2,3,4-tetrahydro-7-isoquinolinyl)sulfamic acid",HSP90AB1,Heat shock protein HSP 90-beta
+C1=CC=C2C(=C1)C(=CN2)C[C@@H](C(=O)N)N,P08238,0.9998319,L-Tryptophanamide,HSP90AB1,Heat shock protein HSP 90-beta
+C1CN2C(=N1)C3=CC=CC=C3C2(C4=CC=C(C=C4)Cl)O,P08238,0.9999989,Mazindol,HSP90AB1,Heat shock protein HSP 90-beta
+CC(=O)NC1=CC=C(C=C1)O,P08238,0.958491,Acetaminophen,HSP90AB1,Heat shock protein HSP 90-beta
+C(C[C@@H](C(=O)O)N)CN=C(N)N,P08238,0.9998673,L-Arginine,HSP90AB1,Heat shock protein HSP 90-beta
+CC1=CC=C(C=C1)S(=O)(=O)NC(=O)NC2=CC=C(C=C2)S(=O)(=O)N,P08238,0.9999999,N-({[4-(Aminosulfonyl)phenyl]amino}carbonyl)-4-methylbenzenesulfonamide,HSP90AB1,Heat shock protein HSP 90-beta
+CCC1=CN=C(C=C1)CCOC2=CC=C(C=C2)CC3C(=O)NC(=O)S3,P08238,0.99998355,Pioglitazone,HSP90AB1,Heat shock protein HSP 90-beta
+B(C1=CC=CC=C1)(O)O,P08238,0.9898811,Phenylboronic Acid,HSP90AB1,Heat shock protein HSP 90-beta
+CC(=O)N[C@@H](CC1=CC=CC=C1)C(=O)N[C@@H](CC2=CC=C(C=C2)C(F)(F)P(=O)(O)O)C(=O)N,P08238,0.99995446,N-acetyl-L-phenylalanyl-4-(difluoro(phosphono)methyl)-L-phenylalaninamide,HSP90AB1,Heat shock protein HSP 90-beta
+C1=CC2=C(C=CC=C2S(=O)(=O)N)C(=C1)O,P08238,0.9999975,5-Hydroxynaphthalene-1-sulfonamide,HSP90AB1,Heat shock protein HSP 90-beta
+CNCCNS(=O)(=O)C1=CC=CC2=C1C=CN=C2,P08238,0.9993599,N-(2-(Methylamino)ethyl)-5-isoquinolinesulfonamide,HSP90AB1,Heat shock protein HSP 90-beta
+C1C2=CC(=CC(=C2OCO1)CN3C4=CC=CC(=C4/C(=N/O)/C3=O)C5=CC=CC=C5)F,P08238,1.0,,HSP90AB1,Heat shock protein HSP 90-beta
+C(C(=O)COP(=O)(O)O)O,P08238,0.99978787,Dihydroxyacetone Phosphate,HSP90AB1,Heat shock protein HSP 90-beta
+C1CCCC(CC1)CC2=CC3=C(S2(=O)=O)C=C(C=C3)OS(=O)(=O)N,P08238,0.9999993,Emd 486019,HSP90AB1,Heat shock protein HSP 90-beta
+CCN1C2=CC3=C4CCCC5=C(NNC5=C4N=C3C=C2C(C1=O)(C)C)C,P08238,1.0,Aki-001,HSP90AB1,Heat shock protein HSP 90-beta
+C1=CC=C(C=C1)C2=CC3=C(C4=C(N3)C=CC(=C4)O)C5=C2C(=O)NC5=O,P08238,0.9999975,"9-Hydroxy-4-phenylpyrrolo[3,4-C]carbazole-1,3(2H,6H)-dione",HSP90AB1,Heat shock protein HSP 90-beta
+C1=CC=C2C(=C1)C(=O)N[C@@]2(C3=CC(=C(C=C3)Cl)S(=O)(=O)N)O,P08238,0.9999964,2-chloro-5-((1S)-1-hydroxy-3-oxo-2H-isoindol-1-yl)benzenesulfonamide,HSP90AB1,Heat shock protein HSP 90-beta
+CS(=O)(=O)C1=CC=C(C=C1)NC2=CC(=NC3=CC=NN32)Cl,P08238,0.9999995,"(5-Chloropyrazolo(1,5-a)Pyrimidin-7-Yl)-(4-Methanesulfonylphenyl)Amine",HSP90AB1,Heat shock protein HSP 90-beta
+C1=CC=C(C=C1)NC2=NC(=O)C3=C(N2)N(C=N3)CCCCO,P08238,0.99999964,9-(4-Hydroxybutyl)-N2-Phenylguanine,HSP90AB1,Heat shock protein HSP 90-beta
+C1=C(C=C(C(=C1O)O)O)C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)O,P08238,0.999925,Myricetin,HSP90AB1,Heat shock protein HSP 90-beta
+CC1=C(C=C(C=C1)C(=O)NC2CC2)C3=CC=C(C=C3)C(=O)NCC4CC4,P08238,0.99999964,"N~3~-cyclopropyl-N~4~'-(cyclopropylmethyl)-6-methylbiphenyl-3,4'-dicarboxamide",HSP90AB1,Heat shock protein HSP 90-beta
+CC(=O)C1=CC=CC(=C1)C2=CN=C3N2N=C(C=C3)NCC4CC4,P08238,0.9999987,Imidazopyridazin 1,HSP90AB1,Heat shock protein HSP 90-beta
+C(=N)(N)N,P08238,0.99999976,Guanidine,HSP90AB1,Heat shock protein HSP 90-beta
+C1=CC(=CC=C1CN(C2=CC=C(C=C2)C#N)N3C=NN=C3)OS(=O)(=O)N,P08238,0.9999999,,HSP90AB1,Heat shock protein HSP 90-beta
+C1OC2=C(O1)C=C(C=C2)OC3=NC(=NC=C3)OC4=CC=C(C=C4)N5C=CN=C5,P08238,1.0,"4-(1,3-Benzodioxol-5-yloxy)-2-[4-(1H-imidazol-1-YL)phenoxy]pyrimidine",HSP90AB1,Heat shock protein HSP 90-beta
+CN1CCC2(CC1)[C@@H](C3=C(C(=O)N2)N(C4=C3C=CC(=C4Cl)Cl)C)C#N,P08238,0.9999862,,HSP90AB1,Heat shock protein HSP 90-beta
+CCCN1C(=NC(=C1C2=NC(=NC=C2)NC3CCCCC3)C4=CC(=C(C=C4)Cl)Cl)C5CCNCC5,P08238,0.99999917,"Cyclohexyl-(4-(5-(3,4-Dichlorophenyl)-2-Piperidin-4-Yl-3-Propyl-3h-Imidazol-4-Yl)-Pyrimidin-2-Yl)Amine",HSP90AB1,Heat shock protein HSP 90-beta
+CC#CCOC1=CC=C(C=C1)S(=O)(=O)CCCS,P08238,0.9999994,,HSP90AB1,Heat shock protein HSP 90-beta
+C1(=C(C(=C(C(=C1Br)Br)Br)Br)Br)O,P08238,0.99999976,Pentabromophenol,HSP90AB1,Heat shock protein HSP 90-beta
+CCCC(=O)SCC[N+](C)(C)C,P08238,0.997256,Butyrylthiocholine,HSP90AB1,Heat shock protein HSP 90-beta
+CC(C)C[C@H](CC(=O)NO)C(=O)N[C@@H](CC1=CC=C(C=C1)OC)C(=O)NC,P08238,0.95510715,N-(2-Isobutyl-3-(N'-hydroxycarbonylamido)propanoyl)-O-methyltyrosinemethylamide,HSP90AB1,Heat shock protein HSP 90-beta
+C1=C(C=C2C(=C1O)C(=O)/C(=C/C3=CC(=C(C(=C3O)Br)O)Br)/O2)O,P08238,0.9999999,,HSP90AB1,Heat shock protein HSP 90-beta
+C1CNCCN(C1)S(=O)(=O)C2=CC=CC3=C2C=CNC3=O,P08238,0.9999976,Hydroxyfasudil,HSP90AB1,Heat shock protein HSP 90-beta
+C1COCCN1C(=O)/C=C/C2=C(C(=C(C=C2)SC3=CC=CC(=C3)N)C(F)(F)F)C(F)(F)F,P08238,1.0,,HSP90AB1,Heat shock protein HSP 90-beta
+CC(C)SC(=N)N,P08238,0.9999826,S-Isopropyl-Isothiourea,HSP90AB1,Heat shock protein HSP 90-beta
+C1=CC=C(C=C1)S(=O)(=O)NC2=NN=C(S2)S(=O)(=O)N,P08238,1.0,Benzolamide,HSP90AB1,Heat shock protein HSP 90-beta
+C1[C@@H](C2=C(C=C(N2)C3=NC(=NC=C3)N)C(=O)N1)CCF,P08238,0.9999995,"(7S)-2-(2-aminopyrimidin-4-yl)-7-(2-fluoroethyl)-1,5,6,7-tetrahydro-4H-pyrrolo[3,2-c]pyridin-4-one",HSP90AB1,Heat shock protein HSP 90-beta
+C1=CC=C(C=C1)C(=O)NC2=NNC3=C2C=C(C=C3)NC(=O)[C@@H](CCN)C4=CC(=CC=C4)Cl,P08238,0.99999654,N-(5-(((2S)-4-amino-2-(3-chlorophenyl)butanoyl)amino)-1H-indazol-3-yl)benzamide,HSP90AB1,Heat shock protein HSP 90-beta
+C1=CC2=C(C=CC(=C2)C(=O)O)C=C1C(=O)O,P08238,0.9534557,"2,6-Naphthalenedicarboxylic acid",HSP90AB1,Heat shock protein HSP 90-beta
+CC1=C(SC(=N1)C)C2=NC(=NC=C2)NC3=CC=C(C=C3)N(C)C,P08238,1.0,"N-(4-(2,4-Dimethyl-thiazol-5-YL)-pyrimidin-2-YL)-N',N'-dimethyl-benzene-1,4-diamine",HSP90AB1,Heat shock protein HSP 90-beta
+CCCCN1C2=C(C(=O)N(C1=O)CC=C)NC(=N2)CC3=CC=C(C=C3)NC(=O)C,P08238,0.9999989,1-Allyl-3-Butyl-8-(N-Acetyl-4-Aminobenzyl)-Xanthine,HSP90AB1,Heat shock protein HSP 90-beta
+C1=CC=C(C=C1)C2=C(C(=C(S2)C(=O)O)OCC(=O)O)Br,P08238,1.0,4-Bromo-3-(carboxymethoxy)-5-phenylthiophene-2-carboxylic acid,HSP90AB1,Heat shock protein HSP 90-beta
+C1=CC2=C(C=C1/C=C3/C(=O)NC(=O)S3)OC(O2)(F)F,P08238,1.0,,HSP90AB1,Heat shock protein HSP 90-beta
+C1CN(C[C@@H](N1)CC2=CC=CC=C2)C3=NN=C(C(=C3)C4=CC=NC=C4)C5=CC6=CC=CC=C6C=C5,P08238,0.99999964,6((S)-3-Benzylpiperazin-1-Yl)-3-(Naphthalen-2-Yl)-4-(Pyridin-4-Yl)Pyrazine,HSP90AB1,Heat shock protein HSP 90-beta
+C1=CC2=C(NOC2=CC1=O)C3=CC(=C(C=C3O)O)Br,P08238,1.0,"4-Bromo-6-(6-hydroxy-1,2-benzisoxazol-3-yl)benzene-1,3-diol",HSP90AB1,Heat shock protein HSP 90-beta
+C[C@@H]1CCN(C[C@@H]1N(C)C2=NC=NC3=C2C=CN3)C(=O)CC#N,P08238,0.99999976,,HSP90AB1,Heat shock protein HSP 90-beta
+CCOC1=C(C(=CC(=N1)NC(=O)CC2=CC(=C(C=C2OC)Br)OC)N)C#N,P08238,0.9999999,,HSP90AB1,Heat shock protein HSP 90-beta
+CN(CC1=CC=C(C=C1)Cl)S(=O)(=O)C2=CC=C(C=C2)S(=O)(=O)N,P08238,0.99999905,"N-(4-chlorobenzyl)-N-methylbenzene-1,4-disulfonamide",HSP90AB1,Heat shock protein HSP 90-beta
+CC1=CC=C(C=C1)C2=CC(=NN2C3=CC=C(C=C3)S(=O)(=O)N)C(F)(F)F,P08238,1.0,Celecoxib,HSP90AB1,Heat shock protein HSP 90-beta
+C1=CC(=CC=C1CNC(=O)C2=CC=C(C=C2)S(=O)(=O)N)F,P08238,0.9999999,4-(Aminosulfonyl)-N-((4-Fluorophenyl)Methyl)-Benzamide,HSP90AB1,Heat shock protein HSP 90-beta
+CC1=C2C=C(C=CC2=NN1)C3=CC(=CN=C3)OC[C@H](CC4=CC=C(C=C4)Br)N,P08238,0.99999976,"3-Pyridin-4-YL-2,4-dihydro-indeno(1,2-.C.) pyrazole",HSP90AB1,Heat shock protein HSP 90-beta
+CN1C(=CC(=N1)C2=CC=CC=C2)NS(=O)(=O)O,P08238,0.99999976,1-Methyl-3-phenyl-1H-pyrazol-5-ylsulfamic acid,HSP90AB1,Heat shock protein HSP 90-beta
+CN1CCN(CC1)C2=CC=C(C=C2)C(=O)NC3=NNC4=CN(C=C43)C(=O)CC5=CC=CS5,P08238,1.0,"4-(4-Methylpiperazin-1-YL)-N-(5-(2-thienylacetyl)-1,5-dihydropyrrolo(3,4-C)pyrazol-3-YL)benzamide",HSP90AB1,Heat shock protein HSP 90-beta
+CC1=C(SC(=N1)N)C2=NC(=NC=C2)NC3=CC(=CC=C3)[N+](=O)[O-],P08238,1.0,4-(2-Amino-4-methyl-5-thiazolyl)-N-(3-nitrophenyl)-2-pyrimidinamine,HSP90AB1,Heat shock protein HSP 90-beta
+COC1=CC=C(C=C1)N2C[C@@H](C3=C(S2(=O)=O)SC(=C3)S(=O)(=O)N)O,P08238,1.0,AL5424,HSP90AB1,Heat shock protein HSP 90-beta
+C1CN(CCC1NCC2=CC=CC=C2O)S(=O)(=O)NC3=CC(=CC=C3)OC4=CC=C(C=C4)F,P08238,0.9999982,4-(2-Hydroxybenzylamino)-N-(3-(4-fluorophenoxy)phenyl)piperidine-1-sulfonamide,HSP90AB1,Heat shock protein HSP 90-beta
+C1=CC2=C(C=C1S(=O)(=O)N)NC(=N2)C3=CSC=N3,P08238,1.0,"2-(1,3-thiazol-4-yl)-1H-benzimidazole-5-sulfonamide",HSP90AB1,Heat shock protein HSP 90-beta
+C[C@H]([C@@H]([C@@H](C#CC1=C(C=CC2=C1/C(=C/C3=C(C=CN3)OC)/C(=O)N2)F)O)N)O,P08238,0.99999964,,HSP90AB1,Heat shock protein HSP 90-beta
+C1=CC=C(C=C1)C2=NN3C=CC=CC3=C2C4=CC5=C(NN=C5N=N4)N,P08238,1.0,FR-180204,HSP90AB1,Heat shock protein HSP 90-beta
+CCSC(=N)N,P08238,0.9999994,S-Ethylisothiourea,HSP90AB1,Heat shock protein HSP 90-beta
+CCCS(=O)(=O)NC1=C(C(=C(C=C1)F)C(=O)C2=CNC3=NC=C(C=C23)Cl)F,P08238,0.9999994,Plx-4720,HSP90AB1,Heat shock protein HSP 90-beta
+CC1=C(SC(=N1)C)C2=NC(=NC=C2)N,P08238,1.0,"4-(2,4-Dimethyl-Thiazol-5-Yl)-Pyrimidin-2-Ylamine",HSP90AB1,Heat shock protein HSP 90-beta
+C1CCC(C1)N2C3=C(C(=N2)C4=CN=C5C(=C4)C=CN5)C(=NC=N3)N,P08238,0.99999917,PP121,HSP90AB1,Heat shock protein HSP 90-beta
+C1CCC(CC1)COC2=NC(=NC3=C2NC=N3)NC4=CC=C(C=C4)S(=O)(=O)N,P08238,0.99999964,O6-Cyclohexylmethoxy-2-(4'-sulphamoylanilino) purine,HSP90AB1,Heat shock protein HSP 90-beta
+C1=CC(=CC=C1C#N)N(CC2=CC(=C(C=C2)OS(=O)(=O)N)Br)N3C=NN=C3,P08238,0.9999999,,HSP90AB1,Heat shock protein HSP 90-beta
+CC(C)(C)O,P08238,0.99996793,tert-Butanol,HSP90AB1,Heat shock protein HSP 90-beta
+C1=COC(=C1)CNC2=CC(=C(C=C2C(=O)O)S(=O)(=O)N)Cl,P08238,0.9999989,Furosemide,HSP90AB1,Heat shock protein HSP 90-beta
+C1=CC(=C(C=C1OC2=C(C=C(C=C2I)C[C@@H](C(=O)O)N)I)I)O,P08238,0.9999989,Liothyronine,HSP90AB1,Heat shock protein HSP 90-beta
+COC1=C(C(=C(C=C1)F)F)C(=O)C2=CN=C(N=C2N)NC3CCN(CC3)S(=O)(=O)C,P08238,0.99999976,"(4-Amino-2-(1-methanesulfonylpiperidin-4-ylamino)pyrimidin-5-yl)(2,3-difluoro-6-methoxyphenyl)methanone",HSP90AB1,Heat shock protein HSP 90-beta
+CCCCC=O,P08238,0.99914193,Pentanal,HSP90AB1,Heat shock protein HSP 90-beta
+C(CO)N(CCO)CC(=O)O,P08238,0.9998547,Bicine,HSP90AB1,Heat shock protein HSP 90-beta
+CC(=O)NC1=NN=C(S1)S(=O)(=O)N,P08238,1.0,Acetazolamide,HSP90AB1,Heat shock protein HSP 90-beta
+CC1=C(SC(=N1)NC)C2=NC(=NC=C2)NC3=CC=C(C=C3)O,P08238,0.9999939,4-[4-(4-Methyl-2-Methylamino-Thiazol-5-Yl)-Pyrimidin-2-Ylamino]-Phenol,HSP90AB1,Heat shock protein HSP 90-beta
+C1C2=CC=CC=C2C3=C1C(=NN3)C4=CC=NC=C4,P08238,0.9999994,"3-Pyridin-4-yl-1,4-dihydroindeno(1,2-C)pyrazole",HSP90AB1,Heat shock protein HSP 90-beta
+CCOCCOCCOCC,P08238,0.9999999,Diethylene glycol diethyl ether,HSP90AB1,Heat shock protein HSP 90-beta
+CC1=C(C=C(C=C1)C(=O)NC2CC2)C3=CC4=CN=C(N=C4C=C3)NCCN5CCOCC5,P08238,0.9999999,N-cyclopropyl-4-methyl-3-{2-[(2-morpholin-4-ylethyl)amino]quinazolin-6-yl}benzamide,HSP90AB1,Heat shock protein HSP 90-beta
+CC[C@H](CO)NC1=NN2C(=NC=C2C3=CC=C(C=C3)C(=O)O)C=C1,P08238,0.9999844,"4-(6-{[(1R)-1-(hydroxymethyl)propyl]amino}imidazo[1,2-b]pyridazin-3-yl)benzoic acid",HSP90AB1,Heat shock protein HSP 90-beta
+C1CNCCN(C1)C(=O)C2=C(C=CC(=C2)CC3=NNC(=O)C4=CC=CC=C43)F,P08238,1.0,KU-0058948,HSP90AB1,Heat shock protein HSP 90-beta
+CN1C2=C(C=CC(=C2)Cl)C3=C1C(=O)NC4([C@@H]3C#N)CCNCC4,P08238,0.9999969,,HSP90AB1,Heat shock protein HSP 90-beta
+C1CCC(CC1)COC2=NC(=NC3=C2NC=N3)NC4=CC=CC=C4,P08238,1.0,2-Anilino-6-cyclohexylmethoxypurine,HSP90AB1,Heat shock protein HSP 90-beta
+C1=CC2=C(C=C1[N+](=O)[O-])NN=C2,P08238,1.0,6-Nitroindazole,HSP90AB1,Heat shock protein HSP 90-beta
+C1CNCCC1OC2=CC=CC(=C2)C(=O)C3=C(N(N=C3)C4=CC=C(C=C4)F)N,P08238,0.9999999,[5-Amino-1-(4-fluorophenyl)-1H-pyrazol-4-YL][3-(piperidin-4-yloxy)phenyl]methanone,HSP90AB1,Heat shock protein HSP 90-beta
+C1CCC(CC1)OC2=NC3=NC=NN3C(=C2)NC4=CC=C(C=C4)S(=O)(=O)N,P08238,0.99999857,"4-((5-(Cyclohexyloxy)(1,2,4)triazolo(1,5-A)pyrimidin-7-YL)amino)benzenesulfonamide",HSP90AB1,Heat shock protein HSP 90-beta
+C1C[C@@H]2C3=C(C=CC=C3NC(=O)NC4=CC=CC=N4)C(=O)N2C1,P08238,0.9999999,"N'-(Pyrrolidino(2,1-B)Isoindolin-4-On-8-Yl)-N-(Pyridin-2-Yl)Urea",HSP90AB1,Heat shock protein HSP 90-beta
+C1=CC(=CC(=C1)CCSC(=N)N)CCSC(=N)N,P08238,0.9999999,"S,S'-(1,3-Phenylene-Bis(1,2-Ethanediyl))Bis-Isothiourea",HSP90AB1,Heat shock protein HSP 90-beta
+C1=CC=C(C=C1)C2=C(NC3=C2C=C(C=C3)S(=O)(=O)N)C(=O)NN,P08238,0.99999964,2-(hydrazinocarbonyl)-3-phenyl-1H-indole-5-sulfonamide,HSP90AB1,Heat shock protein HSP 90-beta
+C1=C(C=C(C(=C1Cl)N)F)S(=O)(=O)NC2=NN=C(S2)S(=O)(=O)N,P08238,0.9999995,"5-(((4-Amino-3-chloro-5-fluorophenyl)sulfonyl)amino)-1,3,4-thiadiazole-2-sulfonamide",HSP90AB1,Heat shock protein HSP 90-beta
+C1C(=O)NS(=O)(=O)N1C2=CSC(=C2Cl)C3=CC=CC=C3,P08238,0.9999999,"5-(4-Chloro-5-phenyl-3-thienyl)-1,2,5-thiadiazolidin-3-one 1,1-dioxide",HSP90AB1,Heat shock protein HSP 90-beta
+CC[C@H](CO)NC1=NC2=C(C=NN2C(=N1)NCC3=CC=CC=C3)C(C)C,P08238,0.99999034,"(2R)-2-((4-(benzylamino)-8-(1-methylethyl)pyrazolo(1,5-a)(1,3,5)triazin-2-yl)amino)butan-1-ol",HSP90AB1,Heat shock protein HSP 90-beta
+C1=CC(=C(C=C1C2=C(C=C(C=C2)Cl)Cl)C(=O)O)O,P08238,0.9999722,"2',4'-Dichloro-4-hydroxy-1,1'-biphenyl-3-carboxylic acid",HSP90AB1,Heat shock protein HSP 90-beta
+CC(C)(C(=O)O)OC1=CC=C(C=C1)CCNC(=O)C2=CC=C(C=C2)Cl,P08238,0.99979025,Bezafibrate,HSP90AB1,Heat shock protein HSP 90-beta
+CC1=C(N=C2C=CC(=CC2=C1C(=O)O)F)C3=CC=C(C=C3)C4=CC=CC=C4F,P08238,0.9999999,Brequinar,HSP90AB1,Heat shock protein HSP 90-beta
+C1=C(NC=N1)C[C@@H](C(=O)O)N,P08238,0.9999808,L-Histidine,HSP90AB1,Heat shock protein HSP 90-beta
+C([C@@H](C(=O)O)N)S,P08238,0.99998605,L-(+)-Cysteine,HSP90AB1,Heat shock protein HSP 90-beta
+CN1CC[C@@H]([C@@H](C1)O)C2=C(C=C(C3=C2OC(=CC3=O)C4=CC=CC=C4Cl)O)O,P08238,0.9990146,Alvocidib,HSP90AB1,Heat shock protein HSP 90-beta
+C[C@@H]1C[C@H]2CN1CCN3C(=O)C4=C(N3)C(=CC=C4)C5=NC6=C(C=CC=C6O2)NC5=O,P08238,0.9827024,"(13R,15S)-13-Methyl-16-oxa-8,9,12,22,24-pentaazahexacyclo(15.6.2.16,9.1,12,15.0,2,7.0,21,25)heptacosa-1(24),2,4,6,17(25),18,20-heptaene-23,26-dione",HSP90AB1,Heat shock protein HSP 90-beta
+C1(=C(C2=NNN=C2C(=C1Br)Br)Br)Br,P08238,1.0,"4,5,6,7-Tetrabromobenzotriazole",HSP90AB1,Heat shock protein HSP 90-beta
+C1=CC(=CC(=C1)Br)C2=CC(=[N+]3C(=N2)C=CN3)NCC4=CC=NC=C4,P08238,1.0,"(5Z)-5-(3-Bromocyclohexa-2,5-dien-1-ylidene)-N-(pyridin-4-ylmethyl)-1,5-dihydropyrazolo(1,5-A)pyrimidin-7-amine",HSP90AB1,Heat shock protein HSP 90-beta
+COC1=CC=CC=C1OCCNCC(COC2=CC=CC3=C2C4=CC=CC=C4N3)O,P08238,0.9955604,Carvedilol,HSP90AB1,Heat shock protein HSP 90-beta
+C1=CC(=C2C(=C1N)C(=O)C3=C(C=CC(=C3C2=O)O)O)N,P08238,0.9999974,"1,4-Diamino-5,8-dihydroxy-anthraquinone",HSP90AB1,Heat shock protein HSP 90-beta
+C/C=C(C)/CC/C=C(C)/CC/C=C(C)/CCC=C(C)C,P08238,0.9997285,,HSP90AB1,Heat shock protein HSP 90-beta
+C1C=CC2=C(C=NC2=C1)C[C@@H](COC3=CN=CC(=C3)C4=NCC5=NN=CC5=C4)N,P08238,0.9999999,"(2S)-1-(6H-indol-3-yl)-3-[(5-{7H-pyrazolo[3,4-c]pyridin-5-yl}pyridin-3-yl)oxy]propan-2-amine",HSP90AB1,Heat shock protein HSP 90-beta
+C[N+](C)(C)CCO,P08238,0.9834874,Choline,HSP90AB1,Heat shock protein HSP 90-beta
+C1=CC=C2C(=C1)C(=C(N2)C3=C4C=CC=CC4=NC3=O)NO,P08238,1.0,Indirubin-3'-monoxime,HSP90AB1,Heat shock protein HSP 90-beta
+CC1=C(C(=CC=C1)Cl)NC(=O)C2=CN=C(S2)NC3=NC(=NC(=C3)N4CCN(CC4)CCO)C,P08238,0.9999999,Dasatinib,HSP90AB1,Heat shock protein HSP 90-beta
+C1=CC=C(C=C1)NC2=CC=CC3=C2C(=CC=C3)S(=O)(=O)O,P08238,0.9999994,8-Anilino-1-naphthalenesulfonic acid,HSP90AB1,Heat shock protein HSP 90-beta
+C=C(C(=O)O)OP(=O)(O)O,P08238,0.9997714,Phosphoenolpyruvate,HSP90AB1,Heat shock protein HSP 90-beta
+CC1=C2C=C(C=CC2=NN1)C3=CC(=CN=C3)OC[C@H](CC4=CC=CC=C4)N,P08238,0.9999989,A-674563,HSP90AB1,Heat shock protein HSP 90-beta
+CC(C)C(=O)COC1=NC(=NC2=C1NC=N2)N,P08238,0.99975675,"1-[(2-Amino-6,9-Dihydro-1h-Purin-6-Yl)Oxy]-3-Methyl-2-Butanol",HSP90AB1,Heat shock protein HSP 90-beta
+CC1=CN=C2N1C=CN=C2NCC3=CC=NC=C3,P08238,0.99999905,"3-methyl-N-(pyridin-4-ylmethyl)imidazo(1,2-a)pyrazin-8-amine",HSP90AB1,Heat shock protein HSP 90-beta
+C1CC1CN2C=NC(=C2C3=CC=NC=C3)C4=CC=C(C=C4)F,P08238,0.9999999,SB-216995,HSP90AB1,Heat shock protein HSP 90-beta
+CCOC1=CC2=C(C=C1)N=C(S2)S(=O)(=O)N,P08238,0.9999999,Ethoxzolamide,HSP90AB1,Heat shock protein HSP 90-beta
+C1C2=C(CS1(=O)=O)C=C(C=C2)N/C=C3/C4=C(C=CC(=C4)C5=CN=CO5)NC3=O,P08238,1.0,,HSP90AB1,Heat shock protein HSP 90-beta
+C(CO)C(CCO)(CCO)N,P08238,0.9999995,Tris(Hydroxyethyl)Aminomethane,HSP90AB1,Heat shock protein HSP 90-beta
+CN1CCN(CC1)NC(=S)NC2=CC=C(C=C2)S(=O)(=O)N,P08238,0.99995875,4-({[(4-Methylpiperazin-1-YL)amino]carbonothioyl}amino)benzenesulfonamide,HSP90AB1,Heat shock protein HSP 90-beta
+C1CNC(=O)C2=C1NC(=C2)C3=CC(=NC=C3)C4=CC=CC=C4F,P08238,0.9999999,"2-(2-(2-Fluorophenyl)pyridin-4-YL)-1,5,6,7-tetrahydro-4H-pyrrolo(3,2-C)pyridin-4-one",HSP90AB1,Heat shock protein HSP 90-beta
+C1CNCCC1NC(=O)C2=C(C=NN2)NC(=O)C3=C(C=CC=C3Cl)Cl,P08238,0.99999905,"4-(2,6-dichlorobenzoylamino)-1H-pyrazole-3-carboxylic acid piperidin-4-ylamide",HSP90AB1,Heat shock protein HSP 90-beta
+C1CCS(=O)(=O)N(C1)C2=CC=C(C=C2)S(=O)(=O)N,P08238,0.9999999,Sulthiame,HSP90AB1,Heat shock protein HSP 90-beta
+CC(C)N=C(N)NO,P08238,0.9999993,1-Hydroxy-2-isopropylguanidine,HSP90AB1,Heat shock protein HSP 90-beta
+C1=CC(=CC=C1C[C@@H](C(=O)O)N)OP(=O)(O)O,P08238,0.99999666,Phospho-L-tyrosine,HSP90AB1,Heat shock protein HSP 90-beta
+C1=CC(=C(C=C1C2=CC=C(O2)/C=C3/C(=O)N=C(S3)N)C(F)(F)F)S(=O)(=O)N,P08238,1.0,,HSP90AB1,Heat shock protein HSP 90-beta
+CN(C)C[C@@H](COC1=CC=C(C=C1)NC2=NC=CC(=N2)NC3=C(C=CC(=C3)Cl)Cl)O,P08238,0.9999809,"(2S)-1-[4-({4-[(2,5-Dichlorophenyl)amino]-2-pyrimidinyl}amino)phenoxy]-3-(dimethylamino)-2-propanol",HSP90AB1,Heat shock protein HSP 90-beta
+C1=CC(=C(C(=C1)Cl)Cl)C2=NC3=C(C=NN3C(=C2)NCC4=CC=NC=C4)SC#N,P08238,0.9999999,,HSP90AB1,Heat shock protein HSP 90-beta
+CC1=C(C=NN1)C2=CC=C(C=C2)CCN,P08238,0.9999999,2-[4-(3-Methyl-1H-pyrazol-4-YL)phenyl]ethanamine,HSP90AB1,Heat shock protein HSP 90-beta
+C(CCNCCCN)CNCCCN,P08238,0.99999833,Spermine,HSP90AB1,Heat shock protein HSP 90-beta
+C[C@@H](CC(C)(C)O)O,P08238,0.99999785,"(4S)-2-Methyl-2,4-pentanediol",HSP90AB1,Heat shock protein HSP 90-beta
+CCCCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)(O)OCC(COP(=O)(O)OC[C@@H](COC(=O)CCCCCCCCCCCCCCCCC)OC(=O)CCCCCCCCCCCCCCCCC)O)OC(=O)CCCCCCCCCCCCCCCCC,P08238,0.97955805,Tetrastearoylcardiolipin,HSP90AB1,Heat shock protein HSP 90-beta
+CNCC1=CC=C(C=C1)C2=C3C(=NC=N2)N=CN3,P08238,0.99994016,N-Methyl-1-(4-(9H-purin-6-YL)phenyl)methanamine,HSP90AB1,Heat shock protein HSP 90-beta
+CCOCCOCCOC,P08238,0.99999917,1-Ethoxy-2-(2-methoxyethoxy)ethane,HSP90AB1,Heat shock protein HSP 90-beta
+C([C@H](CS)O)O,P08238,0.99999547,"(2R)-3-sulfanylpropane-1,2-diol",HSP90AB1,Heat shock protein HSP 90-beta
+C1=C2C(=CC(=C1Cl)S(=O)(=O)N)S(=O)(=O)N[C@@H](N2)C(Cl)Cl,P08238,0.9998727,"6-chloro-3-(dichloromethyl)-3,4-dihydro-2H-1,2,4-benzothiadiazine-7-sulfonamide 1,1-dioxide",HSP90AB1,Heat shock protein HSP 90-beta
+C1=CC(=CC=C1N=C(N)NO)Cl,P08238,0.9999995,N-(Chlorophenyl)-N'-Hydroxyguanidine,HSP90AB1,Heat shock protein HSP 90-beta
+CCCCCC(=O)CP(=O)(O)O,P08238,0.9946256,2-Oxoheptylphosphonic acid,HSP90AB1,Heat shock protein HSP 90-beta
+CC1CC2=CC=CC=C2N1NC(=O)C3=CC(=C(C=C3)Cl)S(=O)(=O)N,P08238,0.9999522,Indapamide,HSP90AB1,Heat shock protein HSP 90-beta
+CC1(C(=O)NC2=C(O1)C=CC(=N2)NC3=NC(=NC=C3F)NC4=CC(=C(C(=C4)OC)OC)OC)C,P08238,0.9999999,Tamatinib,HSP90AB1,Heat shock protein HSP 90-beta
+CC1=C(C=C(C=C1)C(=O)NC2=CC(=CC(=C2)N3C=C(N=C3)C)C(F)(F)F)NC4=NC=CC(=N4)C5=CN=CC=C5,P08238,1.0,Nilotinib,HSP90AB1,Heat shock protein HSP 90-beta
+CNC(=O)C1=NC=CC(=C1)OC2=CC=C(C=C2)NC(=O)NC3=CC(=C(C=C3)Cl)C(F)(F)F,P08238,0.99999845,Sorafenib,HSP90AB1,Heat shock protein HSP 90-beta
+C1=CC=C2C(=C1)C=CC=C2N(C3=CC=CC=C3C(=O)O)C(=O)C(=O)O,P08238,0.9999999,"Compound 5, 2-(Naphthalen-1-Yl-Oxalyl-Amino)-Benzoicacid",HSP90AB1,Heat shock protein HSP 90-beta
+C1CCC2=C(C1)C(=C(S2)NC(=O)C3=CC=CC=C3F)C#N,P08238,1.0,,HSP90AB1,Heat shock protein HSP 90-beta
+CNC(=O)C1=CC=CC=C1NC2=NC(=NC=C2Cl)NC3=C(C=C(C=C3)N4CCOCC4)OC,P08238,0.9999999,2-((5-chloro-2-((2-methoxy-4-morpholin-4-ylphenyl)amino)pyrimidin-4-yl)amino)-N-methylbenzamide,HSP90AB1,Heat shock protein HSP 90-beta
+CC1=NC(=NN1C2=CC(=CC(=C2)Cl)Cl)C(=O)O,P08238,1.0,"1-(3,5-Dichlorophenyl)-5-methyl-1H-1,2,4-triazole-3-carboxylic acid",HSP90AB1,Heat shock protein HSP 90-beta
+C1CN(CCC1COC2=CC=CC3=C2C(=NC(=N3)N)N)CC4=C(C(=CC=C4)Cl)Cl,P08238,0.9999995,"5-((1-(2,3-Dichlorobenzyl)piperidin-4-yl)methoxy)quinazoline-2,4-diamine",HSP90AB1,Heat shock protein HSP 90-beta
+C1C[C@H](NC1)C2=CC(=NN2)NC(=O)NC3=CC=CC4=C3[C@@H]5CCCN5C4=O,P08238,0.9999999,"1-(5-Oxo-2,3,5,9B-tetrahydro-1H-pyrrolo(2,1-A)isoindol-9-YL)-3-(5-pyrrolidin-2-YL-1H-pyrazol-3-YL)-urea",HSP90AB1,Heat shock protein HSP 90-beta
+CC(=O)N[C@@H]1[C@H](C=C(O[C@H]1[C@@H]([C@@H](CO)O)O)C(=O)O)N=C(N)N,P08238,0.9605732,Zanamivir,HSP90AB1,Heat shock protein HSP 90-beta
+CCCCCCCCCC[N+](C)(C)[O-],P08238,0.9986179,Capric dimethyl amine oxide,HSP90AB1,Heat shock protein HSP 90-beta
+CC1=CC=C(C=C1)C(=O)C2=CC(=C(C(=C2)O)O)[N+](=O)[O-],P08238,1.0,Tolcapone,HSP90AB1,Heat shock protein HSP 90-beta
+COC1=CC=C(C=C1)CCN2CCC(CC2)NC3=NC4=CC=CC=C4N3CC5=CC=C(C=C5)F,P08238,0.9999988,Astemizole,HSP90AB1,Heat shock protein HSP 90-beta
+C1CCC2=C(CC1)C(=O)OC3=C2C=CC(=C3)OS(=O)(=O)N,P08238,0.9999999,Irosustat,HSP90AB1,Heat shock protein HSP 90-beta
+C1=CC2=C(C=CN=C2)C(=C1)S(=O)(=O)NCCNC/C=C/C3=CC=C(C=C3)Br,P08238,0.99999213,,HSP90AB1,Heat shock protein HSP 90-beta
+CN(C)CCCN1C2=CC=CC=C2SC3=C1C=C(C=C3)Cl,P08238,0.9999963,Chlorpromazine,HSP90AB1,Heat shock protein HSP 90-beta
+C1CCC2=NC3=CC=CC=C3C(=C2C1)NCCCCCCCCNC4=CC=NC5=CC=CC=C54,P08238,0.999997,Tacrine(8)-4-aminoquinoline,HSP90AB1,Heat shock protein HSP 90-beta
+C1=CC(=CC=C1C(=O)NCC2=CC(=C(C(=C2)F)F)F)S(=O)(=O)N,P08238,1.0,"4-(Aminosulfonyl)-N-((3,4,5-Trifluorophenyl)Methyl)-Benzamide",HSP90AB1,Heat shock protein HSP 90-beta
+CCC1=NN(C(=O)N1CCOC2=CC=CC=C2)CCCN3CCN(CC3)C4=CC(=CC=C4)Cl,P08238,1.0,Nefazodone,HSP90AB1,Heat shock protein HSP 90-beta
+C[C@H]1CNCCN1S(=O)(=O)C2=CC=CC3=C2C=CN=C3,P08238,0.9889787,5-{[(2S)-2-methylpiperazin-1-yl]sulfonyl}isoquinoline,HSP90AB1,Heat shock protein HSP 90-beta
+CCN1C2=NC(=NC=C2N=C1NC3=CC=CC=C3Cl)NC4=C(C=CC=C4F)F,P08238,0.99999964,"8-(2-Chlorophenylamino)-2-(2,6-difluorophenylamino)-9-ethyl-9H-purine-1,7-diium",HSP90AB1,Heat shock protein HSP 90-beta
+CN1C2=NC(=NC=C2C=C(C1=O)C3=C(C=CC=C3Cl)Cl)NC4=CC(=CC=C4)SC,P08238,1.0,PD173955,HSP90AB1,Heat shock protein HSP 90-beta
+CCSC(=NC1=CC=CC=C1)N,P08238,0.99998367,S-Ethyl-N-Phenyl-Isothiourea,HSP90AB1,Heat shock protein HSP 90-beta
+CCN(CC)CCNC(=O)C1=C(NC(=C1C)/C=C2/C3=C(C=CC(=C3)Cl)NC2=O)C,P08238,0.99999905,,HSP90AB1,Heat shock protein HSP 90-beta
+C(CCN)CCN,P08238,0.9999993,Cadaverine,HSP90AB1,Heat shock protein HSP 90-beta
+CC1=C(C(=C(C2=C1COC2=O)O)C/C=C(C)/CCC(=O)O)OC,P08238,0.97717935,,HSP90AB1,Heat shock protein HSP 90-beta
+C1CCC2=NC3=CC=CC=C3C(=C2C1)N,P08238,0.9999969,Tacrine,HSP90AB1,Heat shock protein HSP 90-beta
+C1=CC=C2C(=C1)C3=NNC4=CC=CC(=C43)C2=O,P08238,0.999819,"anthra(1,9-cd)pyrazol-6(2H)-one",HSP90AB1,Heat shock protein HSP 90-beta
+C1=CC2=C(NN=C2C(=C1)[N+](=O)[O-])Br,P08238,1.0,3-Bromo-7-Nitroindazole,HSP90AB1,Heat shock protein HSP 90-beta
+C([C@@H](C(=O)O)N)SS,P08238,0.9999989,Thiocysteine,HSP90AB1,Heat shock protein HSP 90-beta
+C1=CC2=C(/C(=C/3C4=C(C=C(C=C4)Br)NC3=O)/N=C2C=C1)NO,P08238,1.0,,HSP90AB1,Heat shock protein HSP 90-beta
+CC(C)(C)C1=NC2=C(N1)C3=C(C=C(C=C3)F)C4=C2C=CNC4=O,P08238,1.0,Pyridone 6,HSP90AB1,Heat shock protein HSP 90-beta
+CC1=CC(=NN1)NC2=NC(=NC3=CC=CC=C32)C4=CC=CC=C4,P08238,0.9999999,N-(5-methyl-1H-pyrazol-3-yl)-2-phenylquinazolin-4-amine,HSP90AB1,Heat shock protein HSP 90-beta
+CN1CCCCC1CCN2C3=CC=CC=C3SC4=C2C=C(C=C4)SC,P08238,0.99973947,Thioridazine,HSP90AB1,Heat shock protein HSP 90-beta
+CCN(CC)CCNC(=O)C1=C(NC(=C1C)/C=C2/C3=C(C=CC(=C3)F)NC2=O)C,P08238,0.9999999,,HSP90AB1,Heat shock protein HSP 90-beta
+C(=O)C(=O)O,P08238,0.9972115,Glyoxylic Acid,HSP90AB1,Heat shock protein HSP 90-beta
+CN(C)S(=O)(=O)C1=CC2=C(C=C1)NC(=O)/C2=CC3=CC4=C(N3)CCCC4,P08238,0.9999993,,HSP90AB1,Heat shock protein HSP 90-beta
+CC(=O)OCC[N+](C)(C)C,P08238,0.995918,Acetylcholine,HSP90AB1,Heat shock protein HSP 90-beta
+[Zn],P08238,1.0,Zinc,HSP90AB1,Heat shock protein HSP 90-beta
+[Mg+2],P08238,0.99999976,Magnesium ion,HSP90AB1,Heat shock protein HSP 90-beta
+C1CCC(CC1)COC2=NC3=NC=NN3C(=C2)NC4=CC=C(C=C4)S(=O)(=O)N,P08238,0.99999976,"4-((5-(Cyclohexylmethoxy)(1,2,4)triazolo(1,5-A)pyrimidin-7-YL)amino)benzenesulfonamide",HSP90AB1,Heat shock protein HSP 90-beta
+C1=CC(=C(C(=C1)F)NC(=S)N2C(=NC(=N2)NC3=CC=C(C=C3)S(=O)(=O)N)N)F,P08238,0.9999999,Cdk1/2 Inhibitor III,HSP90AB1,Heat shock protein HSP 90-beta
+C(C(CO)O)O,P08238,0.9999989,Glycerol,HSP90AB1,Heat shock protein HSP 90-beta
+CCN[C@H]1CN(S(=O)(=O)C2=C1C=C(S2)S(=O)(=O)N)CCCOC,P08238,0.9999554,Brinzolamide,HSP90AB1,Heat shock protein HSP 90-beta
+CCC(CC)N1C=CC2=C1C=CC3=C2C(=NC(=N3)N)N,P10253,0.9999999,"7-(1-Ethyl-propyl)-7H-pyrrolo-[3,2-F]quinazoline-1,3-diamine",GAA,Lysosomal alpha-glucosidase
+CC1=C2C(=NC(=NC2=NC=C1CC3=C(C=CC(=C3)OC)OC)N)N,P10253,1.0,Piritrexim,GAA,Lysosomal alpha-glucosidase
+CC1=CC(=NO1)NS(=O)(=O)C2=CC=C(C=C2)N,P10253,1.0,Sulfamethoxazole,GAA,Lysosomal alpha-glucosidase
+CC1=C2C(=NC(=NC2=NC=C1CN(C)C3=CC(=C(C(=C3)OC)OC)OC)N)N,P10253,0.99999607,"2,4-Diamino-5-Methyl-6-[(3,4,5-Trimethoxy-N-Methylanilino)Methyl]Pyrido[2,3-D]Pyrimidine",GAA,Lysosomal alpha-glucosidase
+C1=CC(=CC=C1C(=O)N[C@@H](CCC(=O)O)C(=O)O)NCC2=CN=C3C(=N2)C(=O)N=C(N3)N,P10253,0.99924916,Folic Acid,GAA,Lysosomal alpha-glucosidase
+CC1=C(C(=NC(=N1)N)N)C2=CC(=C(C=C2)Cl)Cl,P10253,1.0,Metoprine,GAA,Lysosomal alpha-glucosidase
+CC1=C2C(=NC(=NC2=NC=C1CNC3=CC=CC4=C3C=CC=N4)N)N,P10253,0.9999999,Sri-9439,GAA,Lysosomal alpha-glucosidase
+CN(CC1=CN=C2C(=N1)C(=NC(=N2)N)N)C3=CC=C(C=C3)C(=O)N[C@@H](CCC(=O)O)C(=O)O,P10253,0.9971886,Methotrexate,GAA,Lysosomal alpha-glucosidase
+C1CN(CCC1CC2=CC3=CC=CC=C3N=C2)C(=O)O,P28074,0.9999957,4-(Quinolin-3-ylmethyl)piperidine-1-carboxylic acid,PSMB5,Proteasome subunit beta type-5
+C1[C@H](C(=O)NC2=CC=CC=C21)NC(=O)C3=CC4=C(N3)SC(=C4)Cl,P28074,0.99999666,"2-chloro-N-[(3R)-2-oxo-1,2,3,4-tetrahydroquinolin-3-yl]-6H-thieno[2,3-b]pyrrole-5-carboxamide",PSMB5,Proteasome subunit beta type-5
+C1COC2=C([C@]13C(=O)NC(=O)N3)C=C(C=C2)F,P28074,0.9999994,Sorbinil,PSMB5,Proteasome subunit beta type-5
+C1=CC(=C(C=C1F)OCC(=O)O)C(=S)NCC2=C(C=C(C=C2)Br)F,P28074,0.999355,Idd594,PSMB5,Proteasome subunit beta type-5
+C1=CC(=C(C=C1C(=O)O)OC(F)(F)F)NC(=O)NC(=O)C2=CC(=C(C=C2Cl)F)F,P28074,0.99999964,"4-[3-(2-Chloro-4,5-Difluoro-Benzoyl)ureido]-3-Trifluoromethoxybenzoic Acid",PSMB5,Proteasome subunit beta type-5
+CC1=C(C(=CC=C1)NC2=CC=CC=C2C(=O)O)C,P28074,0.99988234,Mefenamic Acid,PSMB5,Proteasome subunit beta type-5
+C1CN(CC2=C1SC=C2)CC3=CC=CC=C3Cl,P28074,0.9999995,Ticlopidine,PSMB5,Proteasome subunit beta type-5
+CC1=CC2=C(C=C1)SC(=N2)[C@H]3[C@@H]([C@H]([C@@H]([C@H](O3)CO)O)O)O,P28074,0.9928262,"2-(Beta-D-Glucopyranosyl)-5-Methyl-1,3,4-Benzothiazole",PSMB5,Proteasome subunit beta type-5
+C1=CC2=C3C(=C1)C(=O)N(C(=O)C3=CC=C2)CC(=O)O,P28074,0.9999709,Alrestatin,PSMB5,Proteasome subunit beta type-5
+C1CN(CCC12C(=O)NCN2C3=CC=CC=C3)CCCC(C4=CC=C(C=C4)F)C5=CC=C(C=C5)F,P28074,0.98447174,Fluspirilene,PSMB5,Proteasome subunit beta type-5
+CSCC[C@@H](C(=O)O)NC=O,P28074,0.9999995,N-Formylmethionine,PSMB5,Proteasome subunit beta type-5
+CN(C)CCCN1C2=CC=CC=C2SC3=CC=CC=C31,P28074,0.9765288,Promazine,PSMB5,Proteasome subunit beta type-5
+C12=C(NC(=O)N1)NC(=O)NC2=O,P28074,0.99178034,Uric Acid,PSMB5,Proteasome subunit beta type-5
+C1[C@@H](OC2=C([C@]13C(=O)NC(=O)N3)C=C(C=C2)F)C(=O)N,P28074,0.99571854,"(2R,4S)-2-Aminoformyl-6-fluoro-spiro[chroman-4,4'-imidazolidine]-2',5'-dione",PSMB5,Proteasome subunit beta type-5
+C1=CC(=CC(=C1)[N+](=O)[O-])C2=NOC(=N2)CCCC(=O)O,P28074,1.0,"4-[3-(3-Nitrophenyl)-1,2,4-oxadiazol-5-yl]butanoic acid",PSMB5,Proteasome subunit beta type-5
+C1=CC2=C(C=C1Cl)N=C(S2)CN3C(=O)C=CN(C3=O)CC(=O)O,P28074,0.9999958,"(3-((5-Chloro-1,3-benzothiazol-2-YL)methyl)-2,4-dioxo-3,4-dihydropyrimidin-1(2H)-YL)acetic acid",PSMB5,Proteasome subunit beta type-5
+C[C@H](C(C)(C)C)O[P@H](=O)C,P28074,0.99237084,"[(2R)-3,3-dimethylbutan-2-yl]oxy-methyl-oxophosphanium",PSMB5,Proteasome subunit beta type-5
+C[C@@]1(C(=O)N(C(=O)O1)NC2=CC=CC=C2)C3=CC=C(C=C3)OC4=CC=CC=C4,P28074,0.9999987,(S)-famoxadone,PSMB5,Proteasome subunit beta type-5
+[Mg+2],P28074,0.99999976,Magnesium ion,PSMB5,Proteasome subunit beta type-5
+C1COCCN1CC2=CC3=C(SC(=C3)S(=O)(=O)N)S(=O)(=O)N2C4=CC(=CC=C4)O,P00533,0.98857725,"Al-6619, [2h-Thieno[3,2-E]-1,2-Thiazine-6-Sulfonamide,2-(3-Hydroxyphenyl)-3-(4-Morpholinyl)-, 1,1-Dioxide]",EGFR,Epidermal growth factor receptor
+C[C@@H](C(=O)N1CCOCC1)N2CC[C@@H](C2=O)NS(=O)(=O)C3=CC4=C(S3)C=CC(=C4)Cl,P00533,0.9997774,5-Chloro-N-((3S)-1-((1S)-1-methyl-2-morpholin-4-YL-2-oxoethyl)-2-oxopyrrolidin-3-YL)-1-benzothiophene-2-sulfonamide,EGFR,Epidermal growth factor receptor
+C1=CC(=CC(=C1)NC2=NOC3=C2C=CC(=C3C(=O)NC4=CN=CN=C4)Cl)C(F)(F)F,P00533,0.99999917,"6-chloro-N-pyrimidin-5-yl-3-((3-(trifluoromethyl)phenyl)amino)-1,2-benzisoxazole-7-carboxamide",EGFR,Epidermal growth factor receptor
+CC1=CC(=[N+](C(=C1)C)CCC2=CC=C(C=C2)S(=O)(=O)N)C,P00533,0.9990752,"1-N-(4-Sulfamoylphenyl-ethyl)-2,4,6-trimethylpyridinium",EGFR,Epidermal growth factor receptor
+CCCCCC,P00533,0.9773515,Hexane,EGFR,Epidermal growth factor receptor
+C1CC1C2=CC(=NN2)NC(=O)CC3=CC4=CC=CC=C4C=C3,P00533,0.9999975,Pnu-292137,EGFR,Epidermal growth factor receptor
+CN1CCC2=C(C1)SC(=N2)C(=O)N[C@@H]3CCCC[C@H]3NC(=O)C4=CC5=C(N4)C=CC(=C5)Cl,P00533,0.99966717,"N-((1R,2R)-2-(5-Chloro-1H-indole-2-carboxamido)cyclohexyl)-5-methyl-4,5,6,7-tetrahydrothiazolo[5,4-C]pyridine-2-carboxamide",EGFR,Epidermal growth factor receptor
+C1CN=C(N1)NC2=C(C=CC3=NSN=C32)Cl,P00533,0.99995875,Tizanidine,EGFR,Epidermal growth factor receptor
+C1CN(CCN1C(=O)C2=CC3=C(S2)C=CC=[N+]3[O-])S(=O)(=O)C4=CC5=C(N4)C=CC(=C5)Cl,P00533,0.9999982,"2-({4-[(5-Chloro-1H-indol-2-YL)sulfonyl]piperazin-1-YL}carbonyl)thieno[3,2-B]pyridine 4-oxide",EGFR,Epidermal growth factor receptor
+C[Hg+],P00533,0.9999839,Methylmercury(1+),EGFR,Epidermal growth factor receptor
+C1=CC(=CC(=C1)NC2=C(C=CC=N2)C(=O)O)C(F)(F)F,P00533,0.999995,Niflumic Acid,EGFR,Epidermal growth factor receptor
+C1CC2=C(C1)C=C(C=C2)S(=O)(=O)N,P00533,0.99970573,Indane-5-sulfonamide,EGFR,Epidermal growth factor receptor
+C1=C(C=C(C(=C1S(=O)(=O)N)Cl)Cl)S(=O)(=O)N,P00533,0.9999832,Dichlorphenamide,EGFR,Epidermal growth factor receptor
+COC1=CC=CC(=C1)N2C=CC3=C(S2(=O)=O)SC(=C3)S(=O)(=O)N,P00533,0.99999976,AL6528,EGFR,Epidermal growth factor receptor
+C(CCC(=O)O)CCN,P00533,0.9855422,6-Aminohexanoic Acid,EGFR,Epidermal growth factor receptor
+CC1=NC=C(C=C1)C2=NC=C(C=C2C3=CC=C(C=C3)S(=O)(=O)C)Cl,P00533,0.9999963,Etoricoxib,EGFR,Epidermal growth factor receptor
+CC(=O)N[C@@H](CO)C(=O)O,P00533,0.99941576,Acetylserine,EGFR,Epidermal growth factor receptor
+C1=CC=C2C(=C1)C(=CN2)C[C@@H](C(=O)N)N,P00533,0.99995506,L-Tryptophanamide,EGFR,Epidermal growth factor receptor
+CCS(=O)(=O)O,P00533,0.9999293,Ethanesulfonic acid,EGFR,Epidermal growth factor receptor
+CC1=CC=C(C=C1)S(=O)(=O)NC(=O)NC2=CC=C(C=C2)S(=O)(=O)N,P00533,0.9999926,N-({[4-(Aminosulfonyl)phenyl]amino}carbonyl)-4-methylbenzenesulfonamide,EGFR,Epidermal growth factor receptor
+CCC1=CN=C(C=C1)CCOC2=CC=C(C=C2)CC3C(=O)NC(=O)S3,P00533,0.99828905,Pioglitazone,EGFR,Epidermal growth factor receptor
+C1CCCC(CC1)CC2=CC3=C(S2(=O)=O)C=C(C=C3)OS(=O)(=O)N,P00533,0.9999647,Emd 486019,EGFR,Epidermal growth factor receptor
+C(CC(=O)O)CN,P00533,0.980959,Gamma-Aminobutyric Acid,EGFR,Epidermal growth factor receptor
+C1=CC=C2C(=C1)C(=O)N[C@@]2(C3=CC(=C(C=C3)Cl)S(=O)(=O)N)O,P00533,0.99987245,2-chloro-5-((1S)-1-hydroxy-3-oxo-2H-isoindol-1-yl)benzenesulfonamide,EGFR,Epidermal growth factor receptor
+C1=CC=C(C=C1)NC2=NC(=O)C3=C(N2)N(C=N3)CCCCO,P00533,0.99999344,9-(4-Hydroxybutyl)-N2-Phenylguanine,EGFR,Epidermal growth factor receptor
+CC1=C(C=C(C=C1)C(=O)NC2CC2)C3=CC=C(C=C3)C(=O)NCC4CC4,P00533,0.99989665,"N~3~-cyclopropyl-N~4~'-(cyclopropylmethyl)-6-methylbiphenyl-3,4'-dicarboxamide",EGFR,Epidermal growth factor receptor
+C1=CC(=CC=C1CN(C2=CC=C(C=C2)C#N)N3C=NN=C3)OS(=O)(=O)N,P00533,0.9999958,,EGFR,Epidermal growth factor receptor
+C1=CC(=C2C(=C1NCCNCCO)C(=O)C3=C(C=CC(=C3C2=O)O)O)NCCNCCO,P00533,0.97854155,Mitoxantrone,EGFR,Epidermal growth factor receptor
+C1COCCN1C(=O)/C=C/C2=C(C(=C(C=C2)SC3=CC=CC(=C3)N)C(F)(F)F)C(F)(F)F,P00533,0.9999987,,EGFR,Epidermal growth factor receptor
+C1=CC=C(C=C1)S(=O)(=O)NC2=NN=C(S2)S(=O)(=O)N,P00533,0.999992,Benzolamide,EGFR,Epidermal growth factor receptor
+CC1=C(SC(=N1)C)C2=NC(=NC=C2)NC3=CC=C(C=C3)N(C)C,P00533,0.99999917,"N-(4-(2,4-Dimethyl-thiazol-5-YL)-pyrimidin-2-YL)-N',N'-dimethyl-benzene-1,4-diamine",EGFR,Epidermal growth factor receptor
+CN(CC1=CC=C(C=C1)Cl)S(=O)(=O)C2=CC=C(C=C2)S(=O)(=O)N,P00533,0.9999615,"N-(4-chlorobenzyl)-N-methylbenzene-1,4-disulfonamide",EGFR,Epidermal growth factor receptor
+CC1=CC=C(C=C1)C2=CC(=NN2C3=CC=C(C=C3)S(=O)(=O)N)C(F)(F)F,P00533,0.9999989,Celecoxib,EGFR,Epidermal growth factor receptor
+C1=CC(=CC=C1CNC(=O)C2=CC=C(C=C2)S(=O)(=O)N)F,P00533,0.9999963,4-(Aminosulfonyl)-N-((4-Fluorophenyl)Methyl)-Benzamide,EGFR,Epidermal growth factor receptor
+C1=CC(=C(C(=C1)Cl)CC(=O)N=C(N)N)Cl,P00533,0.9999833,Guanfacine,EGFR,Epidermal growth factor receptor
+COC1=CC=C(C=C1)N2C[C@@H](C3=C(S2(=O)=O)SC(=C3)S(=O)(=O)N)O,P00533,0.99942124,AL5424,EGFR,Epidermal growth factor receptor
+C1=CC2=C(C=C1S(=O)(=O)N)NC(=N2)C3=CSC=N3,P00533,0.99999964,"2-(1,3-thiazol-4-yl)-1H-benzimidazole-5-sulfonamide",EGFR,Epidermal growth factor receptor
+C1CCC(CC1)COC2=NC(=NC3=C2NC=N3)NC4=CC=C(C=C4)S(=O)(=O)N,P00533,0.9999845,O6-Cyclohexylmethoxy-2-(4'-sulphamoylanilino) purine,EGFR,Epidermal growth factor receptor
+C1=CC(=CC=C1C#N)N(CC2=CC(=C(C=C2)OS(=O)(=O)N)Br)N3C=NN=C3,P00533,0.999995,,EGFR,Epidermal growth factor receptor
+C1=COC(=C1)CNC2=CC(=C(C=C2C(=O)O)S(=O)(=O)N)Cl,P00533,0.99989367,Furosemide,EGFR,Epidermal growth factor receptor
+CC(=O)NC1=NN=C(S1)S(=O)(=O)N,P00533,0.99999595,Acetazolamide,EGFR,Epidermal growth factor receptor
+C1CCC(CC1)COC2=NC(=NC3=C2NC=N3)NC4=CC=CC=C4,P00533,0.9999994,2-Anilino-6-cyclohexylmethoxypurine,EGFR,Epidermal growth factor receptor
+C1=CC=C(C=C1)C2=C(NC3=C2C=C(C=C3)S(=O)(=O)N)C(=O)NN,P00533,0.999979,2-(hydrazinocarbonyl)-3-phenyl-1H-indole-5-sulfonamide,EGFR,Epidermal growth factor receptor
+C1=C(C=C(C(=C1Cl)N)F)S(=O)(=O)NC2=NN=C(S2)S(=O)(=O)N,P00533,0.9999809,"5-(((4-Amino-3-chloro-5-fluorophenyl)sulfonyl)amino)-1,3,4-thiadiazole-2-sulfonamide",EGFR,Epidermal growth factor receptor
+C1CCN(CC1)CCOC2=CC=C(C=C2)C3=CN4C(=C(C=N4)C5=CC=NC=C5)N=C3,P00533,0.9999964,Dorsomorphin,EGFR,Epidermal growth factor receptor
+C([C@@H](C(=O)O)N)S,P00533,0.9992213,L-(+)-Cysteine,EGFR,Epidermal growth factor receptor
+C1CCN(CC1)CCOC2=CC=C(C=C2)C(=O)C3=C(SC4=C3C=CC(=C4)O)C5=CC=C(C=C5)O,P00533,0.99951375,Raloxifene,EGFR,Epidermal growth factor receptor
+C=C(C(=O)O)OP(=O)(O)O,P00533,0.9964988,Phosphoenolpyruvate,EGFR,Epidermal growth factor receptor
+CCOC1=CC2=C(C=C1)N=C(S2)S(=O)(=O)N,P00533,0.99999547,Ethoxzolamide,EGFR,Epidermal growth factor receptor
+CC1=C(C2=C(N1C(=O)C3=CC=C(C=C3)Cl)C=CC(=C2)OC)CC(=O)O,P00533,0.99997616,Indomethacin,EGFR,Epidermal growth factor receptor
+CN1CCN(CC1)NC(=S)NC2=CC=C(C=C2)S(=O)(=O)N,P00533,0.9603956,4-({[(4-Methylpiperazin-1-YL)amino]carbonothioyl}amino)benzenesulfonamide,EGFR,Epidermal growth factor receptor
+C1=CC(=CC=C1C(=O)O)[Hg],P00533,0.99239093,Mercuribenzoic Acid,EGFR,Epidermal growth factor receptor
+C1CCS(=O)(=O)N(C1)C2=CC=C(C=C2)S(=O)(=O)N,P00533,0.9999738,Sulthiame,EGFR,Epidermal growth factor receptor
+C1=CC(=CC=C1C[C@@H](C(=O)O)N)OP(=O)(O)O,P00533,0.9999367,Phospho-L-tyrosine,EGFR,Epidermal growth factor receptor
+CCC(=O)NS(=O)(=O)C1=CC=C(C=C1)C2=C(ON=C2C3=CC=CC=C3)C,P00533,0.9999752,Parecoxib,EGFR,Epidermal growth factor receptor
+C([C@H](CS)O)O,P00533,0.99985397,"(2R)-3-sulfanylpropane-1,2-diol",EGFR,Epidermal growth factor receptor
+C1=C2C(=CC(=C1Cl)S(=O)(=O)N)S(=O)(=O)N[C@@H](N2)C(Cl)Cl,P00533,0.9958016,"6-chloro-3-(dichloromethyl)-3,4-dihydro-2H-1,2,4-benzothiadiazine-7-sulfonamide 1,1-dioxide",EGFR,Epidermal growth factor receptor
+CC1CC2=CC=CC=C2N1NC(=O)C3=CC(=C(C=C3)Cl)S(=O)(=O)N,P00533,0.99857366,Indapamide,EGFR,Epidermal growth factor receptor
+CC1=CC(=C(C(=C1CC2=NCCN2)C)O)C(C)(C)C,P00533,0.9999753,Oxymetazoline,EGFR,Epidermal growth factor receptor
+CCN(CC)CC(=O)NC1=C(C=CC=C1C)C,P00533,0.99904555,Lidocaine,EGFR,Epidermal growth factor receptor
+CC1=NC(=NN1C2=CC(=CC(=C2)Cl)Cl)C(=O)O,P00533,0.99999917,"1-(3,5-Dichlorophenyl)-5-methyl-1H-1,2,4-triazole-3-carboxylic acid",EGFR,Epidermal growth factor receptor
+C1CCC2=C(CC1)C(=O)OC3=C2C=CC(=C3)OS(=O)(=O)N,P00533,0.99999464,Irosustat,EGFR,Epidermal growth factor receptor
+C1=CC(=CC=C1C(=O)NCC2=CC(=C(C(=C2)F)F)F)S(=O)(=O)N,P00533,0.9999995,"4-(Aminosulfonyl)-N-((3,4,5-Trifluorophenyl)Methyl)-Benzamide",EGFR,Epidermal growth factor receptor
+CC1=CC=C(C=C1)C2=NN(C3=C2C(=NC=N3)N)C(C)(C)C,P00533,0.9999999,"1-Ter-Butyl-3-P-Tolyl-1h-Pyrazolo[3,4-D]Pyrimidin-4-Ylamine",EGFR,Epidermal growth factor receptor
+C(CCN)CCN,P00533,0.99981827,Cadaverine,EGFR,Epidermal growth factor receptor
+CC1=CC(=NN1)NC2=NC(=NC3=CC=CC=C32)C4=CC=CC=C4,P00533,0.9999994,N-(5-methyl-1H-pyrazol-3-yl)-2-phenylquinazolin-4-amine,EGFR,Epidermal growth factor receptor
+CCN(CC)CCNC(=O)C1=C(NC(=C1C)/C=C2/C3=C(C=CC(=C3)F)NC2=O)C,P00533,0.99999285,,EGFR,Epidermal growth factor receptor
+C(C(CO)O)O,P00533,0.99997663,Glycerol,EGFR,Epidermal growth factor receptor
+CCN[C@H]1CN(S(=O)(=O)C2=C1C=C(S2)S(=O)(=O)N)CCCOC,P00533,0.9794556,Brinzolamide,EGFR,Epidermal growth factor receptor
+CC1=CC(=C2C(=C1)C(=O)C3=CC(=CC(=C3C2=O)O)O)O,P0CG48,0.9935474,Emodin,UBC,Polyubiquitin-C
+CC1=C(C(=CC=C1)C)NC2=NC=C(N3C2=CN=C3)C4=CC=CC=C4,P0CG48,0.99999917,"N-(2,6-Dimethylphenyl)-5-phenylimidazo[1,5-a]pyrazin-8-amine",UBC,Polyubiquitin-C
+CC1=CC2=C(C=C1)N(C3=C2C4=C(C(=C3)C)C(=O)NC4=O)CCCN,P0CG48,0.9999962,"6-(3-Aminopropyl)-4,9-dimethylpyrrolo[3,4-C]carbazole-1,3(2H,6H)-dione",UBC,Polyubiquitin-C
+C1=CC(=C(C=C1I)C(=O)O)NC(=O)C(=O)O,P0CG48,0.99997747,Novo Nordisk a/S Compound,UBC,Polyubiquitin-C
+C1=C(C=C(C(=C1Br)O)Br)C[C@@H](C(=O)O)N,P0CG48,0.99997747,"3,5-dibromo-L-tyrosine",UBC,Polyubiquitin-C
+CC1=NC(=O)C2=C(N1)CCSC2,P0CG48,1.0,"2-Methyl-3,5,7,8-tetrahydrothiopyrano(4,3-d)pyrimidine-4-one",UBC,Polyubiquitin-C
+CC(=O)NC1=C(NN=C1)C(=O)NC2=CC=C(C=C2)F,P0CG48,0.9999999,4-(acetylamino)-N-(4-fluorophenyl)-1H-pyrazole-3-carboxamide,UBC,Polyubiquitin-C
+CCCN1CCC(CC1)C2=NC3=C(C=CC=C3N2)C(=O)N,P0CG48,0.9996401,2-(1-propylpiperidin-4-yl)-1H-benzimidazole-4-carboxamide,UBC,Polyubiquitin-C
+C1CNCCC1(C2=CC=C(C=C2)C3=CNN=C3)C4=CC=C(C=C4)Cl,P0CG48,0.99994993,AT-7867,UBC,Polyubiquitin-C
+COC1=CC=CC=C1N2C(=NC3=C(C2=O)C(=CC=C3)Cl)CSC4=NC=NC5=C4NC=N5,P0CG48,0.999992,2-((9H-Purin-6-ylthio)methyl)-5-chloro-3-(2-methoxyphenyl)quinazolin-4(3H)-one,UBC,Polyubiquitin-C
+CN1C=C(C=N1)C2=NN3C(=NN=C3SC4=CC5=C(C=C4)N=CC=C5)C=C2,P0CG48,0.9999995,Sgx-523,UBC,Polyubiquitin-C
+CCS(=O)(=O)NC1=C(C(=C(C=C1)F)C(=O)C2=CNC3=NC=C(C=C23)C4=CN=CC=C4)F,P0CG48,0.99999964,"N-(2,4-difluoro-3-((5-pyridin-3-yl-1H-pyrrolo(2,3-b)pyridin-3-yl)carbonyl)phenyl)ethanesulfonamide",UBC,Polyubiquitin-C
+CC#CCNC1=CC=C(C=C1)S(=O)(=O)CC2(CCN(CC2)C(=O)OC(C)(C)C)C(=O)NO,P0CG48,0.9999808,,UBC,Polyubiquitin-C
+C[C@@H](C(=O)N1CCOCC1)N2CC[C@@H](C2=O)NS(=O)(=O)C3=CC4=C(S3)C=CC(=C4)Cl,P0CG48,0.9988147,5-Chloro-N-((3S)-1-((1S)-1-methyl-2-morpholin-4-YL-2-oxoethyl)-2-oxopyrrolidin-3-YL)-1-benzothiophene-2-sulfonamide,UBC,Polyubiquitin-C
+C1=CC(=CC(=C1)NC2=NOC3=C2C=CC(=C3C(=O)NC4=CN=CN=C4)Cl)C(F)(F)F,P0CG48,0.99999964,"6-chloro-N-pyrimidin-5-yl-3-((3-(trifluoromethyl)phenyl)amino)-1,2-benzisoxazole-7-carboxamide",UBC,Polyubiquitin-C
+CC1=C(C=C(C=C1)C(=O)NC)NC2=NC=NC3=C2C=NN3C4=CC=CC=C4,P0CG48,0.9999969,"N,4-dimethyl-3-({1-phenyl-1H-pyrazolo[3,4-d]pyrimidin-4-yl}amino)benzamide",UBC,Polyubiquitin-C
+CN1C2=C(N=CC(=C2)C3=CC=CC=C3)N=C1N,P0CG48,0.9999999,"2-Amino-1-Methyl-6-Phenylimidazo(4,5-b)Pyridine",UBC,Polyubiquitin-C
+CCOCCOCCOCCOCCOCCOCCOCCOCCO,P0CG48,0.9999124,"2-(2-(2-(2-(2-(2-(2-(2-Ethoxy-Ethoxy)-Ethoxy)-Ethoxy)-Ethoxy)-Ethoxy)-Ethoxy)-Ethoxy)-Ethanol, Polyethyleneglycol Peg400",UBC,Polyubiquitin-C
+CC1=NC2=C(N1)CCN(C3=CC=CC=C32)C(=O)C4=CC=C(C=C4)NC(=O)C5=CC=CC=C5C6=CC=CC=C6,P0CG48,0.9999993,Conivaptan,UBC,Polyubiquitin-C
+COC1=CC2=NC=CC(=C2C=C1)OCC3=NN=C4N3N=C(C=C4)C5=CC=CC=C5,P0CG48,0.99999845,Amg-208,UBC,Polyubiquitin-C
+CCOC(=O)C1=C(N(N=C1C)C2=CC(=CC=C2)[N+](=O)[O-])C,P0CG48,1.0,"3,5-Dimethyl-1-(3-nitrophenyl)-1H-pyrazole-4-carboxylic acid ethyl ester",UBC,Polyubiquitin-C
+CS(=O)(=O)CCNCC1=CC=C(O1)C2=CC3=C(C=C2)N=CN=C3NC4=CC(=C(C=C4)OCC5=CC(=CC=C5)F)Cl,P0CG48,0.9999863,Lapatinib,UBC,Polyubiquitin-C
+C1CCC(CC1)COC2=NC(=NC(=C2N=O)N)N,P0CG48,0.9999008,NU-6027,UBC,Polyubiquitin-C
+CC1=CC(=[N+](C(=C1)C)CCC2=CC=C(C=C2)S(=O)(=O)N)C,P0CG48,0.99986005,"1-N-(4-Sulfamoylphenyl-ethyl)-2,4,6-trimethylpyridinium",UBC,Polyubiquitin-C
+C1=CC=C2C(=C1)C(=CN2)OS(=O)(=O)O,P0CG48,0.9999913,Indoxyl Sulfate,UBC,Polyubiquitin-C
+C1=CC2=C(C(=C(C=C2Cl)I)O)N=C1,P0CG48,0.999943,Clioquinol,UBC,Polyubiquitin-C
+CN1C2=C(C=N1)N=CN=C2NCCC3=CN=C(S3)NC(=O)NC4=CC=CC(=C4)C(F)(F)F,P0CG48,0.99999905,"1-(5-{2-[(1-methyl-1H-pyrazolo[4,3-d]pyrimidin-7-yl)amino]ethyl}-1,3-thiazol-2-yl)-3-[3-(trifluoromethyl)phenyl]urea",UBC,Polyubiquitin-C
+C1CCC(C1)N(CCO)[C@@H](CNC(=O)C2=CC3=C(N2)C=CC(=C3)Cl)O,P0CG48,0.99501294,5-Chloro-1H-indole-2-carboxylic acid{[cyclopentyl-(2-hydroxy-ethyl)-carbamoyl]-methyl}-amide,UBC,Polyubiquitin-C
+CC1=NC=C(N1C2CC2)C3=NC(=NC=C3)NC4=CC=C(C=C4)S(=O)(=O)NC,P0CG48,0.9947148,4-((4-(1-Cyclopropyl-2-methyl-1H-imidazol-5-YL)pyrimidin-2-YL)amino)-N-methylbenzenesulfonamide,UBC,Polyubiquitin-C
+COCCNC1=C(C=CC(=C1)N2C3=C(C(=O)CCC3)C4=CC=CC=C42)C(=O)N,P0CG48,0.97993577,"2-[(2-methoxyethyl)amino]-4-(4-oxo-1,2,3,4-tetrahydro-9H-carbazol-9-yl)benzamide",UBC,Polyubiquitin-C
+C1=CC(=CC=C1NC2=CN=CC(=N2)Cl)S(=O)(=O)N,P0CG48,0.9999939,4-[(6-Chloropyrazin-2-yl)amino]benzenesulfonamide,UBC,Polyubiquitin-C
+CC1=C(SC(=N1)C)C2=NC(=NC=C2)NC3=CC=C(C=C3)C(F)(F)F,P0CG48,1.0,"4-(2,4-Dimethyl-1,3-thiazol-5-yl)-N-[4-(trifluoromethyl)phenyl]-2-pyrimidinamine",UBC,Polyubiquitin-C
+CCCC1=C(C=CC2=C1C=CC(=C2)C(=O)C3=CC=CC=C3)OCCCOC4=CC5=C(C=C4)N(C=C5)CC(=O)O,P0CG48,0.9999373,2-{5-[3-(6-Benzoyl-1-propylnaphthalen-2-yloxy)propoxy]indol-1-yl}ethanoic acid,UBC,Polyubiquitin-C
+C1=CC=C(C=C1)NC(=O)C2=CC=NN2,P0CG48,0.999605,N-Phenyl-1H-pyrazole-3-carboxamide,UBC,Polyubiquitin-C
+C1=CC=C2C(=C1)C(=NN2)C(=O)NC3=CC=C(C=C3)S(=O)(=O)N,P0CG48,0.99998474,N-(4-sulfamoylphenyl)-1H-indazole-3-carboxamide,UBC,Polyubiquitin-C
+CCC1=CC=C(C=C1)NC(=O)P(=O)(O)O,P0CG48,0.9997676,Iso24,UBC,Polyubiquitin-C
+COC1=CC=C(C=C1)NCCNC(=O)[C@H](CC2CCCCC2)NC3=NC4=CC=CC=C4O3,P0CG48,0.9999949,"N~2~-1,3-Benzoxazol-2-YL-3-cyclohexyl-N-{2-[(4-methoxyphenyl)amino]ethyl}-L-alaninamide",UBC,Polyubiquitin-C
+CCC/C(=C/C1=CC=C(O1)C2=CC(=CC=C2)C(=O)O)/[N+](=O)[O-],P0CG48,0.9999981,,UBC,Polyubiquitin-C
+C1=CC(=C(C=C1S)C(=O)O)[N+](=O)[O-],P0CG48,1.0,2-Nitro-5-sulfanylbenzoic acid,UBC,Polyubiquitin-C
+C1=CC=C(C=C1)C2=CN3C(=CN=C3C(=C2)NCC4=CN=CN=C4)Br,P0CG48,0.9999974,"3-bromo-6-phenyl-N-(pyrimidin-5-ylmethyl)imidazo[1,2-a]pyridin-8-amine",UBC,Polyubiquitin-C
+C1CN(CCN1CCC(=O)C2=CC(=C(C(=C2)O)O)[N+](=O)[O-])C3=CC=CC(=C3)C(F)(F)F,P0CG48,0.9999999,BIA-3-335 free base,UBC,Polyubiquitin-C
+C1=CC(=C(C=C1[N+](=O)[O-])OS(=O)(=O)O)O,P0CG48,0.99996877,"1,2-Benzenediol, 4-nitro-, 2-(hydrogen sulfate)",UBC,Polyubiquitin-C
+C1CN(CCC1CC2=CC3=CC=CC=C3N=C2)C(=O)O,P0CG48,0.9996284,4-(Quinolin-3-ylmethyl)piperidine-1-carboxylic acid,UBC,Polyubiquitin-C
+C1=CC=C(C(=C1)/C=N/OCCC(=O)O)C(F)(F)F,P0CG48,0.9999994,,UBC,Polyubiquitin-C
+C1CC1C2=CC(=NN2)NC(=O)CC3=CC4=CC=CC=C4C=C3,P0CG48,0.999998,Pnu-292137,UBC,Polyubiquitin-C
+C1C(CN1C(=O)[C@H](CC2=CC=CC=C2)NC(=O)C3=CC4=C(N3)C=CC(=C4)Cl)C(=O)O,P0CG48,0.99380517,[5-Chloro-1H-indol-2-carbonyl-phenylalaninyl]-azetidine-3-carboxylic acid,UBC,Polyubiquitin-C
+CC(C)C[C@@H](C(=O)N[C@@H]1CCN(C1)C#N)NC(=O)OCC2=CC=CC=C2,P0CG48,0.99988186,,UBC,Polyubiquitin-C
+C1=CC=C2C(=C1)NC(=N2)C3=CSC=N3,P0CG48,0.9999906,Thiabendazole,UBC,Polyubiquitin-C
+C1=CC(=CC=C1C2=C(C3=C(C2=O)C=C(C=C3)O)Br)O,P0CG48,0.9999969,3-bromo-6-hydroxy-2-(4-hydroxyphenyl)-1H-inden-1-one,UBC,Polyubiquitin-C
+CC1=C(OC2=C(C1=O)C=C(C=C2)O)C3=CC(=C(C(=C3)Br)O)Br,P0CG48,0.9999999,"2-(3,5-Dibromo-4-hydroxyphenyl)-6-hydroxy-3-methyl-4H-1-benzopyran-4-one",UBC,Polyubiquitin-C
+C1[C@H](C(=O)NC2=CC=CC=C21)NC(=O)C3=CC4=C(N3)SC(=C4)Cl,P0CG48,0.99996793,"2-chloro-N-[(3R)-2-oxo-1,2,3,4-tetrahydroquinolin-3-yl]-6H-thieno[2,3-b]pyrrole-5-carboxamide",UBC,Polyubiquitin-C
+CCOCCO,P0CG48,0.99929905,Glycol monoethyl ether,UBC,Polyubiquitin-C
+C1CN=C(N1)NC2=C(C=CC3=NSN=C32)Cl,P0CG48,0.9999764,Tizanidine,UBC,Polyubiquitin-C
+C1=CC(=CC=C1C2=CC3=C(O2)C(=CC(=C3)O)C#N)O,P0CG48,0.97948265,,UBC,Polyubiquitin-C
+CS(=O)(=O)NC1=CC=CC(=C1)NC2=NC=CC(=N2)NC3=C(C=CC4=C3OCO4)Cl,P0CG48,0.9997875,"N-[3-[[4-[(5-Chloro-1,3-benzodioxol-4-YL)amino]pyrimidin-2-YL]amino]phenyl]methanesulfonamide",UBC,Polyubiquitin-C
+C1=CC2=C(C(=C1)OP(=O)(O)O)N=C(C=C2)C#N,P0CG48,0.9999999,,UBC,Polyubiquitin-C
+C1CN(CCN1C(=O)C2=CC3=C(S2)C=CC=[N+]3[O-])S(=O)(=O)C4=CC5=C(N4)C=CC(=C5)Cl,P0CG48,0.9999993,"2-({4-[(5-Chloro-1H-indol-2-YL)sulfonyl]piperazin-1-YL}carbonyl)thieno[3,2-B]pyridine 4-oxide",UBC,Polyubiquitin-C
+C(CC=O)CC=O,P0CG48,0.9626058,Glutaraldehyde,UBC,Polyubiquitin-C
+CC1=C(N2C=CC=CC2=N1)C3=NC(=NC=C3)NC(=O)C,P0CG48,1.0,"N-[4-(2-Methylimidazo[1,2-A]pyridin-3-YL)-2-pyrimidinyl]acetamide",UBC,Polyubiquitin-C
+C[Hg+],P0CG48,0.96076167,Methylmercury(1+),UBC,Polyubiquitin-C
+CN(C)C/C=C/C(=O)NC1=CC2=C(C=C1)N=CN=C2NC3=CC(=CC=C3)Br,P0CG48,0.99999535,,UBC,Polyubiquitin-C
+C1CCC2=NC3=CC=CC=C3C(=C2C1)NCCN4C(=CN=N4)CCCCCC[N+]5=C6C=C(C=CC6=C7C=CC(=CC7=C5C8=CC=CC=C8)N)N,P0CG48,0.9969236,"3,8-Diamino-6-Phenyl-5-[6-[1-[2-[(1,2,3,4-Tetrahydro-9-Acridinyl)Amino]Ethyl]-1h-1,2,3-Triazol-5-Yl]Hexyl]-Phenanthridinium",UBC,Polyubiquitin-C
+C[S@@](=O)C1=CC=C(C=C1)C2=NC(=C(N2)C3=CC=NC=C3)C4=CC(=CC=C4)I,P0CG48,0.999998,4-(5-(3-Iodo-phenyl)-2-(4-methanesulfinyl-phenyl)-1H-imidazol-4-YL)-pyridine,UBC,Polyubiquitin-C
+CC1=C(C2=C(N1C)C(=O)C=C(C2=O)OC)COC3=CC=C(C=C3)[N+](=O)[O-],P0CG48,1.0,"5-Methoxy-1,2-dimethyl-3-((4-nitrophenoxy)methyl)indole-4,7-dione",UBC,Polyubiquitin-C
+C1=CN=C(N=C1C2=C(SC(=C2)Cl)Cl)N,P0CG48,1.0,"4-(2,5-Dichloro-Thiophen-3-Yl)-Pyrimidin-2-Ylamine",UBC,Polyubiquitin-C
+C[C@@]1(C(=O)N(C(=O)O1)NC2=CC=CC=C2)C3=C(C=C(C=C3)F)F,P0CG48,1.0,"(5S)-3-Anilino-5-(2,4-difluorophenyl)-5-methyl-1,3-oxazolidine-2,4-dione",UBC,Polyubiquitin-C
+C1COC2=C([C@]13C(=O)NC(=O)N3)C=C(C=C2)F,P0CG48,0.99999785,Sorbinil,UBC,Polyubiquitin-C
+COC1=NC=C(C=C1)C2=CC(=CC3=C2OC(=N3)NS(=O)(=O)C4=C(C=CC(=C4)Cl)Cl)OC,P0CG48,0.9999993,"2,5-Dichloro-N-[5-methoxy-7-(6-methoxypyridin-3-YL)-1,3-benzoxazol-2-YL]benzenesulfonamide",UBC,Polyubiquitin-C
+C1=CC(=C(C(=C1)Cl)C2=C3C=CC(=NN3C=NC2=O)SC4=C(C=C(C=C4)F)F)Cl,P0CG48,0.9999999,"5-(2,6-Dichlorophenyl)-2-((2,4-difluorophenyl)thio)-6H-pyrimido(1,6-b)pyridazin-6-one",UBC,Polyubiquitin-C
+C1=CC2=C(C=C1Cl)N=C(O2)NS(=O)(=O)C3=C(C=CC(=C3)Cl)Cl,P0CG48,0.99999785,"2,5-Dichloro-N-(5-chloro-1,3-benzoxazol-2-YL)benzenesulfonamide",UBC,Polyubiquitin-C
+C1=CC2=C(C=CC(=C2)C(F)(F)P(=O)(O)O)C=C1C(=O)O,P0CG48,0.99999833,6-(Difluoro-phosphono-methyl)-naphthalene-2-carboxylic acid,UBC,Polyubiquitin-C
+C1=CC(=C(C=C1F)OCC(=O)O)C(=S)NCC2=C(C=C(C=C2)Br)F,P0CG48,0.999985,Idd594,UBC,Polyubiquitin-C
+CN1C2=C(C=CC(=C2)OCCCCCCN(C)CC=C)C(=N1)C3=CC=C(C=C3)Br,P0CG48,0.9999887,N-Allyl-6-{[3-(4-bromophenyl)-1-methyl-1H-indazol-6-yl]oxy}-N-methyl-1-hexanamine,UBC,Polyubiquitin-C
+CN1C=NC=C1[C@@H](C2=CC=C(C=C2)C#N)OCC3=C(C=C(C(=N3)Cl)C#N)C4=CC(=CC=C4)Cl,P0CG48,0.99883956,,UBC,Polyubiquitin-C
+C1CC2=C(C1)C=C(C=C2)S(=O)(=O)N,P0CG48,0.9707855,Indane-5-sulfonamide,UBC,Polyubiquitin-C
+COC1=CC=C(C=C1)S(=O)(=O)N2C=C(C3=C2C=CC(=C3)OC)CCC(=O)O,P0CG48,0.99998367,Indeglitazar,UBC,Polyubiquitin-C
+COC1=C(C=C(C=C1)CSC2=NN=C(O2)C3=CC4=C(C=C3)OCO4)F,P0CG48,1.0,"2-(1,3-Benzodioxol-5-yl)-5-((3-fluoro-4-methoxybenzyl)sulfanyl)-1,3,4-oxadiazole",UBC,Polyubiquitin-C
+C1CC1C(=O)NC2=CC=CC(=C2)NC3=NC=CC(=N3)NC4=CC=CC(=C4)C(F)(F)F,P0CG48,0.99999726,C-1368,UBC,Polyubiquitin-C
+C1C[C@@H](NC1)COC2=CC=C(C=C2)C(=O)C3=CC=C(C=C3)C4=CSC=C4,P0CG48,0.99931717,{4-[(2R)-pyrrolidin-2-ylmethoxy]phenyl}(4-thiophen-3-ylphenyl)methanone,UBC,Polyubiquitin-C
+C1=C(C=C(C(=C1S(=O)(=O)N)Cl)Cl)S(=O)(=O)N,P0CG48,0.9999732,Dichlorphenamide,UBC,Polyubiquitin-C
+C1=CC2=C(C=CC(=C2N=C1)O)[N+](=O)[O-],P0CG48,1.0,Nitroxoline,UBC,Polyubiquitin-C
+COC1=CC=CC(=C1)N2C=CC3=C(S2(=O)=O)SC(=C3)S(=O)(=O)N,P0CG48,0.9999999,AL6528,UBC,Polyubiquitin-C
+CC1=CC=CC=C1C2=NC3=C(C=NN3C(=C2)NCC4=C[N+](=CC=C4)[O-])Br,P0CG48,0.9999999,"3-((3-Bromo-5-o-tolylpyrazolo(1,5-a)pyrimidin-7-ylamino)methyl)pyridine 1-oxide",UBC,Polyubiquitin-C
+C1CC1COC2=C(C=CC(=C2)C(=O)NC3=C(C=NC=C3Cl)Cl)OC(F)F,P0CG48,0.9995945,Roflumilast,UBC,Polyubiquitin-C
+C(CCCN)CCCNC(N)N,P0CG48,0.9998721,1-Guanidinium-7-Aminoheptane,UBC,Polyubiquitin-C
+C1=CC=C(C=C1)CNC2=CC=CC(=C2)C3=C(C(=C(S3)C(=O)O)OCC(=O)O)Br,P0CG48,0.99999976,5-[3-(Benzylamino)phenyl]-4-bromo-3-(carboxymethoxy)thiophene-2-carboxylic acid,UBC,Polyubiquitin-C
+C1=CC(=CC=C1C(=N)N)NC(=O)NC2=CC=C(C=C2)Cl,P0CG48,0.99999464,1-(4-Amidinophenyl)-3-(4-Chlorophenyl)Urea,UBC,Polyubiquitin-C
+C1=CC=C(C(=C1)C(=O)NC2=CC=C(C=C2)Cl)NCC3=CC=NC=C3,P0CG48,0.9987901,N-(4-Chlorophenyl)-2-[(pyridin-4-ylmethyl)amino]benzamide,UBC,Polyubiquitin-C
+C1=CC=C(C=C1)C(=O)C2=C(C(=C(C=C2)O)O)[N+](=O)[O-],P0CG48,1.0,"3,4-Dihydroxy-2-nitrobenzophenone",UBC,Polyubiquitin-C
+C([C@@H](C(=O)O)N)SCC(=O)O,P0CG48,0.9974547,Carbocysteine,UBC,Polyubiquitin-C
+CC(C)(C)N1C2=C(C(=N1)C3=CC(=CC=C3)O)C(=NC=N2)N,P0CG48,0.9999994,"3-{4-amino-1-tert-butyl-1H-pyrazolo[3,4-d]pyrimidin-3-yl}phenol",UBC,Polyubiquitin-C
+C1=C(C=C(C(=C1Cl)O)Cl)C2=CC(=C(C(=C2)Cl)O)Cl,P0CG48,0.9992605,"3,3',5,5'-Tetrachloro-4,4'-biphenyldiol",UBC,Polyubiquitin-C
+CC(C)C1=NCCC2=C1C=C(C=C2)NC(=O)C3=CC4=C(C=C3)C=C(C=C4)C(=N)N,P0CG48,0.99895275,"6-(N-(1-Isopropyl-3,4-Dihydro-7-Isoquinolinyl)Carbamyl)-2-Naphthalenecarboxamidine",UBC,Polyubiquitin-C
+CC#CCOC1=CC=C(C=C1)S(=O)(=O)N2CCSC([C@@H]2C(=O)NO)(C)C,P0CG48,1.0,,UBC,Polyubiquitin-C
+CC(C)C1=NC2=C(N1)C(=NC(=N2)N)OCC3CCCCC3,P0CG48,0.9999596,6-(Cyclohexylmethoxy)-8-isopropyl-9H-purin-2-amine,UBC,Polyubiquitin-C
+C1=CC=C(C=C1)OC2=CC=C(C=C2)NC(=O)NC3=CC=C(C=C3)C(=N)N,P0CG48,0.9824349,1-(2-Amidinophenyl)-3-(Phenoxyphenyl)Urea,UBC,Polyubiquitin-C
+C1CCC(CC1)C[C@H](C(=O)N2CCC[C@H]2C(=O)NCC3=CC(=CC=C3)Cl)N,P0CG48,0.9996743,3-cyclohexyl-D-alanyl-N-(3-chlorobenzyl)-L-prolinamide,UBC,Polyubiquitin-C
+C1=CC(=C(C=C1C(=O)O)OC(F)(F)F)NC(=O)NC(=O)C2=CC(=C(C=C2Cl)F)F,P0CG48,0.99999964,"4-[3-(2-Chloro-4,5-Difluoro-Benzoyl)ureido]-3-Trifluoromethoxybenzoic Acid",UBC,Polyubiquitin-C
+CN1C2=C(C3=C(C(=C2)C4=CC=CC=C4Cl)C(=O)NC3=O)C(=C1C(=O)NCCO)Br,P0CG48,0.9994727,"8-bromo-4-(2-chlorophenyl)-N-(2-hydroxyethyl)-6-methyl-1,3-dioxo-1,2,3,6-tetrahydropyrrolo[3,4-e]indole-7-carboxamide",UBC,Polyubiquitin-C
+CC1=NC=C(C=C1)C2=NC=C(C=C2C3=CC=C(C=C3)S(=O)(=O)C)Cl,P0CG48,0.9999987,Etoricoxib,UBC,Polyubiquitin-C
+CC1=CC=CC(=C1N(CC2=CN=CC=C2)S(=O)(=O)C3=CC=C(C=C3)OC)C(=O)NO,P0CG48,0.999997,Way-151693,UBC,Polyubiquitin-C
+CC1=C(C2=CC=CC=C2N1)CCNC(=O)C3=CC=CS3,P0CG48,0.9997367,N-(2-(2-Methylindol-3-yl)ethyl)-2-thienylcarboxamide,UBC,Polyubiquitin-C
+CC1=C(C=C(C=C1)C(=O)NC2=CC=CC(=C2)C(F)(F)F)C3=CC4=CN=C(N=C4C=C3)N,P0CG48,0.99999976,3-(2-aminoquinazolin-6-yl)-4-methyl-N-(3-(trifluoromethyl)phenyl)benzamide,UBC,Polyubiquitin-C
+CS(=O)(=O)C1=CC=C(C=C1)C2=C(C(=O)OC2)C3=CC=CC=C3,P0CG48,0.99984324,Rofecoxib,UBC,Polyubiquitin-C
+CN1C2=C(CCC3=CN=C(N=C32)NC4=CC=CC=C4)C(=N1)C(=O)O,P0CG48,0.99999976,"1-methyl-8-(phenylamino)-4,5-dihydro-1H-pyrazolo(4,3-h)quinazoline-3-carboxylic acid",UBC,Polyubiquitin-C
+CC(=O)N[C@@H](CO)C(=O)O,P0CG48,0.95338917,Acetylserine,UBC,Polyubiquitin-C
+CC(=O)N[C@@H](CCSC)C(=O)O,P0CG48,0.99993515,N-acetyl-L-methionine,UBC,Polyubiquitin-C
+C1CN(CC2=C1SC=C2)CC3=CC=CC=C3Cl,P0CG48,0.99994445,Ticlopidine,UBC,Polyubiquitin-C
+CN1C2=CC(=C(C=C2C(=N1)C3=CC=C(C=C3)Br)F)OC/C=C/CN(C)CC=C,P0CG48,0.9999963,,UBC,Polyubiquitin-C
+CN1C2=C(C=C(C=C2)NS(=O)(=O)C3=CC=CC=C3)N=C1CC4=CC=C(C=C4)C(=N)N,P0CG48,0.9522247,4-(5-Benzenesulfonylamino-1-methyl-1H-benzoimidazol-2-ylmethyl)-benzamidine,UBC,Polyubiquitin-C
+CC1=C(N(C(=C1)CC(=O)O)C)C(=O)C2=CC=C(C=C2)Cl,P0CG48,0.999584,Zomepirac,UBC,Polyubiquitin-C
+CN(CCCCCCOC1=CC2=C(C=C1)C(=NS2)C3=CC=C(C=C3)Br)CC=C,P0CG48,0.9999815,"N-(6-{[3-(4-Bromophenyl)-1,2-Benzisothiazol-6-Yl]Oxy}Hexyl)-N-Methylprop-2-En-1-Amine",UBC,Polyubiquitin-C
+C1CN(CCC1(CN)C2=CC=C(C=C2)Cl)C3=NC=NC4=C3C=CN4,P0CG48,0.9999907,"1-(4-(4-chlorophenyl)-1-(7H-pyrrolo(2,3-d)pyrimidin-4-yl)piperidin-4-yl)methanamine",UBC,Polyubiquitin-C
+C1CN2C(=N1)C3=CC=CC=C3C2(C4=CC=C(C=C4)Cl)O,P0CG48,0.9849635,Mazindol,UBC,Polyubiquitin-C
+C1=CC=C(C=C1)NC(=O)C2=C(C=CC(=C2)[N+](=O)[O-])Cl,P0CG48,1.0,2-Chloro-5-nitrobenzanilide,UBC,Polyubiquitin-C
+CCN1C2=NC=C(C(=C2C=N1)NC3CCOCC3)C(=O)NCC4=CC=CC=C4,P0CG48,0.9999901,"1-ethyl-N-(phenylmethyl)-4-(tetrahydro-2H-pyran-4-ylamino)-1H-pyrazolo(3,4-b)pyridine-5-carboxamide",UBC,Polyubiquitin-C
+CN1C2=NC(=NC=C2C=C(C1=O)C3=C(C=CC=C3Cl)Cl)NC4=CC=CC(=C4)CO,P0CG48,0.9999995,PD-166326,UBC,Polyubiquitin-C
+CN1C(=O)CN=C(C2=C1C=CC(=C2)Cl)C3=CC=CC=C3,P0CG48,0.99997675,Diazepam,UBC,Polyubiquitin-C
+C1=CC(=C(C(=C1)CC(=O)O)N)C(=O)C2=CC=C(C=C2)Br,P0CG48,0.99952066,Bromfenac,UBC,Polyubiquitin-C
+CC1=CC=C(C=C1)S(=O)(=O)NC(=O)NC2=CC=C(C=C2)S(=O)(=O)N,P0CG48,0.9841505,N-({[4-(Aminosulfonyl)phenyl]amino}carbonyl)-4-methylbenzenesulfonamide,UBC,Polyubiquitin-C
+C1=CC2=C(C=CN=C2)C(=C1)S(=O)(=O)NCCNCCOCC3=CC=C(C=C3)Cl,P0CG48,0.9993968,Isoquinoline-5-sulfonic acid (2-(2-(4-chlorobenzyloxy)ethylamino)ethyl)amide,UBC,Polyubiquitin-C
+C1=CC2=C(C=CC=C2S(=O)(=O)N)C(=C1)O,P0CG48,0.9810027,5-Hydroxynaphthalene-1-sulfonamide,UBC,Polyubiquitin-C
+CN(C)C1=CC=CC2=C1C=CC=C2S(=O)(=O)O,P0CG48,0.9991303,Dansyl acid,UBC,Polyubiquitin-C
+C1=C(C(=O)NC(=O)N1)F,P0CG48,0.9999951,5-Fluorouracil,UBC,Polyubiquitin-C
+C1C2=CC(=CC(=C2OCO1)CN3C4=CC=CC(=C4/C(=N/O)/C3=O)C5=CC=CC=C5)F,P0CG48,1.0,,UBC,Polyubiquitin-C
+C1CCCC(CC1)CC2=CC3=C(S2(=O)=O)C=C(C=C3)OS(=O)(=O)N,P0CG48,0.99995697,Emd 486019,UBC,Polyubiquitin-C
+CC(C)N1CCC(CC1)NC(=O)C2=CC3=CC=CC=C3N2CC(=O)NC4=CC=C(C=C4)Cl,P0CG48,0.9999968,1-(2-((4-Chlorophenyl)amino)-2-oxoethyl)-N-(1-isopropylpiperidin-4-YL)-1H-indole-2-carboxamide,UBC,Polyubiquitin-C
+C1=C(C=C(C(=C1Cl)O)SC2=CC(=CC(=C2O)Cl)Cl)Cl,P0CG48,0.9999949,Bithionol,UBC,Polyubiquitin-C
+C1=CC=C(C=C1)C2=CC3=C(C4=C(N3)C=CC(=C4)O)C5=C2C(=O)NC5=O,P0CG48,0.99890816,"9-Hydroxy-4-phenylpyrrolo[3,4-C]carbazole-1,3(2H,6H)-dione",UBC,Polyubiquitin-C
+C1CN(CCC1C(=O)N2CCN(CC2)S(=O)(=O)C3=CC4=C(C=C3)C=C(C=C4)Cl)C5=CC=NC=C5,P0CG48,0.99995947,"(4-(6-Chloro-Naphthalene-2-Sulfonyl)-Piperazin-1-Yl)-(3,4,5,6-Tetrahydro-2h-(1,4')Bipyridinyl-4-Yl)-Methanone",UBC,Polyubiquitin-C
+C1=CC=C2C(=C1)C(=O)N[C@@]2(C3=CC(=C(C=C3)Cl)S(=O)(=O)N)O,P0CG48,0.97079855,2-chloro-5-((1S)-1-hydroxy-3-oxo-2H-isoindol-1-yl)benzenesulfonamide,UBC,Polyubiquitin-C
+CS(=O)(=O)C1=CC=C(C=C1)NC2=CC(=NC3=CC=NN32)Cl,P0CG48,0.99999344,"(5-Chloropyrazolo(1,5-a)Pyrimidin-7-Yl)-(4-Methanesulfonylphenyl)Amine",UBC,Polyubiquitin-C
+C1=CC=C(C=C1)NC2=NC(=O)C3=C(N2)N(C=N3)CCCCO,P0CG48,0.99999,9-(4-Hydroxybutyl)-N2-Phenylguanine,UBC,Polyubiquitin-C
+CC1=C(C=C(C=C1)C(=O)NC2CC2)C3=CC=C(C=C3)C(=O)NCC4CC4,P0CG48,0.9995834,"N~3~-cyclopropyl-N~4~'-(cyclopropylmethyl)-6-methylbiphenyl-3,4'-dicarboxamide",UBC,Polyubiquitin-C
+C1=CC=C(C=C1)NC(=O)CCCCCCC(=O)NO,P0CG48,0.99999535,Vorinostat,UBC,Polyubiquitin-C
+CC(=O)C1=CC=CC(=C1)C2=CN=C3N2N=C(C=C3)NCC4CC4,P0CG48,0.99996877,Imidazopyridazin 1,UBC,Polyubiquitin-C
+C(=N)(N)N,P0CG48,0.99999297,Guanidine,UBC,Polyubiquitin-C
+C1=CC(=CC=C1CN(C2=CC=C(C=C2)C#N)N3C=NN=C3)OS(=O)(=O)N,P0CG48,0.99998844,,UBC,Polyubiquitin-C
+CN1CCC2(CC1)[C@@H](C3=C(C(=O)N2)N(C4=C3C=CC(=C4Cl)Cl)C)C#N,P0CG48,0.99988556,,UBC,Polyubiquitin-C
+C1OC2=C(O1)C(=C(C=C2)Cl)NC3=NC(=NC=C3)NC4=CC(=CC=C4)S(=O)(=O)N,P0CG48,0.99990773,"3-((4-((5-Chloro-1,3-benzodioxol-4-yl)amino)pyrimidin-2-yl)amino)benzenesulfonamide",UBC,Polyubiquitin-C
+CN1C2=C(N=CC(=C2)C3=CC=C(C=C3)O)N=C1N,P0CG48,0.99999905,"4-{2-amino-1-methyl-1H-imidazo[4,5-b]pyridin-6-yl}phenol",UBC,Polyubiquitin-C
+C1=CC=C(C=C1)C2=C(C(=CC=C2)C3=CC4=CC(=C(C=C4N3)Cl)C(=[NH2+])N)O,P0CG48,0.99998343,6-Chloro-2-(2-hydroxy-biphenyl-3-yl)-1H-indole-5-carboxamidine,UBC,Polyubiquitin-C
+CCCN1C(=NC(=C1C2=NC(=NC=C2)NC3CCCCC3)C4=CC(=C(C=C4)Cl)Cl)C5CCNCC5,P0CG48,0.99999034,"Cyclohexyl-(4-(5-(3,4-Dichlorophenyl)-2-Piperidin-4-Yl-3-Propyl-3h-Imidazol-4-Yl)-Pyrimidin-2-Yl)Amine",UBC,Polyubiquitin-C
+CC#CCOC1=CC=C(C=C1)S(=O)(=O)CCCS,P0CG48,0.97648245,,UBC,Polyubiquitin-C
+C1=CC=C(C=C1)C2=CN=C(C3=CN=CN32)NC4=CC=CC=C4Cl,P0CG48,0.99999607,"N-(2-chlorophenyl)-5-phenylimidazo[1,5-a]pyrazin-8-amine",UBC,Polyubiquitin-C
+CCCC[C@@H](C(=O)C(=O)NC1=CC=NN1)NC(=O)OCC2(CCC2)CC3=CC=C(C=C3)F,P0CG48,0.99918705,[1-(4-Fluorobenzyl)Cyclobutyl]Methyl (1s)-1-[Oxo(1h-Pyrazol-5-Ylamino)Acetyl]Pentylcarbamate,UBC,Polyubiquitin-C
+CC(C)C[C@@H](C(=O)N[C@@H](COCC1=CC=CC=C1)C#N)NC(=O)N2CCOCC2,P0CG48,0.98961556,,UBC,Polyubiquitin-C
+C1(=C(C(=C(C(=C1Br)Br)Br)Br)Br)O,P0CG48,0.99999654,Pentabromophenol,UBC,Polyubiquitin-C
+C1=C(C=C2C(=C1O)C(=O)/C(=C/C3=CC(=C(C(=C3O)Br)O)Br)/O2)O,P0CG48,0.99999595,,UBC,Polyubiquitin-C
+CCOC(=O)C1=C(N(N=C1C)C2=CC=CC=C2Cl)C,P0CG48,0.99999917,"1-(2-Chlorophenyl)-3,5-Dimethyl-1h-Pyrazole-4-Carboxylic Acid Ethyl Ester",UBC,Polyubiquitin-C
+C1CNCCN(C1)S(=O)(=O)C2=CC=CC3=C2C=CNC3=O,P0CG48,0.9999306,Hydroxyfasudil,UBC,Polyubiquitin-C
+C1=CC=C(C=C1)S(=O)(=O)NC2=NN=C(S2)S(=O)(=O)N,P0CG48,0.9920374,Benzolamide,UBC,Polyubiquitin-C
+C(CNC(CO)(CO)CO)CNC(CO)(CO)CO,P0CG48,0.98418933,Bis-tris propane,UBC,Polyubiquitin-C
+C1[C@@H](C2=C(C=C(N2)C3=NC(=NC=C3)N)C(=O)N1)CCF,P0CG48,0.9999877,"(7S)-2-(2-aminopyrimidin-4-yl)-7-(2-fluoroethyl)-1,5,6,7-tetrahydro-4H-pyrrolo[3,2-c]pyridin-4-one",UBC,Polyubiquitin-C
+C1=CC=C(C=C1)C(=O)NC2=NNC3=C2C=C(C=C3)NC(=O)[C@@H](CCN)C4=CC(=CC=C4)Cl,P0CG48,0.9999304,N-(5-(((2S)-4-amino-2-(3-chlorophenyl)butanoyl)amino)-1H-indazol-3-yl)benzamide,UBC,Polyubiquitin-C
+CC1=C(SC(=N1)C)C2=NC(=NC=C2)NC3=CC=C(C=C3)N(C)C,P0CG48,0.9999981,"N-(4-(2,4-Dimethyl-thiazol-5-YL)-pyrimidin-2-YL)-N',N'-dimethyl-benzene-1,4-diamine",UBC,Polyubiquitin-C
+C1CN(CCC12C(=O)NCN2C3=CC=CC=C3)CCCC(C4=CC=C(C=C4)F)C5=CC=C(C=C5)F,P0CG48,0.99999046,Fluspirilene,UBC,Polyubiquitin-C
+CCCCN1C2=C(C(=O)N(C1=O)CC=C)NC(=N2)CC3=CC=C(C=C3)NC(=O)C,P0CG48,0.98966753,1-Allyl-3-Butyl-8-(N-Acetyl-4-Aminobenzyl)-Xanthine,UBC,Polyubiquitin-C
+C1=CC=C(C=C1)C2=C(C(=C(S2)C(=O)O)OCC(=O)O)Br,P0CG48,0.99999845,4-Bromo-3-(carboxymethoxy)-5-phenylthiophene-2-carboxylic acid,UBC,Polyubiquitin-C
+C1=CC2=C(C=C1/C=C3/C(=O)NC(=O)S3)OC(O2)(F)F,P0CG48,0.99999106,,UBC,Polyubiquitin-C
+C1CN(C[C@@H](N1)CC2=CC=CC=C2)C3=NN=C(C(=C3)C4=CC=NC=C4)C5=CC6=CC=CC=C6C=C5,P0CG48,0.99999213,6((S)-3-Benzylpiperazin-1-Yl)-3-(Naphthalen-2-Yl)-4-(Pyridin-4-Yl)Pyrazine,UBC,Polyubiquitin-C
+C1=CC2=C(NOC2=CC1=O)C3=CC(=C(C=C3O)O)Br,P0CG48,1.0,"4-Bromo-6-(6-hydroxy-1,2-benzisoxazol-3-yl)benzene-1,3-diol",UBC,Polyubiquitin-C
+CCOC1=C(C(=CC(=N1)NC(=O)CC2=CC(=C(C=C2OC)Br)OC)N)C#N,P0CG48,0.99999607,,UBC,Polyubiquitin-C
+CN(CC1=CC=C(C=C1)Cl)S(=O)(=O)C2=CC=C(C=C2)S(=O)(=O)N,P0CG48,0.99997663,"N-(4-chlorobenzyl)-N-methylbenzene-1,4-disulfonamide",UBC,Polyubiquitin-C
+CC1=CC=C(C=C1)C2=CC(=NN2C3=CC=C(C=C3)S(=O)(=O)N)C(F)(F)F,P0CG48,0.9999994,Celecoxib,UBC,Polyubiquitin-C
+C1=CC(=CC=C1CNC(=O)C2=CC=C(C=C2)S(=O)(=O)N)F,P0CG48,0.99999607,4-(Aminosulfonyl)-N-((4-Fluorophenyl)Methyl)-Benzamide,UBC,Polyubiquitin-C
+CC1=C2C=C(C=CC2=NN1)C3=CC(=CN=C3)OC[C@H](CC4=CC=C(C=C4)Br)N,P0CG48,0.99999726,"3-Pyridin-4-YL-2,4-dihydro-indeno(1,2-.C.) pyrazole",UBC,Polyubiquitin-C
+CN1C(=CC(=N1)C2=CC=CC=C2)NS(=O)(=O)O,P0CG48,0.99986374,1-Methyl-3-phenyl-1H-pyrazol-5-ylsulfamic acid,UBC,Polyubiquitin-C
+CSCC[C@@H](C(=O)O)NC=O,P0CG48,0.9999331,N-Formylmethionine,UBC,Polyubiquitin-C
+CC(=CCC/C(=C/CC/C(=C/COP(=O)(O)OP(=O)(O)O)/C)/C)C,P0CG48,0.9723848,,UBC,Polyubiquitin-C
+CN1CCN(CC1)C2=CC=C(C=C2)C(=O)NC3=NNC4=CN(C=C43)C(=O)CC5=CC=CS5,P0CG48,0.9999999,"4-(4-Methylpiperazin-1-YL)-N-(5-(2-thienylacetyl)-1,5-dihydropyrrolo(3,4-C)pyrazol-3-YL)benzamide",UBC,Polyubiquitin-C
+C1=CC(=CC=C1[C@H](CN=[N+]=[N-])O)[N+](=O)[O-],P0CG48,0.99495006,(R)-1-Para-Nitro-Phenyl-2-Azido-Ethanol,UBC,Polyubiquitin-C
+CC(C)(C)C1=NN(C(=C1)NC(=O)NC2=CC=CC3=CC=CC=C32)C4=CC(=CC=C4)N,P0CG48,0.99999976,1-[1-(3-aminophenyl)-3-tert-butyl-1H-pyrazol-5-yl]-3-naphthalen-1-ylurea,UBC,Polyubiquitin-C
+CC1=C(SC(=N1)N)C2=NC(=NC=C2)NC3=CC(=CC=C3)[N+](=O)[O-],P0CG48,1.0,4-(2-Amino-4-methyl-5-thiazolyl)-N-(3-nitrophenyl)-2-pyrimidinamine,UBC,Polyubiquitin-C
+C1=CC2=C(C=C(S2)C(=[NH2+])N)C(=C1)I,P0CG48,0.9999999,4-Iodobenzo(B)Thiophene-2-Carboxamidine,UBC,Polyubiquitin-C
+COC1=CC=C(C=C1)C(=O)C2=C(N=C(S2)NC3=CC=C(C=C3)OC)N,P0CG48,0.99950814,"(4-Amino-2-((4-methoxyphenyl)amino)-1,3-thiazol-5-yl)(4-methoxyphenyl)methanone",UBC,Polyubiquitin-C
+C1CN(CCC1NCC2=CC=CC=C2O)S(=O)(=O)NC3=CC(=CC=C3)OC4=CC=C(C=C4)F,P0CG48,0.99996793,4-(2-Hydroxybenzylamino)-N-(3-(4-fluorophenoxy)phenyl)piperidine-1-sulfonamide,UBC,Polyubiquitin-C
+C1=CC2=C(C=C1S(=O)(=O)N)NC(=N2)C3=CSC=N3,P0CG48,0.9999994,"2-(1,3-thiazol-4-yl)-1H-benzimidazole-5-sulfonamide",UBC,Polyubiquitin-C
+CS(=O)(=O)N1CCC(CC1)[C@H]2C3=C(C=C(C=C3)Cl)C(=CC4=C2N=CC=C4)N5CCNCC5,P0CG48,0.9999634,"(11S)-8-Chloro-11-[1-(methylsulfonyl)piperidin-4-YL]-6-piperazin-1-YL-11H-benzo[5,6]cyclohepta[1,2-B]pyridine",UBC,Polyubiquitin-C
+C1=CC(=CC=C1C2=COC3=CC(=CC(=C3C2=O)O)O)O,P0CG48,0.9832888,Genistein,UBC,Polyubiquitin-C
+C1=CC=C(C=C1)C2=NN3C=CC=CC3=C2C4=CC5=C(NN=C5N=N4)N,P0CG48,0.9999999,FR-180204,UBC,Polyubiquitin-C
+CC1=C(SC(=N1)C)C2=NC(=NC=C2)N,P0CG48,0.99999845,"4-(2,4-Dimethyl-Thiazol-5-Yl)-Pyrimidin-2-Ylamine",UBC,Polyubiquitin-C
+C1CCC(C1)N2C3=C(C(=N2)C4=CN=C5C(=C4)C=CN5)C(=NC=N3)N,P0CG48,0.99998426,PP121,UBC,Polyubiquitin-C
+C1CCC(CC1)COC2=NC(=NC3=C2NC=N3)NC4=CC=C(C=C4)S(=O)(=O)N,P0CG48,0.99993885,O6-Cyclohexylmethoxy-2-(4'-sulphamoylanilino) purine,UBC,Polyubiquitin-C
+C1=CC=C2C(=C1)C(=NO2)CS(=O)(=O)N,P0CG48,0.9999547,Zonisamide,UBC,Polyubiquitin-C
+C1=CC(=CC=C1C#N)N(CC2=CC(=C(C=C2)OS(=O)(=O)N)Br)N3C=NN=C3,P0CG48,0.9999964,,UBC,Polyubiquitin-C
+CNC1=NC=CC(=N1)C2=CC=C(S2)C(=O)N[C@@H](CC3=C(C=C(C=C3)Cl)Cl)CN,P0CG48,0.9999254,"N-((1S)-2-Amino-1-(2,4-dichlorobenzyl)ethyl)-5-(2-(methylamino)pyrimidin-4-YL)thiophene-2-carboxamide",UBC,Polyubiquitin-C
+C1=COC(=C1)CNC2=CC(=C(C=C2C(=O)O)S(=O)(=O)N)Cl,P0CG48,0.9985216,Furosemide,UBC,Polyubiquitin-C
+CC(C)N1C2=C(C(=N1)C3=CC(=CC=C3)O)C(=NC=N2)N,P0CG48,0.99996734,"3-(4-Azanyl-1-propan-2-YL-pyrazolo(3,4-D)pyrimidin-3-YL)phenol",UBC,Polyubiquitin-C
+C1=CC(=C(C=C1OC2=C(C=C(C=C2I)C[C@@H](C(=O)O)N)I)I)O,P0CG48,0.99999213,Liothyronine,UBC,Polyubiquitin-C
+COC1=C(C(=C(C=C1)F)F)C(=O)C2=CN=C(N=C2N)NC3CCN(CC3)S(=O)(=O)C,P0CG48,0.99999416,"(4-Amino-2-(1-methanesulfonylpiperidin-4-ylamino)pyrimidin-5-yl)(2,3-difluoro-6-methoxyphenyl)methanone",UBC,Polyubiquitin-C
+CC1=C(C(=NC(=N1)C2=CC=CC=N2)NCCC3=CC=CC=C3)Cl,P0CG48,0.99999285,5-Chloro-6-methyl-N-(2-phenylethyl)-2-pyridin-2-ylpyrimidin-4-amine,UBC,Polyubiquitin-C
+C12=C(NC(=O)N1)NC(=O)NC2=O,P0CG48,0.9918733,Uric Acid,UBC,Polyubiquitin-C
+C1C2=CC=CC=C2C3=C1C(=NN3)C4=CC=NC=C4,P0CG48,0.99999213,"3-Pyridin-4-yl-1,4-dihydroindeno(1,2-C)pyrazole",UBC,Polyubiquitin-C
+CCOCCOCCOCC,P0CG48,0.9999887,Diethylene glycol diethyl ether,UBC,Polyubiquitin-C
+CC1=C(C=C(C=C1)C(=O)NC2CC2)C3=CC4=CN=C(N=C4C=C3)NCCN5CCOCC5,P0CG48,0.99999785,N-cyclopropyl-4-methyl-3-{2-[(2-morpholin-4-ylethyl)amino]quinazolin-6-yl}benzamide,UBC,Polyubiquitin-C
+CC[C@H](CO)NC1=NN2C(=NC=C2C3=CC=C(C=C3)C(=O)O)C=C1,P0CG48,0.9900215,"4-(6-{[(1R)-1-(hydroxymethyl)propyl]amino}imidazo[1,2-b]pyridazin-3-yl)benzoic acid",UBC,Polyubiquitin-C
+C1CNCCN(C1)C(=O)C2=C(C=CC(=C2)CC3=NNC(=O)C4=CC=CC=C43)F,P0CG48,0.9999993,KU-0058948,UBC,Polyubiquitin-C
+CN1C2=C(C=CC(=C2)Cl)C3=C1C(=O)NC4([C@@H]3C#N)CCNCC4,P0CG48,0.999964,,UBC,Polyubiquitin-C
+C1CCC(CC1)COC2=NC(=NC3=C2NC=N3)NC4=CC=CC=C4,P0CG48,0.99999964,2-Anilino-6-cyclohexylmethoxypurine,UBC,Polyubiquitin-C
+CC1=C(C=C(C=C1)O)NC2=C3C=CC(=CC3=NC=C2)C4=CSC(=N4)C=O,P0CG48,0.99999917,"4-(4-((5-Hydroxy-2-methylphenyl)amino)quinolin-7-yl)-1,3-thiazole-2-carbaldehyde",UBC,Polyubiquitin-C
+C1CNCCC1OC2=CC=CC(=C2)C(=O)C3=C(N(N=C3)C4=CC=C(C=C4)F)N,P0CG48,0.9999982,[5-Amino-1-(4-fluorophenyl)-1H-pyrazol-4-YL][3-(piperidin-4-yloxy)phenyl]methanone,UBC,Polyubiquitin-C
+C1CCC(CC1)OC2=NC3=NC=NN3C(=C2)NC4=CC=C(C=C4)S(=O)(=O)N,P0CG48,0.9876872,"4-((5-(Cyclohexyloxy)(1,2,4)triazolo(1,5-A)pyrimidin-7-YL)amino)benzenesulfonamide",UBC,Polyubiquitin-C
+C=CC(=O)NC1=CC2=C(C=C1)N=CN=C2NC3=CC(=CC=C3)Br,P0CG48,0.99992704,Pd 168393,UBC,Polyubiquitin-C
+C1C[C@@H]2C3=C(C=CC=C3NC(=O)NC4=CC=CC=N4)C(=O)N2C1,P0CG48,0.9999924,"N'-(Pyrrolidino(2,1-B)Isoindolin-4-On-8-Yl)-N-(Pyridin-2-Yl)Urea",UBC,Polyubiquitin-C
+C1CC(=O)OC1,P0CG48,0.9771442,Gamma-Butyrolactone,UBC,Polyubiquitin-C
+CC1=C(C=C2C(=C1)C(CCC2(C)C)(C)C)C3(CC3)C4=NC=C(C=C4)C(=O)O,P0CG48,0.9999486,"6-(1-(5,6,7,8-Tetrahydro-3,5,5,8,8-pentamethyl-2-naphthalenyl)cyclopropyl)-3-pyridinecarboxylic acid",UBC,Polyubiquitin-C
+C(CCCO)CCO,P0CG48,0.9998692,"1,6-Hexanediol",UBC,Polyubiquitin-C
+C[As](=O)(C)O,P0CG48,0.99994695,Dimethylarsinic Acid,UBC,Polyubiquitin-C
+C1=CC=C(C=C1)C2=C(NC3=C2C=C(C=C3)S(=O)(=O)N)C(=O)NN,P0CG48,0.9999577,2-(hydrazinocarbonyl)-3-phenyl-1H-indole-5-sulfonamide,UBC,Polyubiquitin-C
+C1=C(C=C(C(=C1Cl)N)F)S(=O)(=O)NC2=NN=C(S2)S(=O)(=O)N,P0CG48,0.9997085,"5-(((4-Amino-3-chloro-5-fluorophenyl)sulfonyl)amino)-1,3,4-thiadiazole-2-sulfonamide",UBC,Polyubiquitin-C
+C1C(=O)NS(=O)(=O)N1C2=CSC(=C2Cl)C3=CC=CC=C3,P0CG48,0.99999607,"5-(4-Chloro-5-phenyl-3-thienyl)-1,2,5-thiadiazolidin-3-one 1,1-dioxide",UBC,Polyubiquitin-C
+CSCC[C@H](C(=O)O)N,P0CG48,0.9988589,D-Methionine,UBC,Polyubiquitin-C
+C[N+](C)(C)C1=CC=C(C=C1)CNC(=O)C2=CC3=C(N2CC4=CC=CC(=C4)C(=N)N)C=CC(=C3)OCC5=CC=CC=C5,P0CG48,0.97560465,[4-({[5-Benzyloxy-1-(3-Carbamimidoyl-Benzyl)-1h-Indole-2-Carbonyl]-Amino}-Methyl)-Phenyl]-Trimethyl-Ammonium,UBC,Polyubiquitin-C
+CC[C@H](CO)NC1=NC2=C(C=NN2C(=N1)NCC3=CC=CC=C3)C(C)C,P0CG48,0.9997632,"(2R)-2-((4-(benzylamino)-8-(1-methylethyl)pyrazolo(1,5-a)(1,3,5)triazin-2-yl)amino)butan-1-ol",UBC,Polyubiquitin-C
+CCCC1=C(C=C(C=C1)NC(=O)C2=CC=CC=C2NCC3=CNC(=O)C=C3)C(F)(F)F,P0CG48,0.99962664,"2-(((6-oxo-1,6-dihydropyridin-3-yl)methyl)amino)-N-(4-propyl-3-(trifluoromethyl)phenyl)benzamide",UBC,Polyubiquitin-C
+CN(C1CCC(CC1)C2=CC=C(C=C2)CN3CCCCC3)C(=O)OC4=CC=C(C=C4)Cl,P0CG48,0.9999974,Methyl-(4-(4-Piperidine-1-Ylmethyl-Phenyl)-Cyclohexyl)-Carbaminic Acid-(4-Chlorophenyl)-Ester,UBC,Polyubiquitin-C
+C1CCN(CC1)CCOC2=CC=C(C=C2)C3=CN4C(=C(C=N4)C5=CC=NC=C5)N=C3,P0CG48,0.9999925,Dorsomorphin,UBC,Polyubiquitin-C
+C1CC(=O)N[C@@H]1CS(=O)(=O)C[C@@H](C(=O)NC2(CC2)C#N)N[C@@H](C3=CC=C(C=C3)F)C(F)(F)F,P0CG48,0.9999975,,UBC,Polyubiquitin-C
+COC1=C(C=C2C(=C1)N=CN=C2NC3=CC(=C(C=C3)F)Cl)OCCCN4CCOCC4,P0CG48,0.999777,Gefitinib,UBC,Polyubiquitin-C
+CC1(C2=C(C=CC(=C2)C3=CC=C(N3C)C#N)NC(=S)O1)C,P0CG48,0.9999963,,UBC,Polyubiquitin-C
+C1CCC(CC1)NCCCS(=O)(=O)O,P0CG48,0.9996742,3-(Cyclohexylamino)-1-propanesulfonic acid,UBC,Polyubiquitin-C
+CCCCC1C(=O)N(N(C1=O)C2=CC=CC=C2)C3=CC=CC=C3,P0CG48,0.9981046,Phenylbutazone,UBC,Polyubiquitin-C
+C1=CC(=C(C=C1C[C@@H](C(=O)O)N)[N+](=O)[O-])O,P0CG48,0.9999989,3-Nitro-L-tyrosine,UBC,Polyubiquitin-C
+C1(=C(C2=NNN=C2C(=C1Br)Br)Br)Br,P0CG48,0.99999964,"4,5,6,7-Tetrabromobenzotriazole",UBC,Polyubiquitin-C
+COC1=CC2=C(C(=C1)C3=CC(=CC=C3)N)OC(=N2)NS(=O)(=O)C4=C(C=CC(=C4)Cl)Cl,P0CG48,0.999998,"N-(7-(3-Aminophenyl)-5-methoxy-1,3-benzoxazol-2-YL)-2,5-dichlorobenzenesulfonamide",UBC,Polyubiquitin-C
+C1=CC(=CC(=C1)Br)C2=CC(=[N+]3C(=N2)C=CN3)NCC4=CC=NC=C4,P0CG48,0.9999995,"(5Z)-5-(3-Bromocyclohexa-2,5-dien-1-ylidene)-N-(pyridin-4-ylmethyl)-1,5-dihydropyrazolo(1,5-A)pyrimidin-7-amine",UBC,Polyubiquitin-C
+COC1=CC=CC=C1OCCNCC(COC2=CC=CC3=C2C4=CC=CC=C4N3)O,P0CG48,0.99682873,Carvedilol,UBC,Polyubiquitin-C
+C1CCN(CC1)CCOC2=CC=C(C=C2)C(=O)C3=C(SC4=C3C=CC(=C4)O)C5=CC=C(C=C5)O,P0CG48,0.9985299,Raloxifene,UBC,Polyubiquitin-C
+CC(C)N1C2=C(C(=N1)C3=CC4=C(C=C3)N=CC=C4)C(=NC=N2)N,P0CG48,0.9999975,"1-(1-methylethyl)-3-quinolin-6-yl-1H-pyrazolo(3,4-d)pyrimidin-4-amine",UBC,Polyubiquitin-C
+C1=CC(=C2C(=C1N)C(=O)C3=C(C=CC(=C3C2=O)O)O)N,P0CG48,0.99841106,"1,4-Diamino-5,8-dihydroxy-anthraquinone",UBC,Polyubiquitin-C
+C1C2=C(C3=CC=CC=C3NC1=O)NC4=C2C=C(C=C4)[N+](=O)[O-],P0CG48,0.9999999,Alsterpaullone,UBC,Polyubiquitin-C
+C/C(=NOC(=O)N)/C1=CC(=C(C=C1)OC)OC2CCCC2,P0CG48,0.99987197,,UBC,Polyubiquitin-C
+COC1=C(C=C(C=C1)C(=O)NC2=C(C=NC=C2Cl)Cl)OC3CCCC3,P0CG48,0.9997799,Piclamilast,UBC,Polyubiquitin-C
+CN(C)CCCN1C=C(C2=CC=CC=C21)C3=C(C(=O)NC3=O)C4=CNC5=CC=CC=C54,P0CG48,0.98509926,"3-(1-(3-(Dimethylamino)propyl)-1H-indol-3-yl)-4-(1H-indol-3-yl)-1H-pyrrole-2,5-dione",UBC,Polyubiquitin-C
+CC(C)CN(CC(=O)NO)S(=O)(=O)C1=CC=C(C=C1)OC,P0CG48,0.99985945,N-isobutyl-N-(4-methoxyphenylsulfonyl)glycyl hydroxamic acid,UBC,Polyubiquitin-C
+CCCCCCCCCCC[C@@H](C[C@H]1[C@@H](C(=O)O1)CCCCCC)OC(=O)[C@H](CC(C)C)NC=O,P0CG48,0.9839918,Orlistat,UBC,Polyubiquitin-C
+C1=CC=C2C(=C1)C(=C(N2)C3=C4C=CC=CC4=NC3=O)NO,P0CG48,1.0,Indirubin-3'-monoxime,UBC,Polyubiquitin-C
+C1=CC(=CC=C1C(=N)N)OCCCCCOC2=CC=C(C=C2)C(=N)N,P0CG48,0.9527561,Pentamidine,UBC,Polyubiquitin-C
+COC1=C(C=C(C=C1)C2=NN(C3=C2C(=NC=N3)N)C4CCC4)OC,P0CG48,0.9988549,"1-cyclobutyl-3-(3,4-dimethoxyphenyl)-1H-pyrazolo[3,4-d]pyrimidin-4-amine",UBC,Polyubiquitin-C
+C1=CC(=CC(=C1)[N+](=O)[O-])C2=NOC(=N2)CCCC(=O)O,P0CG48,1.0,"4-[3-(3-Nitrophenyl)-1,2,4-oxadiazol-5-yl]butanoic acid",UBC,Polyubiquitin-C
+C1=CC=C(C=C1)NC2=CC=CC3=C2C(=CC=C3)S(=O)(=O)O,P0CG48,0.9999789,8-Anilino-1-naphthalenesulfonic acid,UBC,Polyubiquitin-C
+CC1=C2C=C(C=CC2=NN1)C3=CC(=CN=C3)OC[C@H](CC4=CC=CC=C4)N,P0CG48,0.9996934,A-674563,UBC,Polyubiquitin-C
+CC1=CN=C2N1C=CN=C2NCC3=CC=NC=C3,P0CG48,0.9998791,"3-methyl-N-(pyridin-4-ylmethyl)imidazo(1,2-a)pyrazin-8-amine",UBC,Polyubiquitin-C
+C1CC1CN2C=NC(=C2C3=CC=NC=C3)C4=CC=C(C=C4)F,P0CG48,0.9999993,SB-216995,UBC,Polyubiquitin-C
+CS(=O)(=O)C1=CC=CC(=C1)NC2=NC=CC(=N2)NC3=C(C=CC4=C3OCO4)Cl,P0CG48,0.9999944,"N'-(5-chloro-1,3-benzodioxol-4-yl)-N-(3-methylsulfonylphenyl)pyrimidine-2,4-diamine",UBC,Polyubiquitin-C
+CCOC1=CC2=C(C=C1)N=C(S2)S(=O)(=O)N,P0CG48,0.9999784,Ethoxzolamide,UBC,Polyubiquitin-C
+CC1=C(C2=C(N1C(=O)C3=CC=C(C=C3)Cl)C=CC(=C2)OC)CC(=O)O,P0CG48,0.99998295,Indomethacin,UBC,Polyubiquitin-C
+C1=CC=C(C(=C1)C2=NN=C(S2)S(=O)(=O)N)Cl,P0CG48,0.999998,Chlorzolamide,UBC,Polyubiquitin-C
+CCOCCOCCOCCOCCOCCOCC,P0CG48,0.99998915,"3,6,9,12,15,18-Hexaoxaeicosane",UBC,Polyubiquitin-C
+C1C2=C(CS1(=O)=O)C=C(C=C2)N/C=C3/C4=C(C=CC(=C4)C5=CN=CO5)NC3=O,P0CG48,1.0,,UBC,Polyubiquitin-C
+C(CO)C(CCO)(CCO)N,P0CG48,0.9996797,Tris(Hydroxyethyl)Aminomethane,UBC,Polyubiquitin-C
+C1=CC2=C(C=C1Cl)N=C(S2)CN3C(=O)C=CN(C3=O)CC(=O)O,P0CG48,0.9999999,"(3-((5-Chloro-1,3-benzothiazol-2-YL)methyl)-2,4-dioxo-3,4-dihydropyrimidin-1(2H)-YL)acetic acid",UBC,Polyubiquitin-C
+CC(=N)N1CCC(CC1)OC2=CC3=C(C=C2)C4=CC=CC=C4N3CC5=CC6=C(C=C5)C=CC(=C6)C(=N)N,P0CG48,0.99997103,Zk-806450,UBC,Polyubiquitin-C
+C1=CC(=CC(=C1)[N+](=O)[O-])C(=O)NC2=CC(=C(C=C2)OC3=CC(=C(C=C3)C(=O)O)C(=O)O)NC(=O)C4=CC(=CC=C4)[N+](=O)[O-],P0CG48,0.9951383,"4-{2,4-Bis[(3-Nitrobenzoyl)Amino]Phenoxy}Phthalic Acid",UBC,Polyubiquitin-C
+C(CS)O,P0CG48,0.9999503,2-Mercaptoethanol,UBC,Polyubiquitin-C
+C1=CC=C(C(=C1)C(=O)O)NC2=CC=CC(=C2)C(F)(F)F,P0CG48,0.9999181,Flufenamic Acid,UBC,Polyubiquitin-C
+C1CNC(=O)C2=C1NC(=C2)C3=CC(=NC=C3)C4=CC=CC=C4F,P0CG48,0.9999981,"2-(2-(2-Fluorophenyl)pyridin-4-YL)-1,5,6,7-tetrahydro-4H-pyrrolo(3,2-C)pyridin-4-one",UBC,Polyubiquitin-C
+CN1CCN(CC1)CCCN2C3=CC=CC=C3SC4=C2C=C(C=C4)C(F)(F)F,P0CG48,0.9999677,Trifluoperazine,UBC,Polyubiquitin-C
+C1CC1(CN)NC(=O)[C@H](CS(=O)(=O)CC2=CC=CC=C2)N[C@@H](C3=CC=C(C=C3)O)C(F)(F)F,P0CG48,0.99562293,"N-[1-(Aminomethyl)cyclopropyl]-3-(benzylsulfonyl)-N~2~-[(1S)-2,2,2-trifluoro-1-(4-hydroxyphenyl)ethyl]-L-alaninamide",UBC,Polyubiquitin-C
+C1CNCCC1NC(=O)C2=C(C=NN2)NC(=O)C3=C(C=CC=C3Cl)Cl,P0CG48,0.9999862,"4-(2,6-dichlorobenzoylamino)-1H-pyrazole-3-carboxylic acid piperidin-4-ylamide",UBC,Polyubiquitin-C
+C1CCS(=O)(=O)N(C1)C2=CC=C(C=C2)S(=O)(=O)N,P0CG48,0.9999912,Sulthiame,UBC,Polyubiquitin-C
+CC1=C(C(=NO1)C2=CC=CC=C2)C3=CC=C(C=C3)S(=O)(=O)N,P0CG48,0.9999989,Valdecoxib,UBC,Polyubiquitin-C
+C1=CC(=CC=C1C[C@@H](C(=O)O)N)OP(=O)(O)O,P0CG48,0.9975841,Phospho-L-tyrosine,UBC,Polyubiquitin-C
+C1=CC(=C(C=C1C2=CC=C(O2)/C=C3/C(=O)N=C(S3)N)C(F)(F)F)S(=O)(=O)N,P0CG48,0.9998253,,UBC,Polyubiquitin-C
+CCC(=O)NS(=O)(=O)C1=CC=C(C=C1)C2=C(ON=C2C3=CC=CC=C3)C,P0CG48,0.9999943,Parecoxib,UBC,Polyubiquitin-C
+C1=CC(=C(C(=C1)Cl)Cl)C2=NC3=C(C=NN3C(=C2)NCC4=CC=NC=C4)SC#N,P0CG48,0.9999987,,UBC,Polyubiquitin-C
+CC1=C(C=NN1)C2=CC=C(C=C2)CCN,P0CG48,0.99982363,2-[4-(3-Methyl-1H-pyrazol-4-YL)phenyl]ethanamine,UBC,Polyubiquitin-C
+C1=C(C=C2C(=C1Cl)C(=C(N2)C(=O)O)CCC(=O)O)Cl,P0CG48,0.999995,Mdl-29951,UBC,Polyubiquitin-C
+C(CCNCCCN)CNCCCN,P0CG48,0.98371017,Spermine,UBC,Polyubiquitin-C
+C[C@@H](CC(C)(C)O)O,P0CG48,0.99971515,"(4S)-2-Methyl-2,4-pentanediol",UBC,Polyubiquitin-C
+CC1=CC=C(C=C1)N2C(=CC(=N2)C(C)(C)C)NC(=O)NC3=CC=C(C4=CC=CC=C43)OCCN5CCOCC5,P0CG48,0.9999999,Doramapimod,UBC,Polyubiquitin-C
+C(COCCOCCO)O,P0CG48,0.99999213,Triethylene Glycol,UBC,Polyubiquitin-C
+CCOCCOCCOC,P0CG48,0.9998826,1-Ethoxy-2-(2-methoxyethoxy)ethane,UBC,Polyubiquitin-C
+C([C@H](CS)O)O,P0CG48,0.9754175,"(2R)-3-sulfanylpropane-1,2-diol",UBC,Polyubiquitin-C
+CC(C)N1C=NC2=C1N=C(N=C2NC3=CC(=CC=C3)Cl)NCCO,P0CG48,0.99997246,2-({6-[(3-Chlorophenyl)amino]-9-isopropyl-9H-purin-2-yl}amino)ethanol,UBC,Polyubiquitin-C
+CCCCCC(=O)CP(=O)(O)O,P0CG48,0.96517444,2-Oxoheptylphosphonic acid,UBC,Polyubiquitin-C
+CC1CC2=CC=CC=C2N1NC(=O)C3=CC(=C(C=C3)Cl)S(=O)(=O)N,P0CG48,0.99848527,Indapamide,UBC,Polyubiquitin-C
+CC1=CC(=C(C(=C1CC2=NCCN2)C)O)C(C)(C)C,P0CG48,0.95773417,Oxymetazoline,UBC,Polyubiquitin-C
+CC1=C(C=C(C=C1)C(=O)NC2=CC(=CC(=C2)N3C=C(N=C3)C)C(F)(F)F)NC4=NC=CC(=N4)C5=CN=CC=C5,P0CG48,0.99999976,Nilotinib,UBC,Polyubiquitin-C
+CNC(=O)C1=NC=CC(=C1)OC2=CC=C(C=C2)NC(=O)NC3=CC(=C(C=C3)Cl)C(F)(F)F,P0CG48,0.9999827,Sorafenib,UBC,Polyubiquitin-C
+COCCOC1=C(C=C2C(=C1)C(=NC=N2)NC3=CC=CC(=C3)C#C)OCCOC,P0CG48,0.9930948,,UBC,Polyubiquitin-C
+C1=CC=C2C(=C1)C=CC=C2N(C3=CC=CC=C3C(=O)O)C(=O)C(=O)O,P0CG48,0.9807277,"Compound 5, 2-(Naphthalen-1-Yl-Oxalyl-Amino)-Benzoicacid",UBC,Polyubiquitin-C
+C1CCC2=C(C1)C(=C(S2)NC(=O)C3=CC=CC=C3F)C#N,P0CG48,1.0,,UBC,Polyubiquitin-C
+CC1=NC(=NN1C2=CC(=CC(=C2)Cl)Cl)C(=O)O,P0CG48,0.99999964,"1-(3,5-Dichlorophenyl)-5-methyl-1H-1,2,4-triazole-3-carboxylic acid",UBC,Polyubiquitin-C
+C1CN(CCC1COC2=CC=CC3=C2C(=NC(=N3)N)N)CC4=C(C(=CC=C4)Cl)Cl,P0CG48,0.9999949,"5-((1-(2,3-Dichlorobenzyl)piperidin-4-yl)methoxy)quinazoline-2,4-diamine",UBC,Polyubiquitin-C
+C1C[C@H](NC1)C2=CC(=NN2)NC(=O)NC3=CC=CC4=C3[C@@H]5CCCN5C4=O,P0CG48,0.99996316,"1-(5-Oxo-2,3,5,9B-tetrahydro-1H-pyrrolo(2,1-A)isoindol-9-YL)-3-(5-pyrrolidin-2-YL-1H-pyrazol-3-YL)-urea",UBC,Polyubiquitin-C
+CCCC1=C(C=CC2=C1ON=C2C(F)(F)F)OCCCOC3=CC4=C(C=C3)N(C=C4)CC(=O)O,P0CG48,0.9999995,2-{5-[3-(7-Propyl-3-trifluoromethylbenzo[D]isoxazol-6-yloxy)propoxy]indol-1-YL}ethanoic acid,UBC,Polyubiquitin-C
+CC1=CC=C(C=C1)C(=O)C2=CC(=C(C(=C2)O)O)[N+](=O)[O-],P0CG48,1.0,Tolcapone,UBC,Polyubiquitin-C
+COC1=CC=C(C=C1)CCN2CCC(CC2)NC3=NC4=CC=CC=C4N3CC5=CC=C(C=C5)F,P0CG48,0.99998605,Astemizole,UBC,Polyubiquitin-C
+C1CCC2=C(CC1)C(=O)OC3=C2C=CC(=C3)OS(=O)(=O)N,P0CG48,0.9999931,Irosustat,UBC,Polyubiquitin-C
+C1=CC2=C(C=CN=C2)C(=C1)S(=O)(=O)NCCNC/C=C/C3=CC=C(C=C3)Br,P0CG48,0.9998528,,UBC,Polyubiquitin-C
+CN(C)CCCN1C2=CC=CC=C2SC3=C1C=C(C=C3)Cl,P0CG48,0.9999343,Chlorpromazine,UBC,Polyubiquitin-C
+C([C@@H](C(=O)O)N)OP(=O)(O)O,P0CG48,0.9976356,Phospho-L-serine,UBC,Polyubiquitin-C
+C(CSSC[C@@H](C(=O)O)N)O,P0CG48,0.9997874,S-(2-Hydroxyethylthio)cysteine,UBC,Polyubiquitin-C
+C1CCC2=NC3=CC=CC=C3C(=C2C1)NCCCCCCCCNC4=CC=NC5=CC=CC=C54,P0CG48,0.99990237,Tacrine(8)-4-aminoquinoline,UBC,Polyubiquitin-C
+C1=CC(=CC=C1C(=O)NCC2=CC(=C(C(=C2)F)F)F)S(=O)(=O)N,P0CG48,0.99999964,"4-(Aminosulfonyl)-N-((3,4,5-Trifluorophenyl)Methyl)-Benzamide",UBC,Polyubiquitin-C
+CCC1=NN(C(=O)N1CCOC2=CC=CC=C2)CCCN3CCN(CC3)C4=CC(=CC=C4)Cl,P0CG48,0.9999999,Nefazodone,UBC,Polyubiquitin-C
+C1=C(C(=C(C(=C1Cl)Cl)CC2=C(C(=CC(=C2Cl)Cl)Cl)O)O)Cl,P0CG48,0.99997354,Hexachlorophene,UBC,Polyubiquitin-C
+CCCCC1=C2C(=NC=CN2)NC1=C3C=CC(=O)C=C3,P0CG48,0.9999846,RP107,UBC,Polyubiquitin-C
+CCN1C2=NC(=NC=C2N=C1NC3=CC=CC=C3Cl)NC4=C(C=CC=C4F)F,P0CG48,0.9999968,"8-(2-Chlorophenylamino)-2-(2,6-difluorophenylamino)-9-ethyl-9H-purine-1,7-diium",UBC,Polyubiquitin-C
+C(C(=O)O)C(=O)O,P0CG48,0.99466866,Malonic Acid,UBC,Polyubiquitin-C
+CS(=O)C,P0CG48,0.99998546,Dimethyl Sulfoxide,UBC,Polyubiquitin-C
+OP(=O)(O)OP(=O)(O)OP(=O)(O)O,P0CG48,0.95169866,Triphosphoric acid,UBC,Polyubiquitin-C
+CC(C)[C@H](CO)NC1=NC2=C(C(=N1)NC3=CC(=CC=C3)Cl)N=CN2C(C)C,P0CG48,0.99956816,Purvalanol A,UBC,Polyubiquitin-C
+CC1=CC=C(C=C1)C2=NN(C3=C2C(=NC=N3)N)C(C)(C)C,P0CG48,0.9999999,"1-Ter-Butyl-3-P-Tolyl-1h-Pyrazolo[3,4-D]Pyrimidin-4-Ylamine",UBC,Polyubiquitin-C
+C([C@@H](C(=O)O)N)SO,P0CG48,0.99722004,Cysteinesulfenic acid,UBC,Polyubiquitin-C
+COCCOCCOCCOCCO,P0CG48,0.99990714,Tetraethylene glycol monomethyl ether,UBC,Polyubiquitin-C
+C(CCN)CCN,P0CG48,0.99824226,Cadaverine,UBC,Polyubiquitin-C
+C1=CC2=C(C=C1O)ON/C2=C3/C=CC(=O)C=C3O,P0CG48,0.9999999,,UBC,Polyubiquitin-C
+C[C@@]1(C(=O)N(C(=O)O1)NC2=CC=CC=C2)C3=CC=C(C=C3)OC4=CC=CC=C4,P0CG48,0.99999917,(S)-famoxadone,UBC,Polyubiquitin-C
+C1CCC2=NC3=CC=CC=C3C(=C2C1)N,P0CG48,0.95920527,Tacrine,UBC,Polyubiquitin-C
+C1=CC=C2C(=C1)C3=NNC4=CC=CC(=C43)C2=O,P0CG48,0.9999244,"anthra(1,9-cd)pyrazol-6(2H)-one",UBC,Polyubiquitin-C
+C([C@@H](C(=O)O)N)SS,P0CG48,0.99986494,Thiocysteine,UBC,Polyubiquitin-C
+C1=CC=C(C=C1)C(CNC2=C(C(=C(C=C2)Cl)CC(=O)NCCON=C(N)N)F)(F)F,P0CG48,0.9999995,"N-(2-(((amino(imino)methyl)amino)oxy)ethyl)-2-(6-chloro-3-((2,2-difluoro-2-phenylethyl)amino)-2-fluorophenyl)acetamide",UBC,Polyubiquitin-C
+C1=NC2=C(N1)C(=NC=N2)N,P0CG48,0.9998348,Adenine,UBC,Polyubiquitin-C
+CC(C)(C)C1=NC2=C(N1)C3=C(C=C(C=C3)F)C4=C2C=CNC4=O,P0CG48,0.9999999,Pyridone 6,UBC,Polyubiquitin-C
+C1=CC=C2C=C(C=CC2=C1)NC(=O)[C@H](C3=CSC4=C3C=C(C=C4)Cl)P(=O)(O)O,P0CG48,1.0,[(1S)-1-(5-Chloro-1-benzothien-3-YL)-2-(2-naphthylamino)-2-oxoethyl]phosphonic acid,UBC,Polyubiquitin-C
+CCO,P0CG48,0.99939764,Ethanol,UBC,Polyubiquitin-C
+CC1=CC(=NN1)NC2=NC(=NC3=CC=CC=C32)C4=CC=CC=C4,P0CG48,0.9999995,N-(5-methyl-1H-pyrazol-3-yl)-2-phenylquinazolin-4-amine,UBC,Polyubiquitin-C
+C1[C@@H]([C@H](CSS1)O)O,P0CG48,0.9923659,"(4R,5R)-1,2-dithiane-4,5-diol",UBC,Polyubiquitin-C
+[Mg+2],P0CG48,0.99999547,Magnesium ion,UBC,Polyubiquitin-C
+C1CCC(CC1)COC2=NC3=NC=NN3C(=C2)NC4=CC=C(C=C4)S(=O)(=O)N,P0CG48,0.99961877,"4-((5-(Cyclohexylmethoxy)(1,2,4)triazolo(1,5-A)pyrimidin-7-YL)amino)benzenesulfonamide",UBC,Polyubiquitin-C
+C(C(CO)O)O,P0CG48,0.9999714,Glycerol,UBC,Polyubiquitin-C
+C1COCCO1,P0CG48,0.99999964,"1,4-Dioxane",UBC,Polyubiquitin-C
+C[C@@H](/C=C(C)/C=C/[C@@H]([C@H](C)C(=O)O)N)[C@H](CC1=CC=CC=C1)OC,Q13362,0.9959602,,PPP2R5C,Serine/threonine-protein phosphatase 2A 56 kDa regulatory subunit gamma isoform
+C1CNCCC1C2=CC3=C(CCC(=O)N3C4=C(C=CC=C4Cl)Cl)C(=C2)C5=C(C=C(C=C5)F)F,P08238,0.9999999,"1-(2,6-Dichlorophenyl)-5-(2,4-Difluorophenyl)-7-Piperidin-4-Yl-3,4-Dihydroquinolin-2(1h)-One",HSP90AB1,Heat shock protein HSP 90-beta
+CC(C)(C)C1=CC(=NN1)NC(=O)NC2=CC(=C(C=C2)Cl)COC3=CN=CC=C3,P08238,1.0,N-(3-Tert-butyl-1H-pyrazol-5-YL)-N'-{4-chloro-3-[(pyridin-3-yloxy)methyl]phenyl}urea,HSP90AB1,Heat shock protein HSP 90-beta
+C/C=C(/C(=O)O)NC,P08238,0.9997135,,HSP90AB1,Heat shock protein HSP 90-beta
+C1=CC2=C(N=C1)SC(=C2OCC(=O)O)C(=O)O,P08238,1.0,"3-(Carboxymethoxy)thieno[2,3-b]pyridine-2-carboxylic acid",HSP90AB1,Heat shock protein HSP 90-beta
+C1=CC(=CC=C1C2=CC=C(O2)/C=C3/C(=O)NC(=O)S3)S(=O)(=O)N,P08238,0.9999999,,HSP90AB1,Heat shock protein HSP 90-beta
+C[C@H]1CN=C(C2=C(O1)C=CS2)N,P08238,0.9999789,"(2S)-2-methyl-2,3-dihydrothieno(2,3-f)(1,4)oxazepin-5-amine",HSP90AB1,Heat shock protein HSP 90-beta
+CC(C)(C(=O)O)OC1=CC=C(C=C1)NC(=O)NC2=CC(=CC(=C2)Cl)Cl,P08238,0.99999976,"2-(4-(3,5-Dichlorophenylureido)phenoxy)-2-methylpropionic acid",HSP90AB1,Heat shock protein HSP 90-beta
+CCN(C1=CC=CC=C1)S(=O)(=O)C2=CC(=C(C=C2)NC(=O)[C@](C)(C(F)(F)F)O)C,P08238,0.99999416,"(2R)-N-{4-[Ethyl(phenyl)sulfamoyl]-2-methylphenyl}-3,3,3-trifluoro-2-hydroxy-2-methylpropanamide",HSP90AB1,Heat shock protein HSP 90-beta
+C[C@@](C(=O)NC1=C(C=C(C=C1)S(=O)(=O)C2=CC=C(C=C2)C(=O)N(C)C)Cl)(C(F)(F)F)O,P08238,0.99999726,Azd7545,HSP90AB1,Heat shock protein HSP 90-beta
+C[C@H](C1=CC=CC=C1)NC2=C(C(=O)C2=O)NC3=CC=NC=C3,P08238,0.999907,"3-(((1R)-1-phenylethyl)amino)-4-(pyridin-4-ylamino)cyclobut-3-ene-1,2-dione",HSP90AB1,Heat shock protein HSP 90-beta
+C(C(=O)C(=O)O)S(=O)(=O)O,P08238,0.99808794,3-Sulfopyruvic acid,HSP90AB1,Heat shock protein HSP 90-beta
+C1=CNC2=CC(=C(C=C21)C(=O)O)NC(=O)C(=O)O,P08238,0.99999857,6-(Oxalyl-Amino)-1h-Indole-5-Carboxylic Acid,HSP90AB1,Heat shock protein HSP 90-beta
+CC1=CC=CC(=N1)C2=NC3=CC=CC=C3C(=N2)NC4=CC5=C(C=C4)NN=C5,P08238,1.0,N-1H-indazol-5-yl-2-(6-methylpyridin-2-yl)quinazolin-4-amine,HSP90AB1,Heat shock protein HSP 90-beta
+CC(C)(C)NS(=O)(=O)C1=CC=C(C=C1)C2=CN=C3C=CC=C(C3=C2)NC4=CC=CC=N4,P08238,0.99999666,N-(tert-butyl)-4-[5-(pyridin-2-ylamino)quinolin-3-yl]benzenesulfonamide,HSP90AB1,Heat shock protein HSP 90-beta
+CC(C)(C)NC1=NC(=NC2=C1C=C(C=C2)C3=CC(=CC=C3)N)C(F)(F)F,P08238,0.99999964,6-(3-aminophenyl)-N-tert-butyl-2-(trifluoromethyl)quinazolin-4-amine,HSP90AB1,Heat shock protein HSP 90-beta
+C1=CC(=CC=C1C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)O)O,P08238,0.99998,Kaempferol,HSP90AB1,Heat shock protein HSP 90-beta
+C1CNCCC1N2C=NC(=C2C3=NC(=NC=C3)N)C4=CC=C(C=C4)F,P08238,0.99999976,SB-220025,HSP90AB1,Heat shock protein HSP 90-beta
+C[C@@H](C1=CC=CC=C1)NC2=NC=CC(=N2)C3=C(N=C(N3C)C4CCNCC4)C5=CC(=CC=C5)C(F)(F)F,P08238,0.99999976,4-[5-[2-(1-phenyl-ethylamino)-pyrimidin-4-yl]-1-methyl-4-(3-trifluoromethylphenyl)-1H-imidazol-2-yl]-piperidine,HSP90AB1,Heat shock protein HSP 90-beta
+C1=CC(=C(C2=C1C(=O)C3=C(C=CC(=C3C2=O)O)O)O)O,P08238,0.99993575,Quinalizarin,HSP90AB1,Heat shock protein HSP 90-beta
+C1CCC(CC1)COC2=NC(=NC3=C2NC=N3)NC4=CC(=CC=C4)S(=O)(=O)N,P08238,0.99999964,3-(6-Cyclohexylmethoxy-9H-purin-2-ylamino)-benzenesulfonamide,HSP90AB1,Heat shock protein HSP 90-beta
+CCOC(=O)N1CCC(CC1)NC2=NC=CC(=C2)C,P08238,0.9999987,Ethyl 4-[(4-methylpyridin-2-yl)amino]piperidine-1-carboxylate,HSP90AB1,Heat shock protein HSP 90-beta
+C([C@@H](C(=O)O)N)SS(=O)(=O)O,P08238,0.9999976,L-Cysteinesulfonic acid,HSP90AB1,Heat shock protein HSP 90-beta
+CNS(=O)(=O)C1=CC=C(C=C1)NC2=NC=C(C(=N2)N[C@@H]3CCC[C@H]3N(C)C)C(F)(F)F,P08238,0.99998915,"4-((4-(((1R,2R)-2-(dimethylamino)cyclopentyl)amino)-5-(trifluoromethyl)pyrimidin-2-yl)amino)-N-methylbenzenesulfonamide",HSP90AB1,Heat shock protein HSP 90-beta
+C1CO[C@H](C2=C1C(=C(S2)NC(=O)C(=O)O)C(=O)O)COC3=NS(=O)(=O)C4=CC=CC=C43,P08238,1.0,"7-(1,1-Dioxo-1h-Benzo(D)Isothiazol-3-Yloxymethyl)-2-(Oxalyl-Amino)-4,7-Dihydro-5h-Thieno(2,3-C)Pyran-3-Carboxylic Acid",HSP90AB1,Heat shock protein HSP 90-beta
+C1C(=O)NS(=O)(=O)N1C2=CC=CC=C2,P08238,0.9999988,"1,2,5-Thiadiazolidin-3-one-1,1-dioxide",HSP90AB1,Heat shock protein HSP 90-beta
+CC1=C(C=C(C(=O)N1)C#N)C2=CC=NC=C2,P08238,0.99999917,,HSP90AB1,Heat shock protein HSP 90-beta
+C[C@@H](/C=C/C=C/C(C)C)C1=NC(=CS1)C2=NC(=CS2)/C=C/[C@@H]([C@@H](C)/C(=CC(=O)N)/OC)OC,P08238,0.9995763,,HSP90AB1,Heat shock protein HSP 90-beta
+C1CN(CCN1)CCNC2=C3C(=C(OC3=NC=C2)C4=CC=CC=C4)C5=CC=CC=C5,P08238,1.0,"2,3-Diphenyl-N-(2-piperazin-1-ylethyl)furo(2,3-B)pyridin-4-amine",HSP90AB1,Heat shock protein HSP 90-beta
+C[C@H](C1=CC=CC=C1Cl)OC2=C(SC(=C2)N3C=NC4=CC(=C(C=C43)OC)OC)C(=O)N,P08238,1.0,"5-(5,6-Bis(methyloxy)-1H-benzimidazol-1-YL)-3-((1-(2-chlorophenyl)ethyl)oxy)-2-thiophenecarboxamide",HSP90AB1,Heat shock protein HSP 90-beta
+CC[C@H](CO)NC1=NC2=C(C(=N1)NCC3=CC=C(C=C3)C4=CC=CC=N4)N=CN2C(C)C,P08238,0.9999652,(2R)-2-({9-(1-methylethyl)-6-[(4-pyridin-2-ylbenzyl)amino]-9H-purin-2-yl}amino)butan-1-ol,HSP90AB1,Heat shock protein HSP 90-beta
+CC1=C(N2C=CC=CC2=N1)C3=NC(=NC=C3)NC4=CC=C(C=C4)OC[C@H](CN(C)C)O,P08238,0.99995327,"(2S)-1-(Dimethylamino)-3-(4-((4-(2-methylimidazo(1,2-a)pyridin-3-yl)-2-pyrimidinyl)amino)phenoxy)-2-propanol",HSP90AB1,Heat shock protein HSP 90-beta
+C1=CC(=C(C(=C1)F)S(=O)(=O)N)F,P08238,1.0,"2,6-Difluorobenzenesulfonamide",HSP90AB1,Heat shock protein HSP 90-beta
+C[N+](C)(C)C1=CC=CC(=C1)C(C(F)(F)F)(O)O,P08238,0.99993503,"M-(N,N,N-Trimethylammonio)-2,2,2-Trifluoro-1,1-Dihydroxyethylbenzene",HSP90AB1,Heat shock protein HSP 90-beta
+CC1=C(C(=CC=C1)C)C(=O)NC2=CC(=C(C(=C2)Br)O)Br,P08238,1.0,"N-(3,5-dibromo-4-hydroxyphenyl)-2,6-dimethylbenzamide",HSP90AB1,Heat shock protein HSP 90-beta
+C1=CC=C2C(=C1)C3=CC=CC=C3C2=NOCCC(=O)O,P08238,0.99999964,3-((9H-fluoren-9-ylideneamino)oxy)propanoic acid,HSP90AB1,Heat shock protein HSP 90-beta
+C1=CC(=CC=C1C2=C(C=NN2)C3=CC=NC=C3)F,P08238,1.0,4-[3-(4-fluorophenyl)-1H-pyrazol-4-yl]pyridine,HSP90AB1,Heat shock protein HSP 90-beta
+CN(C)C(=O)OC1=CC=CC(=C1)[N+](C)(C)C,P08238,0.9920661,Neostigmine,HSP90AB1,Heat shock protein HSP 90-beta
+CC(C)C[C@H](N)P(=O)(O)O,P08238,0.9988159,Leucine Phosphonic Acid,HSP90AB1,Heat shock protein HSP 90-beta
+CC[Hg]SC1=CC=CC=C1C(=O)O,P08238,0.99999464,Ethylmercury thiosalicylate,HSP90AB1,Heat shock protein HSP 90-beta
+CCCCO,P10415,0.95048255,1-Butanol,BCL2,Apoptosis regulator Bcl-2
+C1=CC=C(C(=C1)C(=O)NO)O,P10415,0.9998349,Salicylhydroxamic Acid,BCL2,Apoptosis regulator Bcl-2
+CC[C@H](C=O)[C@@H](CNS(=O)(=O)C1=CC=C(C=C1)[N+](=O)[O-])C(=O)O,P10415,0.99986184,"(2S,3S)-3-Formyl-2-((((4-nitrophenyl)sulfonyl)amino)methyl)pentanoic acid",BCL2,Apoptosis regulator Bcl-2
+CC1=C(C(=O)C(=C(C1=O)N2CC2)CO)N3CC3,P10415,0.9999461,"2,5-Bis(1-aziridinyl)-3-(hydroxymethyl)-6-methyl-2,5-cyclohexadiene-1,4-dione",BCL2,Apoptosis regulator Bcl-2
+C1CNCCC1C2=CC(=NN2)C3=CC=C(C=C3)Cl,P10415,0.9999995,4-[3-(4-chlorophenyl)-1H-pyrazol-5-yl]piperidine,BCL2,Apoptosis regulator Bcl-2
+CC1=CC[C@]2(C[C@@H]1[C@H](OC2)C3=CC=C(C=C3)O)CO,P10415,0.992833,"4-[(1S,2S,5S)-5-(hydroxymethyl)-8-methyl-3-oxabicyclo[3.3.1]non-7-en-2-yl]phenol",BCL2,Apoptosis regulator Bcl-2
+CCO[C@@H](CC1=CC=C(C=C1)OCCN2C3=CC=CC=C3C4=CC=CC=C42)C(=O)O,P10415,0.9999974,(S)-3-(4-(2-Carbazol-9-Yl-Ethoxy)-Phenyl)-2-Ethoxy-Propionic Acid,BCL2,Apoptosis regulator Bcl-2
+CCOC(=O)[C@@H]1[C@@H]([C@@H]2C(=C([C@H]1O2)C3=CC=C(C=C3)O)C4=CC=C(C=C4)O)C(=O)OCC,P10415,0.99189913,"Diethyl (1R,2S,3R,4S)-5,6-bis(4-hydroxyphenyl)-7-oxabicyclo(2.2.1)hept-5-ene-2,3-dicarboxylate",BCL2,Apoptosis regulator Bcl-2
+COC1=C(C=C(C=C1)C2=CC3=C(C=C2)C=C(C=C3)C(=O)O)C45CC6CC(C4)CC(C6)C5,P10415,0.9821114,Adapalene,BCL2,Apoptosis regulator Bcl-2
+C1CNCCC1C2=CC3=C(CCC(=O)N3C4=C(C=CC=C4Cl)Cl)C(=C2)C5=C(C=C(C=C5)F)F,P10415,1.0,"1-(2,6-Dichlorophenyl)-5-(2,4-Difluorophenyl)-7-Piperidin-4-Yl-3,4-Dihydroquinolin-2(1h)-One",BCL2,Apoptosis regulator Bcl-2
+CC(C)(C)C1=CC(=NN1)NC(=O)NC2=CC(=C(C=C2)Cl)COC3=CN=CC=C3,P10415,1.0,N-(3-Tert-butyl-1H-pyrazol-5-YL)-N'-{4-chloro-3-[(pyridin-3-yloxy)methyl]phenyl}urea,BCL2,Apoptosis regulator Bcl-2
+CC1=NC2=CC=CC=C2N1CC3=CC4=C(C=C3)N(C(=N4)CNC5=CC=C(C=C5)C(=N)N)C,P10415,0.99999964,4-((1-Methyl-5-(2-Methyl-Benzoimidazol-1-Ylmethyl)-1h-Benzoimidazol-2-Ylmethyl)-Amino)-Benzamidine,BCL2,Apoptosis regulator Bcl-2
+C1=CC=C2C(=C1)C(=C(OC2=O)Cl)Cl,P10415,0.9992101,"3,4-Dichloroisocoumarin",BCL2,Apoptosis regulator Bcl-2
+C[C@@H](C1=CC=CN1)C2=C3C=C(C=CC3=NC2=O)O,P10415,0.99945444,5-hydroxy-3-((1R)-1-(1H-pyrrol-2-yl)ethyl)-2H-indol-2-one,BCL2,Apoptosis regulator Bcl-2
+CN1CC(C2=C(C1)C(=CC=C2)N)C3=CC=CC=C3,P10415,0.99996424,Nomifensine,BCL2,Apoptosis regulator Bcl-2
+C1=CC(=O)N(C=C1)C2=CC=C(C=C2)C(=O)NCCNC(=O)C3=CC=C(S3)Cl,P10415,0.9999999,5-chloro-N-(2-(4-(2-oxopyridin-1(2H)-yl)benzamido)ethyl)thiophene-2-carboxamide,BCL2,Apoptosis regulator Bcl-2
+C=CCN1C2=C(C=CC=C2C(F)(F)F)/C(=C3/C=CC(=O)C=C3O)/N1,P10415,0.9999999,,BCL2,Apoptosis regulator Bcl-2
+CCCCCN,P10415,0.9997762,Pentylamine,BCL2,Apoptosis regulator Bcl-2
+C/C=C(/C(=O)O)NC,P10415,0.99884844,,BCL2,Apoptosis regulator Bcl-2
+C1=C(C=C(C(=C1I)O)I)C[C@@H](C(=O)O)N,P10415,0.99999976,"3',5'-Diiodo-L-tyrosine",BCL2,Apoptosis regulator Bcl-2
+C1=C(C(=C(C(=C1I)NC(=O)CCCCC(=O)NC2=C(C=C(C(=C2I)C(=O)O)I)I)I)C(=O)O)I,P10415,0.98341596,Adipiodon,BCL2,Apoptosis regulator Bcl-2
+CC1=CN(C(=O)NC1=O)[C@H]2C[C@@H]([C@H](O2)CO)N=[N+]=[N-],P10415,0.9765351,Zidovudine,BCL2,Apoptosis regulator Bcl-2
+C1=CC=C2C(=C1)NC=N2,P10415,0.9783699,Benzimidazole,BCL2,Apoptosis regulator Bcl-2
+C1CC(=NC1)C(=O)O,P10415,0.9999181,1-Pyrroline-2-carboxylic acid,BCL2,Apoptosis regulator Bcl-2
+C1=CC2=C(N=C1)SC(=C2OCC(=O)O)C(=O)O,P10415,0.99941087,"3-(Carboxymethoxy)thieno[2,3-b]pyridine-2-carboxylic acid",BCL2,Apoptosis regulator Bcl-2
+C1=CC(=CC=C1C2=CC=C(O2)/C=C3/C(=O)NC(=O)S3)S(=O)(=O)N,P10415,0.99991393,,BCL2,Apoptosis regulator Bcl-2
+C[C@H]1CN=C(C2=C(O1)C=CS2)N,P10415,0.9999956,"(2S)-2-methyl-2,3-dihydrothieno(2,3-f)(1,4)oxazepin-5-amine",BCL2,Apoptosis regulator Bcl-2
+CC(C)(C(=O)O)OC1=CC=C(C=C1)NC(=O)NC2=CC(=CC(=C2)Cl)Cl,P10415,0.9999993,"2-(4-(3,5-Dichlorophenylureido)phenoxy)-2-methylpropionic acid",BCL2,Apoptosis regulator Bcl-2
+CCOC1=CC=CC=C1O[C@H]([C@@H]2CNCCO2)C3=CC=CC=C3,P10415,0.9992187,Esreboxetine,BCL2,Apoptosis regulator Bcl-2
+C1=CC2=C(C=C1Cl)C=C(N2)C(=O)NCCOCCOCCNC(=O)C3=CC4=C(N3)C=CC(=C4)Cl,P10415,0.99999535,CP-526423,BCL2,Apoptosis regulator Bcl-2
+C(C(=O)C(=O)O)S(=O)(=O)O,P10415,0.9507917,3-Sulfopyruvic acid,BCL2,Apoptosis regulator Bcl-2
+C1=CC=C(C=C1)COC2=CC=C(C=C2)NC(=O)CC[C@@H](C(=O)O)N,P10415,0.99995875,(2S)-2-amino-5-oxo-5-[(4-phenylmethoxyphenyl)amino]pentanoic acid,BCL2,Apoptosis regulator Bcl-2
+C1=CNC2=CC(=C(C=C21)C(=O)O)NC(=O)C(=O)O,P10415,0.9999964,6-(Oxalyl-Amino)-1h-Indole-5-Carboxylic Acid,BCL2,Apoptosis regulator Bcl-2
+C[C@H](CO)O,P10415,0.99534756,"R-(-)-1,2-Propanediol",BCL2,Apoptosis regulator Bcl-2
+CC1=CC=CC(=N1)C2=NC3=CC=CC=C3C(=N2)NC4=CC5=C(C=C4)NN=C5,P10415,1.0,N-1H-indazol-5-yl-2-(6-methylpyridin-2-yl)quinazolin-4-amine,BCL2,Apoptosis regulator Bcl-2
+C[C@@H](C(=O)N1CCOCC1)N2CC[C@@H](C2=O)NS(=O)(=O)C3=CC4=C(C=C3)C=C(C=C4)Cl,P10415,0.99983525,6-Chloro-N-{(3S)-1-[(1S)-1-methyl-2-(4-morpholinyl)-2-oxo ethyl]-2-oxo-3-pyrrolidinyl}-2-naphthalenesulfonamide,BCL2,Apoptosis regulator Bcl-2
+C(CCO)CC(CCCCO)CCO,P10415,0.99998105,"5-(2-Hydroxyethyl)nonane-1,9-diol",BCL2,Apoptosis regulator Bcl-2
+CC(C)(C)NS(=O)(=O)C1=CC=C(C=C1)C2=CN=C3C=CC=C(C3=C2)NC4=CC=CC=N4,P10415,0.999884,N-(tert-butyl)-4-[5-(pyridin-2-ylamino)quinolin-3-yl]benzenesulfonamide,BCL2,Apoptosis regulator Bcl-2
+CC(C)(C)NC1=NC(=NC2=C1C=C(C=C2)C3=CC(=CC=C3)N)C(F)(F)F,P10415,0.9999993,6-(3-aminophenyl)-N-tert-butyl-2-(trifluoromethyl)quinazolin-4-amine,BCL2,Apoptosis regulator Bcl-2
+C1=CC(=CC=C1C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)O)O,P10415,0.99571484,Kaempferol,BCL2,Apoptosis regulator Bcl-2
+C1CNCCC1N2C=NC(=C2C3=NC(=NC=C3)N)C4=CC=C(C=C4)F,P10415,0.9999999,SB-220025,BCL2,Apoptosis regulator Bcl-2
+C[C@@H](C1=CC=CC=C1)NC2=NC=CC(=N2)C3=C(N=C(N3C)C4CCNCC4)C5=CC(=CC=C5)C(F)(F)F,P10415,0.99999976,4-[5-[2-(1-phenyl-ethylamino)-pyrimidin-4-yl]-1-methyl-4-(3-trifluoromethylphenyl)-1H-imidazol-2-yl]-piperidine,BCL2,Apoptosis regulator Bcl-2
+C1=CC(=C(C2=C1C(=O)C3=C(C=CC(=C3C2=O)O)O)O)O,P10415,0.99995875,Quinalizarin,BCL2,Apoptosis regulator Bcl-2
+CNC(=O)C1=NC=CC(=C1)OC2=CC3=C(C=C2)N=C(N3)NC4=CC(=C(C=C4)Cl)C(F)(F)F,P10415,0.9999987,4-((2-((4-chloro-3-(trifluoromethyl)phenyl)amino)-3H-benzimidazol-5-yl)oxy)-N-methyl-pyridine-2-carboxamide,BCL2,Apoptosis regulator Bcl-2
+CC1=NC(=NC2=C1CSCC2)N,P10415,1.0,"4-methyl-7,8-dihydro-5H-thiopyrano[4,3-d]pyrimidin-2-amine",BCL2,Apoptosis regulator Bcl-2
+C[C@H]/1CC[C@@H]2C[C@H](C[C@@](O2)([C@@H]3CSC(=O)N3)O)OC(=O)/C=C(CC/C=C1)/C,P10415,0.99930346,,BCL2,Apoptosis regulator Bcl-2
+C1=CC=C(C=C1)OP(=O)(O)O,P10415,0.9999255,Phenyl phosphate,BCL2,Apoptosis regulator Bcl-2
+C1C[C@H](N(C1)C(=O)[C@@H](CC2=CC=CC=C2)N)C(=O)NCC3=CC=CC=C3,P10415,0.99938345,D-phenylalanyl-N-benzyl-L-prolinamide,BCL2,Apoptosis regulator Bcl-2
+COC1=CC(=CC(=C1OC)OC)NC2=NC=C3C=CN(C3=N2)C4=CC=CC=N4,P10415,0.99999976,"7-Pyridin-2-YL-N-(3,4,5-trimethoxyphenyl)-7H-pyrrolo(2,3-D)pyrimidin-2-amine",BCL2,Apoptosis regulator Bcl-2
+C1CN(CCC1NC(=O)CCCS)CC2=CC=CC=C2,P10415,0.9999969,N-(1-benzylpiperidin-4-yl)-4-sulfanylbutanamide,BCL2,Apoptosis regulator Bcl-2
+C1=CC(=C(C=C1[N+](=O)[O-])Cl)NC(=O)C2=C(C=CC(=C2)Cl)O,P10415,1.0,Niclosamide,BCL2,Apoptosis regulator Bcl-2
+C1CCC(CC1)COC2=NC(=NC3=C2NC=N3)NC4=CC(=CC=C4)S(=O)(=O)N,P10415,0.9999987,3-(6-Cyclohexylmethoxy-9H-purin-2-ylamino)-benzenesulfonamide,BCL2,Apoptosis regulator Bcl-2
+CCOC(=O)N1CCC(CC1)NC2=NC=CC(=C2)C,P10415,0.99999523,Ethyl 4-[(4-methylpyridin-2-yl)amino]piperidine-1-carboxylate,BCL2,Apoptosis regulator Bcl-2
+C[C@]12CCC(=O)C=C1[C@H](C[C@@H]3[C@@H]2[C@H](C[C@]4([C@H]3C[C@@H]5[C@]4(OC(O5)(C)C)C(=O)CO)C)O)F,P10415,0.95448196,Flurandrenolide,BCL2,Apoptosis regulator Bcl-2
+C([C@@H](C(=O)O)N)SS(=O)(=O)O,P10415,0.9999927,L-Cysteinesulfonic acid,BCL2,Apoptosis regulator Bcl-2
+CNS(=O)(=O)C1=CC=C(C=C1)NC2=NC=C(C(=N2)N[C@@H]3CCC[C@H]3N(C)C)C(F)(F)F,P10415,0.9998746,"4-((4-(((1R,2R)-2-(dimethylamino)cyclopentyl)amino)-5-(trifluoromethyl)pyrimidin-2-yl)amino)-N-methylbenzenesulfonamide",BCL2,Apoptosis regulator Bcl-2
+CCCNC(=O)[C@@H]1CCCN1C(=O)[C@@H](C(C2=CC=CC=C2)C3=CC=CC=C3)N,P10415,0.9978241,beta-phenyl-D-phenylalanyl-N-propyl-L-prolinamide,BCL2,Apoptosis regulator Bcl-2
+C1CO[C@H](C2=C1C(=C(S2)NC(=O)C(=O)O)C(=O)O)COC3=NS(=O)(=O)C4=CC=CC=C43,P10415,0.99979264,"7-(1,1-Dioxo-1h-Benzo(D)Isothiazol-3-Yloxymethyl)-2-(Oxalyl-Amino)-4,7-Dihydro-5h-Thieno(2,3-C)Pyran-3-Carboxylic Acid",BCL2,Apoptosis regulator Bcl-2
+C1C(=O)NS(=O)(=O)N1C2=CC=CC=C2,P10415,0.9999863,"1,2,5-Thiadiazolidin-3-one-1,1-dioxide",BCL2,Apoptosis regulator Bcl-2
+CC1=C(C=C(C(=O)N1)C#N)C2=CC=NC=C2,P10415,0.9999999,,BCL2,Apoptosis regulator Bcl-2
+C[C@@H](/C=C/C=C/C(C)C)C1=NC(=CS1)C2=NC(=CS2)/C=C/[C@@H]([C@@H](C)/C(=CC(=O)N)/OC)OC,P10415,0.98986965,,BCL2,Apoptosis regulator Bcl-2
+C[C@]1(CC(=O)N(C(=N1)N)C)C2=CC=CC(=C2)C3=CC(=CC=C3)OC,P10415,0.9999981,"(6S)-2-amino-6-(3'-methoxybiphenyl-3-yl)-3,6-dimethyl-5,6-dihydropyrimidin-4(3H)-one",BCL2,Apoptosis regulator Bcl-2
+C[C@H](C1=CC=CC=C1Cl)OC2=C(SC(=C2)N3C=NC4=CC(=C(C=C43)OC)OC)C(=O)N,P10415,1.0,"5-(5,6-Bis(methyloxy)-1H-benzimidazol-1-YL)-3-((1-(2-chlorophenyl)ethyl)oxy)-2-thiophenecarboxamide",BCL2,Apoptosis regulator Bcl-2
+C1=CC=C(C(=C1)NC(=O)C2=CC=C(C=C2)N3C=CC=CC3=O)S(=O)(=O)NC4=NC=C(C=C4)Cl,P10415,0.99999905,N-(2-(((5-Chloro-2-pyridinyl)amino)sulfonyl)phenyl)-4-(2-oxo-1(2H)-pyridinyl)benzamide,BCL2,Apoptosis regulator Bcl-2
+CC1=NC(=NO1)C(CC2=CC=CC=C2)(CC3=CC=C(C=C3)NS(=O)(=O)O)C4=NOC(=N4)C,P10415,0.9999999,"{4-[2,2-Bis(5-methyl-1,2,4-oxadiazol-3-yl)-3-phenylpropyl]phenyl}sulfamic acid",BCL2,Apoptosis regulator Bcl-2
+CC[C@H](CO)NC1=NC2=C(C(=N1)NCC3=CC=C(C=C3)C4=CC=CC=N4)N=CN2C(C)C,P10415,0.99365693,(2R)-2-({9-(1-methylethyl)-6-[(4-pyridin-2-ylbenzyl)amino]-9H-purin-2-yl}amino)butan-1-ol,BCL2,Apoptosis regulator Bcl-2
+C1=CC=C(C=C1)C2=CC3=C(C=C2)NN=C3N,P10415,1.0,5-phenyl-1H-indazol-3-amine,BCL2,Apoptosis regulator Bcl-2
+C1=CC=C(C=C1)C[C@H](CS)C(=O)NCC(=O)O,P10415,0.9996687,"Thiorphan, (S)-",BCL2,Apoptosis regulator Bcl-2
+C1C[C@@H](NC1)COC2=CC=C(C=C2)NCC3=CC=CC=C3,P10415,0.9997379,N-benzyl-4-[(2R)-pyrrolidin-2-ylmethoxy]aniline,BCL2,Apoptosis regulator Bcl-2
+C1=CC=C(C=C1)[C@H](C(=O)O)S(=O)(=O)O,P10415,0.99990857,RU79256,BCL2,Apoptosis regulator Bcl-2
+C[N+](C)(C)C1=CC=CC(=C1)C(C(F)(F)F)(O)O,P10415,0.9783372,"M-(N,N,N-Trimethylammonio)-2,2,2-Trifluoro-1,1-Dihydroxyethylbenzene",BCL2,Apoptosis regulator Bcl-2
+CN1C=CN=C1SC2=C(C=C(C(=C2)C(=O)NC3=NC=CS3)N)F,P10415,1.0,"2-Amino-4-fluoro-5-[(1-methyl-1H-imidazol-2-yl)sulfanyl]-N-(1,3-thiazol-2-yl)benzamide",BCL2,Apoptosis regulator Bcl-2
+CC1=C(C(=CC=C1)C)C(=O)NC2=CC(=C(C(=C2)Br)O)Br,P10415,0.9999999,"N-(3,5-dibromo-4-hydroxyphenyl)-2,6-dimethylbenzamide",BCL2,Apoptosis regulator Bcl-2
+C1=CC=C2C(=C1)C3=CC=CC=C3C2=NOCCC(=O)O,P10415,0.9999999,3-((9H-fluoren-9-ylideneamino)oxy)propanoic acid,BCL2,Apoptosis regulator Bcl-2
+C1=CC(=CC=C1C2=C(C=NN2)C3=CC=NC=C3)F,P10415,1.0,4-[3-(4-fluorophenyl)-1H-pyrazol-4-yl]pyridine,BCL2,Apoptosis regulator Bcl-2
+CN1C2=C(C(=N1)C3=CC4=CC=CC=C4C=C3)C(=NC=N2)N,P10415,1.0,"1-methyl-3-naphthalen-2-yl-1H-pyrazolo[3,4-d]pyrimidin-4-amine",BCL2,Apoptosis regulator Bcl-2
+CN(C)C(=O)OC1=CC=CC(=C1)[N+](C)(C)C,P10415,0.99999166,Neostigmine,BCL2,Apoptosis regulator Bcl-2
+CC(C)C[C@H](N)P(=O)(O)O,P10415,0.9968562,Leucine Phosphonic Acid,BCL2,Apoptosis regulator Bcl-2
+CC[Hg]SC1=CC=CC=C1C(=O)O,P10415,0.9999721,Ethylmercury thiosalicylate,BCL2,Apoptosis regulator Bcl-2
+C1CNCCC1C2=CC(=NN2)C3=CC=C(C=C3)Cl,P0CG48,0.9999784,4-[3-(4-chlorophenyl)-1H-pyrazol-5-yl]piperidine,UBC,Polyubiquitin-C
+CCO[C@@H](CC1=CC=C(C=C1)OCCN2C3=CC=CC=C3C4=CC=CC=C42)C(=O)O,P0CG48,0.9997881,(S)-3-(4-(2-Carbazol-9-Yl-Ethoxy)-Phenyl)-2-Ethoxy-Propionic Acid,UBC,Polyubiquitin-C
+C1CNCCC1C2=CC3=C(CCC(=O)N3C4=C(C=CC=C4Cl)Cl)C(=C2)C5=C(C=C(C=C5)F)F,P0CG48,0.9999988,"1-(2,6-Dichlorophenyl)-5-(2,4-Difluorophenyl)-7-Piperidin-4-Yl-3,4-Dihydroquinolin-2(1h)-One",UBC,Polyubiquitin-C
+CC(C)(C)C1=CC(=NN1)NC(=O)NC2=CC(=C(C=C2)Cl)COC3=CN=CC=C3,P0CG48,0.9999999,N-(3-Tert-butyl-1H-pyrazol-5-YL)-N'-{4-chloro-3-[(pyridin-3-yloxy)methyl]phenyl}urea,UBC,Polyubiquitin-C
+CC1=NC2=CC=CC=C2N1CC3=CC4=C(C=C3)N(C(=N4)CNC5=CC=C(C=C5)C(=N)N)C,P0CG48,0.99998796,4-((1-Methyl-5-(2-Methyl-Benzoimidazol-1-Ylmethyl)-1h-Benzoimidazol-2-Ylmethyl)-Amino)-Benzamidine,UBC,Polyubiquitin-C
+CN1CC(C2=C(C1)C(=CC=C2)N)C3=CC=CC=C3,P0CG48,0.9597351,Nomifensine,UBC,Polyubiquitin-C
+C1=CC(=O)N(C=C1)C2=CC=C(C=C2)C(=O)NCCNC(=O)C3=CC=C(S3)Cl,P0CG48,0.9999982,5-chloro-N-(2-(4-(2-oxopyridin-1(2H)-yl)benzamido)ethyl)thiophene-2-carboxamide,UBC,Polyubiquitin-C
+C=CCN1C2=C(C=CC=C2C(F)(F)F)/C(=C3/C=CC(=O)C=C3O)/N1,P0CG48,0.9999982,,UBC,Polyubiquitin-C
+C1=C(C=C(C(=C1I)O)I)C[C@@H](C(=O)O)N,P0CG48,0.99998546,"3',5'-Diiodo-L-tyrosine",UBC,Polyubiquitin-C
+CC(C)(C(=O)O)OC1=CC=C(C=C1)NC(=O)NC2=CC(=CC(=C2)Cl)Cl,P0CG48,0.99990416,"2-(4-(3,5-Dichlorophenylureido)phenoxy)-2-methylpropionic acid",UBC,Polyubiquitin-C
+CCN(C1=CC=CC=C1)S(=O)(=O)C2=CC(=C(C=C2)NC(=O)[C@](C)(C(F)(F)F)O)C,P0CG48,0.99857605,"(2R)-N-{4-[Ethyl(phenyl)sulfamoyl]-2-methylphenyl}-3,3,3-trifluoro-2-hydroxy-2-methylpropanamide",UBC,Polyubiquitin-C
+C1=CC2=C(C=C1Cl)C=C(N2)C(=O)NCCOCCOCCNC(=O)C3=CC4=C(N3)C=CC(=C4)Cl,P0CG48,0.9998373,CP-526423,UBC,Polyubiquitin-C
+C[C@@](C(=O)NC1=C(C=C(C=C1)S(=O)(=O)C2=CC=C(C=C2)C(=O)N(C)C)Cl)(C(F)(F)F)O,P0CG48,0.99985325,Azd7545,UBC,Polyubiquitin-C
+C1=CNC2=CC(=C(C=C21)C(=O)O)NC(=O)C(=O)O,P0CG48,0.9995951,6-(Oxalyl-Amino)-1h-Indole-5-Carboxylic Acid,UBC,Polyubiquitin-C
+CC1=CC=CC(=N1)C2=NC3=CC=CC=C3C(=N2)NC4=CC5=C(C=C4)NN=C5,P0CG48,0.9999995,N-1H-indazol-5-yl-2-(6-methylpyridin-2-yl)quinazolin-4-amine,UBC,Polyubiquitin-C
+C(CCO)CC(CCCCO)CCO,P0CG48,0.99952435,"5-(2-Hydroxyethyl)nonane-1,9-diol",UBC,Polyubiquitin-C
+CC(C)(C)NS(=O)(=O)C1=CC=C(C=C1)C2=CN=C3C=CC=C(C3=C2)NC4=CC=CC=N4,P0CG48,0.99191004,N-(tert-butyl)-4-[5-(pyridin-2-ylamino)quinolin-3-yl]benzenesulfonamide,UBC,Polyubiquitin-C
+CC(C)(C)NC1=NC(=NC2=C1C=C(C=C2)C3=CC(=CC=C3)N)C(F)(F)F,P0CG48,0.9999956,6-(3-aminophenyl)-N-tert-butyl-2-(trifluoromethyl)quinazolin-4-amine,UBC,Polyubiquitin-C
+C1CNCCC1N2C=NC(=C2C3=NC(=NC=C3)N)C4=CC=C(C=C4)F,P0CG48,0.999998,SB-220025,UBC,Polyubiquitin-C
+C[C@@H](C1=CC=CC=C1)NC2=NC=CC(=N2)C3=C(N=C(N3C)C4CCNCC4)C5=CC(=CC=C5)C(F)(F)F,P0CG48,0.9999975,4-[5-[2-(1-phenyl-ethylamino)-pyrimidin-4-yl]-1-methyl-4-(3-trifluoromethylphenyl)-1H-imidazol-2-yl]-piperidine,UBC,Polyubiquitin-C
+C1=CC(=C(C2=C1C(=O)C3=C(C=CC(=C3C2=O)O)O)O)O,P0CG48,0.99554896,Quinalizarin,UBC,Polyubiquitin-C
+CNC(=O)C1=NC=CC(=C1)OC2=CC3=C(C=C2)N=C(N3)NC4=CC(=C(C=C4)Cl)C(F)(F)F,P0CG48,0.9999771,4-((2-((4-chloro-3-(trifluoromethyl)phenyl)amino)-3H-benzimidazol-5-yl)oxy)-N-methyl-pyridine-2-carboxamide,UBC,Polyubiquitin-C
+CC1=NC(=NC2=C1CSCC2)N,P0CG48,1.0,"4-methyl-7,8-dihydro-5H-thiopyrano[4,3-d]pyrimidin-2-amine",UBC,Polyubiquitin-C
+C1C(=O)NC(=O)[C@]12C3=C(C=CC(=C3)F)C(=O)N(C2=O)CC4=C(C=C(C=C4)Br)F,P0CG48,0.9999285,(R)-minalrestat,UBC,Polyubiquitin-C
+COC1=CC(=CC(=C1OC)OC)NC2=NC=C3C=CN(C3=N2)C4=CC=CC=N4,P0CG48,0.97795326,"7-Pyridin-2-YL-N-(3,4,5-trimethoxyphenyl)-7H-pyrrolo(2,3-D)pyrimidin-2-amine",UBC,Polyubiquitin-C
+C1=CC(=C(C=C1[N+](=O)[O-])Cl)NC(=O)C2=C(C=CC(=C2)Cl)O,P0CG48,1.0,Niclosamide,UBC,Polyubiquitin-C
+C1CCC(CC1)COC2=NC(=NC3=C2NC=N3)NC4=CC(=CC=C4)S(=O)(=O)N,P0CG48,0.99995446,3-(6-Cyclohexylmethoxy-9H-purin-2-ylamino)-benzenesulfonamide,UBC,Polyubiquitin-C
+CNS(=O)(=O)C1=CC=C(C=C1)NC2=NC=C(C(=N2)N[C@@H]3CCC[C@H]3N(C)C)C(F)(F)F,P0CG48,0.95930564,"4-((4-(((1R,2R)-2-(dimethylamino)cyclopentyl)amino)-5-(trifluoromethyl)pyrimidin-2-yl)amino)-N-methylbenzenesulfonamide",UBC,Polyubiquitin-C
+C1C(=O)NS(=O)(=O)N1C2=CC=CC=C2,P0CG48,0.97748804,"1,2,5-Thiadiazolidin-3-one-1,1-dioxide",UBC,Polyubiquitin-C
+CC1=C(C=C(C(=O)N1)C#N)C2=CC=NC=C2,P0CG48,0.9999269,,UBC,Polyubiquitin-C
+CC1=C2C=C(C=CC2=NN1)C3=CC(=CN=C3)OC[C@H](CC4=CNC5=CC=CC=C54)N,P0CG48,0.9999633,A-443654,UBC,Polyubiquitin-C
+C1CN(CCN1)CCNC2=C3C(=C(OC3=NC=C2)C4=CC=CC=C4)C5=CC=CC=C5,P0CG48,0.99998665,"2,3-Diphenyl-N-(2-piperazin-1-ylethyl)furo(2,3-B)pyridin-4-amine",UBC,Polyubiquitin-C
+C1=CC=C(C(=C1)NC(=O)C2=CC=C(C=C2)N3C=CC=CC3=O)S(=O)(=O)NC4=NC=C(C=C4)Cl,P0CG48,0.99997413,N-(2-(((5-Chloro-2-pyridinyl)amino)sulfonyl)phenyl)-4-(2-oxo-1(2H)-pyridinyl)benzamide,UBC,Polyubiquitin-C
+CC1=NC(=NO1)C(CC2=CC=CC=C2)(CC3=CC=C(C=C3)NS(=O)(=O)O)C4=NOC(=N4)C,P0CG48,0.9982685,"{4-[2,2-Bis(5-methyl-1,2,4-oxadiazol-3-yl)-3-phenylpropyl]phenyl}sulfamic acid",UBC,Polyubiquitin-C
+C1=CC=C(C=C1)C2=CC3=C(C=C2)NN=C3N,P0CG48,0.9999999,5-phenyl-1H-indazol-3-amine,UBC,Polyubiquitin-C
+C1=CC(=C(C(=C1)F)S(=O)(=O)N)F,P0CG48,0.9999988,"2,6-Difluorobenzenesulfonamide",UBC,Polyubiquitin-C
+CN1C=CN=C1SC2=C(C=C(C(=C2)C(=O)NC3=NC=CS3)N)F,P0CG48,0.99985003,"2-Amino-4-fluoro-5-[(1-methyl-1H-imidazol-2-yl)sulfanyl]-N-(1,3-thiazol-2-yl)benzamide",UBC,Polyubiquitin-C
+CC1=C(C(=CC=C1)C)C(=O)NC2=CC(=C(C(=C2)Br)O)Br,P0CG48,0.9999994,"N-(3,5-dibromo-4-hydroxyphenyl)-2,6-dimethylbenzamide",UBC,Polyubiquitin-C
+C1=CC(=CC=C1C2=C(C=NN2)C3=CC=NC=C3)F,P0CG48,1.0,4-[3-(4-fluorophenyl)-1H-pyrazol-4-yl]pyridine,UBC,Polyubiquitin-C
+CN1C2=C(C(=N1)C3=CC4=CC=CC=C4C=C3)C(=NC=N2)N,P0CG48,0.99999964,"1-methyl-3-naphthalen-2-yl-1H-pyrazolo[3,4-d]pyrimidin-4-amine",UBC,Polyubiquitin-C
+C1=CC(=O)N(C=C1)C2=CC=C(C=C2)C(=O)NCCNC(=O)C3=CC=C(S3)Cl,P00533,0.9999964,5-chloro-N-(2-(4-(2-oxopyridin-1(2H)-yl)benzamido)ethyl)thiophene-2-carboxamide,EGFR,Epidermal growth factor receptor
+C1=C(C=C(C(=C1I)O)I)C[C@@H](C(=O)O)N,P00533,0.9999765,"3',5'-Diiodo-L-tyrosine",EGFR,Epidermal growth factor receptor
+CC(C)(C(=O)O)OC1=CC=C(C=C1)NC(=O)NC2=CC(=CC(=C2)Cl)Cl,P00533,0.9999862,"2-(4-(3,5-Dichlorophenylureido)phenoxy)-2-methylpropionic acid",EGFR,Epidermal growth factor receptor
+CCN(C1=CC=CC=C1)S(=O)(=O)C2=CC(=C(C=C2)NC(=O)[C@](C)(C(F)(F)F)O)C,P00533,0.9984206,"(2R)-N-{4-[Ethyl(phenyl)sulfamoyl]-2-methylphenyl}-3,3,3-trifluoro-2-hydroxy-2-methylpropanamide",EGFR,Epidermal growth factor receptor
+C[C@@](C(=O)NC1=C(C=C(C=C1)S(=O)(=O)C2=CC=C(C=C2)C(=O)N(C)C)Cl)(C(F)(F)F)O,P00533,0.9998336,Azd7545,EGFR,Epidermal growth factor receptor
+C[C@@H](C(=O)N1CCOCC1)N2CC[C@@H](C2=O)NS(=O)(=O)C3=CC4=C(C=C3)C=C(C=C4)Cl,P00533,0.995095,6-Chloro-N-{(3S)-1-[(1S)-1-methyl-2-(4-morpholinyl)-2-oxo ethyl]-2-oxo-3-pyrrolidinyl}-2-naphthalenesulfonamide,EGFR,Epidermal growth factor receptor
+C1CN(CCN1)CCNC2=C3C(=C(OC3=NC=C2)C4=CC=CC=C4)C5=CC=CC=C5,P00533,0.9999982,"2,3-Diphenyl-N-(2-piperazin-1-ylethyl)furo(2,3-B)pyridin-4-amine",EGFR,Epidermal growth factor receptor
+C1=CC=C(C(=C1)NC(=O)C2=CC=C(C=C2)N3C=CC=CC3=O)S(=O)(=O)NC4=NC=C(C=C4)Cl,P00533,0.9999616,N-(2-(((5-Chloro-2-pyridinyl)amino)sulfonyl)phenyl)-4-(2-oxo-1(2H)-pyridinyl)benzamide,EGFR,Epidermal growth factor receptor
+C1=CC(=C(C(=C1)F)S(=O)(=O)N)F,P00533,0.99999917,"2,6-Difluorobenzenesulfonamide",EGFR,Epidermal growth factor receptor
+C[C@H]1C=CC2=CCC[C@@H]([C@@H]2[C@H]1CC[C@H]3C[C@H](CC(=O)O3)O)O,P28072,0.9926433,"(1S,7S,8S,8AR)-1,2,3,7,8,8A-Hexahydro-7-methyl-8-(2-((2R,4R)-tetrahydro-4-HY droxy-6-oxo-2H-pyran-2-YL)ethyl)-1-naphthalenol",PSMB6,Proteasome subunit beta type-6
+C1C(=O)NC(=O)[C@]12C3=C(C=CC(=C3)F)C(=O)N(C2=O)CC4=C(C=C(C=C4)Br)F,P28072,0.9999583,(R)-minalrestat,PSMB6,Proteasome subunit beta type-6
+C(CCNC(=O)O)C[C@@H](C(=O)O)N,P48163,0.9924442,Lysine Nz-Carboxylic Acid,ME1,NADP-dependent malic enzyme
+C[C@H]1C=CC2=CCC[C@@H]([C@@H]2[C@H]1CC[C@H]3C[C@H](CC(=O)O3)O)O,P28074,0.9683173,"(1S,7S,8S,8AR)-1,2,3,7,8,8A-Hexahydro-7-methyl-8-(2-((2R,4R)-tetrahydro-4-HY droxy-6-oxo-2H-pyran-2-YL)ethyl)-1-naphthalenol",PSMB5,Proteasome subunit beta type-5
+C1=CC2=C(C=C1Cl)C=C(N2)C(=O)NCCOCCOCCNC(=O)C3=CC4=C(N3)C=CC(=C4)Cl,P28074,0.9999913,CP-526423,PSMB5,Proteasome subunit beta type-5
+C1C(=O)NC(=O)[C@]12C3=C(C=CC(=C3)F)C(=O)N(C2=O)CC4=C(C=C(C=C4)Br)F,P28074,0.9961196,(R)-minalrestat,PSMB5,Proteasome subunit beta type-5
+COC1=CC(=CC(=C1OC)OC)CC2=CN=C(N=C2N)N,P10253,0.99999964,Trimethoprim,GAA,Lysosomal alpha-glucosidase
+CN(CC1=C(C=CC(=C1)OC)OC)C2=CN=C3C(=C2)C(=NC(=N3)N)N,P10253,0.9999999,"N6-(2,5-Dimethoxy-Benzyl)-N6-Methyl-Pyrido[2,3-D]Pyrimidine-2,4,6-Triamine",GAA,Lysosomal alpha-glucosidase
+CC1=C2C(=NC(=NC2=NC=C1/C=CC3=C(C=CC(=C3)OC)OC)N)N,P10253,0.9999999,,GAA,Lysosomal alpha-glucosidase
+C1C=C[C@H]2C(=C1)C=CC3=C(N2CC4=CN=C5C(=N4)C(=NC(=N5)N)N)C=CC(=C3)O,P10253,0.9999999,"(4aS)-5-[(2,4-diaminopteridin-6-yl)methyl]-4a,5-dihydro-2H-dibenzo[b,f]azepin-8-ol",GAA,Lysosomal alpha-glucosidase

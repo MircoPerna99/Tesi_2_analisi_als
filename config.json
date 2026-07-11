@@ -1,0 +1,12 @@
+{
+    "sqlHost":"127.0.0.1",
+    "sqlUser":"root",
+    "sqlPassword":"Mirco949!",
+    "sqlDatabase":"Tesi_Strutture",
+    "reg_param":0.1,
+    "rank":30,
+    "alpha":10.0
+}
+
+
+
