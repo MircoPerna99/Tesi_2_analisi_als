@@ -1,4 +1,5 @@
 threshold/
+pre_process/distance_map/
 no_threshold/pre_process/distance_map/*.npy
 threshold/global/*.csv
 no_threshold/global/*.csv
