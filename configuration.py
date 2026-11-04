@@ -5,7 +5,7 @@ import os
 def Configuration():
     current_dir = os.path.dirname(__file__)
 
-    file_path = os.path.join(current_dir, "config.json")
+    file_path = os.environ.get("ALS_CONFIG_PATH", os.path.join(current_dir, "config.json"))
 
     file_path = os.path.abspath(file_path)
     fileName = file_path

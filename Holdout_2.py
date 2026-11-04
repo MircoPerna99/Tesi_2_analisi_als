@@ -1,23 +1,34 @@
 from als_model import RecommendedSystem
 from repository_my_sql import RepositoryMySql
+from offline_repository import OfflineRepository
 from data_manager import DataManager
+from data_manager import (
+    extract_drug_features, extract_protein_features, scaler_global_drug_features,
+    scaler_global_target_features, sequence_to_graph, smile_to_graph,
+)
 from predictor import Predictor
-from utils import collate
-from sklearn.metrics import roc_auc_score
+from utils import DTADataset, collate
+from sklearn.metrics import average_precision_score, roc_auc_score
 import numpy as np
+import os
 import pandas as pd
 import torch
 
 
 TOP_PERCENT_VALUES = [1, 5, 10, 30, 50]
 RUN_WGNN_DTA = True  # Imposta a True per eseguire WGNN-DTA sulle coppie ALS candidate o sul gold standard
-WGNN_DTA_EVALUATION_MODE = "gold_standard_only"  # Opzioni: "als_candidates", "gold_standard_only"
-GOLD_STANDARD_SOURCE = "custom_positive_200"  # Opzioni: "pairs_to_check", "global_dti", "custom_positive_200"
+WGNN_DTA_EVALUATION_MODE = "als_top_percent_wgnn_filter"  # Opzioni: "als_candidates", "gold_standard_only", "als_top_percent_wgnn_filter"
+GOLD_STANDARD_SOURCE = "global_dti"  # Opzioni: "pairs_to_check", "global_dti", "custom_positive_200"
+OFFLINE_DATA_DIR = os.environ.get("HOLDOUT_OFFLINE_DATA_DIR", os.path.join(os.path.dirname(os.path.abspath(__file__)), "offline_data"))
 TEST_POSITIVE_INTERACTIONS_FILE = "/Users/mircoperna/Desktop/ALS/test_positive_interactions_ids_ratio_1.csv"
 CUSTOM_PAIRS_TO_CHECK_SIZE = 100
 CUSTOM_FILE_POSITIVES_SIZE = 100
 CUSTOM_RANDOM_STATE = 1234
 STRUCTURE_QUERY_CHUNK_SIZE = 1000
+WGNN_DATASET_CHUNK_SIZE = 1000
+REUSE_EXISTING_PROTEIN_GRAPHS = True
+WGNN_DTA_NEGATIVE_THRESHOLD = 0.50
+MISSING_GAT_PREDICTION = 0.0
 
 
 def run_wgnn_dta_on_als_candidates():
@@ -26,6 +37,10 @@ def run_wgnn_dta_on_als_candidates():
 
 def run_wgnn_dta_on_gold_standard_only():
     return RUN_WGNN_DTA and WGNN_DTA_EVALUATION_MODE == "gold_standard_only"
+
+
+def run_als_top_percent_wgnn_filter():
+    return RUN_WGNN_DTA and WGNN_DTA_EVALUATION_MODE == "als_top_percent_wgnn_filter"
 
 pairs_to_check = [
     (15, "P05026"), (15, "P49721"), (118, "P07919"), (125, "P15954"), (24, "P35625"),
@@ -96,6 +111,65 @@ def normalize_pair_columns(dataframe):
 def take_proteins_unique(dataframe):
     require_columns(dataframe, ["protein_id", "protein_structure"], "interactions_with_structures")
     return dataframe[["protein_id", "protein_structure"]].drop_duplicates().values.tolist()
+
+
+def predict_wgnn_in_chunks(interactions, predictor, data_manager):
+    """Keep global feature scaling while materializing only one dataset chunk at a time."""
+    proteins = interactions[["protein_id", "protein_structure"]].drop_duplicates("protein_id")
+    smiles_values = interactions["drug_structure"].drop_duplicates().tolist()
+
+    protein_graphs = {}
+    protein_features = {}
+    for protein_id, structure in proteins.itertuples(index=False, name=None):
+        sequence = decode_if_bytes(structure).strip()
+        protein_graphs[protein_id] = sequence_to_graph(protein_id, sequence, data_manager.save_dir)
+        protein_features[protein_id] = extract_protein_features(sequence)
+    protein_features = scaler_global_target_features(protein_features)
+
+    drug_graphs = {}
+    drug_features = {}
+    for smiles in smiles_values:
+        drug_graphs[smiles] = smile_to_graph(smiles)
+        drug_features[smiles] = extract_drug_features(smiles)
+    drug_features = scaler_global_drug_features(drug_features)
+
+    predictor.load_model("GAT")
+    predictions = []
+    total_chunks = (len(interactions) + WGNN_DATASET_CHUNK_SIZE - 1) // WGNN_DATASET_CHUNK_SIZE
+    for chunk_index, start in enumerate(range(0, len(interactions), WGNN_DATASET_CHUNK_SIZE), 1):
+        chunk = interactions.iloc[start:start + WGNN_DATASET_CHUNK_SIZE]
+        print(f"Predizione WGNN-DTA blocco {chunk_index}/{total_chunks}", flush=True)
+        labels = chunk.iloc[:, 4].to_numpy(dtype=float) if chunk.shape[1] > 4 else np.ones(len(chunk))
+        dataset = DTADataset(
+            root="data", dataset="", xd=chunk["drug_structure"].to_numpy(),
+            target_key=chunk["protein_id"].to_numpy(), y=labels,
+            smile_graph=drug_graphs, target_graph=protein_graphs,
+            global_feature_drug=drug_features, global_feature_protein=protein_features,
+        )
+        loader = torch.utils.data.DataLoader(dataset, batch_size=500, shuffle=False, collate_fn=collate)
+        predictions.append(predictor.make_prediction(loader))
+        del loader, dataset
+    return pd.concat(predictions, ignore_index=True)
+
+
+def construct_missing_protein_graphs(data_manager, proteins):
+    if not REUSE_EXISTING_PROTEIN_GRAPHS:
+        data_manager.protein_graph_construct(proteins)
+        return
+
+    missing_proteins = []
+    for protein_id, protein_structure in proteins:
+        protein_id = normalize_protein_id(protein_id)
+        graph_path = os.path.join(data_manager.save_dir, f"{protein_id}.npy")
+        if not os.path.exists(graph_path):
+            missing_proteins.append([protein_id, protein_structure])
+
+    print(
+        f"Grafi proteici: {len(proteins) - len(missing_proteins)} già presenti, "
+        f"{len(missing_proteins)} da costruire."
+    )
+    if missing_proteins:
+        data_manager.protein_graph_construct(missing_proteins)
 
 
 def take_structures_in_chunks(repo, ids):
@@ -241,7 +315,7 @@ def load_gold_standard(repo):
     if GOLD_STANDARD_SOURCE == "pairs_to_check":
         return read_pairs_to_check_gold_standard()
     if GOLD_STANDARD_SOURCE == "global_dti":
-        return read_global_dti_gold_standard(repo)
+        return repo.read_global_dti() if isinstance(repo, OfflineRepository) else read_global_dti_gold_standard(repo)
     if GOLD_STANDARD_SOURCE == "custom_positive_200":
         return read_custom_positive_200_gold_standard()
     raise ValueError(
@@ -303,19 +377,8 @@ def run_main_ipynb_flow_all_predictions(repo, model, predictor, data_manager):
     )
 
     proteins_to_analize = take_proteins_unique(interactions_with_structures)
-    data_manager.protein_graph_construct(proteins_to_analize)
-    dataset = data_manager.prepare_set(interactions_with_structures.values.tolist())
-    if len(dataset) == 0:
-        raise ValueError("Dataset WGNN-DTA vuoto: impossibile creare il DataLoader.")
-
-    predictor.load_model("GAT")
-    test_loader = torch.utils.data.DataLoader(
-        dataset,
-        batch_size=500,
-        shuffle=False,
-        collate_fn=collate,
-    )
-    prediction = predictor.make_prediction(test_loader)
+    construct_missing_protein_graphs(data_manager, proteins_to_analize)
+    prediction = predict_wgnn_in_chunks(interactions_with_structures, predictor, data_manager)
     require_columns(prediction, ["drug_structure", "protein_id", "prediction"], "prediction WGNN-DTA")
 
     interactions_with_structures["drug_structure"] = interactions_with_structures["drug_structure"].apply(decode_if_bytes)
@@ -325,7 +388,7 @@ def run_main_ipynb_flow_all_predictions(repo, model, predictor, data_manager):
         df_check,
         interactions_with_structures[["drug_id", "protein_id", "drug_structure", "protein_structure"]],
         on=["drug_id", "protein_id"],
-        how="inner",
+        how="left",
     )
     scored = pd.merge(
         scored,
@@ -333,6 +396,7 @@ def run_main_ipynb_flow_all_predictions(repo, model, predictor, data_manager):
         on=["drug_structure", "protein_id"],
         how="left",
     )
+    scored["gat_prediction"] = scored["gat_prediction"].fillna(MISSING_GAT_PREDICTION)
     require_columns(scored, ["drug_id", "protein_id", "als_rank", "als_prediction", "gat_prediction"], "scored")
     scored.attrs["als_requested_predictions_per_drug"] = all_proteins_count
     return scored
@@ -367,19 +431,8 @@ def run_main_ipynb_flow_for_validated_drugs(repo, model, predictor, data_manager
     )
 
     proteins_to_analize = take_proteins_unique(interactions_with_structures)
-    data_manager.protein_graph_construct(proteins_to_analize)
-    dataset = data_manager.prepare_set(interactions_with_structures.values.tolist())
-    if len(dataset) == 0:
-        raise ValueError("Dataset WGNN-DTA vuoto: impossibile creare il DataLoader.")
-
-    predictor.load_model("GAT")
-    test_loader = torch.utils.data.DataLoader(
-        dataset,
-        batch_size=500,
-        shuffle=False,
-        collate_fn=collate,
-    )
-    prediction = predictor.make_prediction(test_loader)
+    construct_missing_protein_graphs(data_manager, proteins_to_analize)
+    prediction = predict_wgnn_in_chunks(interactions_with_structures, predictor, data_manager)
     require_columns(prediction, ["drug_structure", "protein_id", "prediction"], "prediction WGNN-DTA")
 
     interactions_with_structures["drug_structure"] = interactions_with_structures["drug_structure"].apply(decode_if_bytes)
@@ -389,7 +442,7 @@ def run_main_ipynb_flow_for_validated_drugs(repo, model, predictor, data_manager
         df_check,
         interactions_with_structures[["drug_id", "protein_id", "drug_structure", "protein_structure"]],
         on=["drug_id", "protein_id"],
-        how="inner",
+        how="left",
     )
     scored = pd.merge(
         scored,
@@ -397,6 +450,7 @@ def run_main_ipynb_flow_for_validated_drugs(repo, model, predictor, data_manager
         on=["drug_structure", "protein_id"],
         how="left",
     )
+    scored["gat_prediction"] = scored["gat_prediction"].fillna(MISSING_GAT_PREDICTION)
     require_columns(scored, ["drug_id", "protein_id", "als_rank", "als_prediction", "gat_prediction"], "scored")
     scored.attrs["als_requested_predictions_per_drug"] = all_proteins_count
     scored.attrs["validated_drugs_requested"] = len(drug_ids)
@@ -409,12 +463,22 @@ def run_wgnn_dta_for_pairs(repo, predictor, data_manager, pairs):
     pairs = pairs[["drug_id", "protein_id"]].drop_duplicates().copy()
 
     if pairs.empty:
-        pairs["gat_prediction"] = np.nan
+        pairs["gat_prediction"] = MISSING_GAT_PREDICTION
         pairs["wgnn_rank"] = pd.Series(dtype=int)
         return pairs
 
     ids = pairs[["drug_id", "protein_id"]].values.tolist()
     interactions_with_structures = take_structures_in_chunks(repo, ids)
+    if interactions_with_structures.empty:
+        scored = pairs.copy()
+        scored["drug_structure"] = np.nan
+        scored["protein_structure"] = np.nan
+        scored["gat_prediction"] = MISSING_GAT_PREDICTION
+        scored["wgnn_rank"] = range(1, len(scored) + 1)
+        scored.attrs["wgnn_pairs_requested"] = len(pairs)
+        scored.attrs["wgnn_pairs_scored"] = 0
+        return scored
+
     require_columns(
         interactions_with_structures,
         ["drug_id", "drug_structure", "protein_id", "protein_structure"],
@@ -423,19 +487,8 @@ def run_wgnn_dta_for_pairs(repo, predictor, data_manager, pairs):
     interactions_with_structures = normalize_pair_columns(interactions_with_structures)
 
     proteins_to_analize = take_proteins_unique(interactions_with_structures)
-    data_manager.protein_graph_construct(proteins_to_analize)
-    dataset = data_manager.prepare_set(interactions_with_structures.values.tolist())
-    if len(dataset) == 0:
-        raise ValueError("Dataset WGNN-DTA vuoto: impossibile creare il DataLoader.")
-
-    predictor.load_model("GAT")
-    test_loader = torch.utils.data.DataLoader(
-        dataset,
-        batch_size=500,
-        shuffle=False,
-        collate_fn=collate,
-    )
-    prediction = predictor.make_prediction(test_loader)
+    construct_missing_protein_graphs(data_manager, proteins_to_analize)
+    prediction = predict_wgnn_in_chunks(interactions_with_structures, predictor, data_manager)
     require_columns(prediction, ["drug_structure", "protein_id", "prediction"], "prediction WGNN-DTA")
 
     interactions_with_structures["drug_structure"] = interactions_with_structures["drug_structure"].apply(decode_if_bytes)
@@ -450,10 +503,17 @@ def run_wgnn_dta_for_pairs(repo, predictor, data_manager, pairs):
         how="left",
     )
     scored = normalize_pair_columns(scored)
+    scored = pd.merge(
+        pairs,
+        scored[["drug_id", "protein_id", "drug_structure", "protein_structure", "gat_prediction"]],
+        on=["drug_id", "protein_id"],
+        how="left",
+    )
+    scored["gat_prediction"] = scored["gat_prediction"].fillna(MISSING_GAT_PREDICTION)
     scored = scored.sort_values("gat_prediction", ascending=False).copy()
     scored["wgnn_rank"] = range(1, len(scored) + 1)
     scored.attrs["wgnn_pairs_requested"] = len(pairs)
-    scored.attrs["wgnn_pairs_scored"] = len(scored)
+    scored.attrs["wgnn_pairs_scored"] = len(prediction)
     return scored
 
 
@@ -467,6 +527,7 @@ def mark_validated_candidates(candidates, warm_pairs):
         for drug_id, protein_id in zip(marked["drug_id"], marked["protein_id"])
     ]
     marked["y_true"] = marked["is_warm_validated"].astype(int)
+    marked.attrs.update(candidates.attrs)
     return marked
 
 
@@ -474,15 +535,27 @@ def score_column_for_method(method):
     score_columns = {
         "als": "als_prediction",
         "wgnn_dta": "gat_prediction",
+        "als_wgnn_filter": "als_wgnn_filtered_score",
     }
     if method not in score_columns:
         raise ValueError(f"Metodo non supportato: {method}")
     return score_columns[method]
 
 
+def lee_liu_score(true_positives, known_positives, predicted_positives, total_predictions):
+    if known_positives == 0:
+        return np.nan
+
+    recall = true_positives / known_positives
+    p_pred_positive = predicted_positives / total_predictions if total_predictions else 0.0
+    if p_pred_positive == 0:
+        return 0.0
+    return (recall ** 2) / p_pred_positive
+
+
 def precision_recall_global_top_percent(candidates, warm_pairs, methods=None):
     rows = []
-    total_als_predictions = len(candidates)
+    total_als_predictions = candidates.attrs.get("total_als_predictions_before_top_filter", len(candidates))
     total_gold_standard_positives = len(warm_pairs)
     positives_in_predictions = int(candidates["y_true"].sum())
 
@@ -502,6 +575,12 @@ def precision_recall_global_top_percent(candidates, warm_pairs, methods=None):
             predicted_positives = len(selected)
             false_positives = predicted_positives - true_positives
             false_negatives = total_gold_standard_positives - true_positives
+            pu_f_score = lee_liu_score(
+                true_positives,
+                total_gold_standard_positives,
+                predicted_positives,
+                total_als_predictions,
+            )
 
             rows.append({
                 "method": method,
@@ -517,12 +596,163 @@ def precision_recall_global_top_percent(candidates, warm_pairs, methods=None):
                 "gold_standard_positives_in_predictions": positives_in_predictions,
                 "precision": true_positives / predicted_positives if predicted_positives else 0.0,
                 "recall": true_positives / total_gold_standard_positives if total_gold_standard_positives else 0.0,
+                "lee_liu_pu_f_score": pu_f_score,
             })
+    return pd.DataFrame(rows)
+
+
+def build_als_top_percent_wgnn_filtered_candidates(repo, predictor, data_manager, candidates):
+    total_als_predictions = len(candidates)
+
+    als_ranked = candidates.sort_values("als_prediction", ascending=False).copy()
+    filtered_candidates = als_ranked.copy()
+    pairs_to_score = filtered_candidates[["drug_id", "protein_id"]].drop_duplicates().copy()
+
+    wgnn_scored = run_wgnn_dta_for_pairs(repo, predictor, data_manager, pairs_to_score)
+    wgnn_pairs_scored = wgnn_scored.attrs.get("wgnn_pairs_scored", np.nan)
+    wgnn_scored = wgnn_scored[["drug_id", "protein_id", "gat_prediction"]].copy()
+
+    filtered = pd.merge(
+        filtered_candidates,
+        wgnn_scored,
+        on=["drug_id", "protein_id"],
+        how="left",
+        suffixes=("", "_wgnn_filter"),
+    )
+    if "gat_prediction_wgnn_filter" in filtered.columns:
+        filtered["gat_prediction"] = filtered["gat_prediction_wgnn_filter"]
+        filtered = filtered.drop(columns=["gat_prediction_wgnn_filter"])
+
+    filtered["gat_prediction"] = filtered["gat_prediction"].fillna(MISSING_GAT_PREDICTION)
+    filtered["wgnn_pass_filter"] = filtered["gat_prediction"].ge(WGNN_DTA_NEGATIVE_THRESHOLD)
+    filtered["als_wgnn_filtered_score"] = np.where(
+        filtered["wgnn_pass_filter"],
+        filtered["als_prediction"],
+        0.0,
+    )
+    filtered.attrs["hybrid_wgnn_applied_percent"] = 100
+    filtered.attrs["hybrid_wgnn_applied_n"] = len(filtered_candidates)
+    filtered.attrs["hybrid_wgnn_threshold"] = WGNN_DTA_NEGATIVE_THRESHOLD
+    filtered.attrs["hybrid_wgnn_pairs_scored"] = wgnn_pairs_scored
+    return filtered
+
+
+def precision_recall_als_top_percent_wgnn_filter(candidates, warm_pairs):
+    rows = []
+    total_als_predictions = candidates.attrs.get("total_als_predictions_before_top_filter", len(candidates))
+    total_gold_standard_positives = len(warm_pairs)
+    positives_in_predictions = int(candidates["y_true"].sum())
+
+    ranked = candidates.sort_values("als_prediction", ascending=False).copy()
+    for percent in TOP_PERCENT_VALUES:
+        top_n = int(np.ceil(total_als_predictions * percent / 100.0))
+        selected = ranked.head(top_n).copy()
+        selected_positive = selected[selected["wgnn_pass_filter"]].copy()
+        true_positives = int(selected_positive["y_true"].sum())
+        predicted_positives = len(selected_positive)
+        false_positives = predicted_positives - true_positives
+        false_negatives = total_gold_standard_positives - true_positives
+        pu_f_score = lee_liu_score(
+            true_positives,
+            total_gold_standard_positives,
+            predicted_positives,
+            total_als_predictions,
+        )
+
+        rows.append({
+            "method": "als_wgnn_filter",
+            "score_column": "als_wgnn_filtered_score",
+            "top_percent": percent,
+            "total_als_predictions": total_als_predictions,
+            "top_n_predictions": top_n,
+            "predicted_positives": predicted_positives,
+            "true_positives": true_positives,
+            "false_positives": false_positives,
+            "false_negatives": false_negatives,
+            "total_gold_standard_positives": total_gold_standard_positives,
+            "gold_standard_positives_in_predictions": positives_in_predictions,
+            "wgnn_threshold": WGNN_DTA_NEGATIVE_THRESHOLD,
+            "wgnn_filtered_negatives": int((~selected["wgnn_pass_filter"]).sum()),
+            "precision": true_positives / predicted_positives if predicted_positives else 0.0,
+            "recall": true_positives / total_gold_standard_positives if total_gold_standard_positives else 0.0,
+            "lee_liu_pu_f_score": pu_f_score,
+        })
+    return pd.DataFrame(rows)
+
+
+def auc_als_top_percent_wgnn_filter(candidates):
+    rows = []
+    total_als_predictions = candidates.attrs.get("total_als_predictions_before_top_filter", len(candidates))
+    ranked = candidates.sort_values("als_prediction", ascending=False).copy()
+
+    for percent in TOP_PERCENT_VALUES + [100]:
+        if percent == 100:
+            scored = ranked.dropna(subset=["als_wgnn_filtered_score"]).copy()
+        else:
+            top_n = int(np.ceil(total_als_predictions * percent / 100.0))
+            scored = ranked.head(top_n).dropna(subset=["als_wgnn_filtered_score"]).copy()
+        if scored.empty:
+            continue
+
+        positives = int(scored["y_true"].sum())
+        negatives = int(len(scored) - positives)
+        auc = np.nan
+        if positives > 0 and negatives > 0:
+            auc = roc_auc_score(scored["y_true"], scored["als_wgnn_filtered_score"])
+
+        rows.append({
+            "method": "als_wgnn_filter",
+            "score_column": "als_wgnn_filtered_score",
+            "top_percent": percent,
+            "total_predictions": len(scored),
+            "total_als_predictions": total_als_predictions,
+            "positives_in_gold_standard": positives,
+            "negatives_not_in_gold_standard": negatives,
+            "wgnn_threshold": WGNN_DTA_NEGATIVE_THRESHOLD,
+            "wgnn_filtered_negatives": int((~scored["wgnn_pass_filter"]).sum()),
+            "auc": auc,
+        })
+    return pd.DataFrame(rows)
+
+
+def pr_auc_als_top_percent_wgnn_filter(candidates):
+    rows = []
+    total_als_predictions = candidates.attrs.get("total_als_predictions_before_top_filter", len(candidates))
+    ranked = candidates.sort_values("als_prediction", ascending=False).copy()
+
+    for percent in TOP_PERCENT_VALUES + [100]:
+        if percent == 100:
+            scored = ranked.dropna(subset=["als_wgnn_filtered_score"]).copy()
+        else:
+            top_n = int(np.ceil(total_als_predictions * percent / 100.0))
+            scored = ranked.head(top_n).dropna(subset=["als_wgnn_filtered_score"]).copy()
+        if scored.empty:
+            continue
+
+        positives = int(scored["y_true"].sum())
+        negatives = int(len(scored) - positives)
+        pr_auc = np.nan
+        if positives > 0 and negatives > 0:
+            pr_auc = average_precision_score(scored["y_true"], scored["als_wgnn_filtered_score"])
+
+        rows.append({
+            "method": "als_wgnn_filter",
+            "score_column": "als_wgnn_filtered_score",
+            "top_percent": percent,
+            "total_predictions": len(scored),
+            "total_als_predictions": total_als_predictions,
+            "positives_in_gold_standard": positives,
+            "negatives_not_in_gold_standard": negatives,
+            "wgnn_threshold": WGNN_DTA_NEGATIVE_THRESHOLD,
+            "wgnn_filtered_negatives": int((~scored["wgnn_pass_filter"]).sum()),
+            "pr_auc": pr_auc,
+        })
     return pd.DataFrame(rows)
 
 
 def auc_global_ranking(candidates, methods=None):
     rows = []
+    total_als_predictions = candidates.attrs.get("total_als_predictions_before_top_filter", len(candidates))
     if methods is None:
         methods = ["als", "wgnn_dta"]
 
@@ -541,10 +771,43 @@ def auc_global_ranking(candidates, methods=None):
         rows.append({
             "method": method,
             "score_column": score_col,
+            "top_percent": 100,
             "total_predictions": len(scored),
+            "total_als_predictions": total_als_predictions,
             "positives_in_gold_standard": positives,
             "negatives_not_in_gold_standard": negatives,
             "auc": auc,
+        })
+    return pd.DataFrame(rows)
+
+
+def pr_auc_global_ranking(candidates, methods=None):
+    rows = []
+    total_als_predictions = candidates.attrs.get("total_als_predictions_before_top_filter", len(candidates))
+    if methods is None:
+        methods = ["als", "wgnn_dta"]
+
+    for method in methods:
+        score_col = score_column_for_method(method)
+        scored = candidates.dropna(subset=[score_col]).copy()
+        if scored.empty:
+            continue
+
+        positives = int(scored["y_true"].sum())
+        negatives = int(len(scored) - positives)
+        pr_auc = np.nan
+        if positives > 0 and negatives > 0:
+            pr_auc = average_precision_score(scored["y_true"], scored[score_col])
+
+        rows.append({
+            "method": method,
+            "score_column": score_col,
+            "top_percent": 100,
+            "total_predictions": len(scored),
+            "total_als_predictions": total_als_predictions,
+            "positives_in_gold_standard": positives,
+            "negatives_not_in_gold_standard": negatives,
+            "pr_auc": pr_auc,
         })
     return pd.DataFrame(rows)
 
@@ -575,12 +838,12 @@ def build_coverage(validated, candidates):
     return pd.DataFrame(rows)
 
 
-repo = RepositoryMySql()
+repo = OfflineRepository(OFFLINE_DATA_DIR)
 predictor = Predictor()
 model = RecommendedSystem()
 data_manager = DataManager()
 
-als_data = repo.read_interactions_for_als()
+als_data = repo.read_interactions_for_als_2()
 print(als_data.count())
 gold_standard_pairs = load_gold_standard(repo)
 validated_pairs = build_validated_pairs(als_data, gold_standard_pairs)
@@ -594,6 +857,7 @@ ranked_candidates = run_main_ipynb_flow_for_validated_drugs(
     validated_pairs,
 )
 ranked_candidates = mark_validated_candidates(ranked_candidates, warm_validated_pairs)
+total_als_predictions = len(ranked_candidates)
 
 percent_metrics_parts = [
     precision_recall_global_top_percent(
@@ -608,7 +872,14 @@ auc_metrics_parts = [
         methods=["als"],
     )
 ]
+pr_auc_metrics_parts = [
+    pr_auc_global_ranking(
+        ranked_candidates,
+        methods=["als"],
+    )
+]
 wgnn_positive_candidates = pd.DataFrame()
+hybrid_filtered_candidates = pd.DataFrame()
 
 if run_wgnn_dta_on_als_candidates():
     percent_metrics_parts.append(
@@ -623,6 +894,55 @@ if run_wgnn_dta_on_als_candidates():
             ranked_candidates,
             methods=["wgnn_dta"],
         )
+    )
+    pr_auc_metrics_parts.append(
+        pr_auc_global_ranking(
+            ranked_candidates,
+            methods=["wgnn_dta"],
+        )
+    )
+elif run_als_top_percent_wgnn_filter():
+    hybrid_filtered_candidates = build_als_top_percent_wgnn_filtered_candidates(
+        repo,
+        predictor,
+        data_manager,
+        ranked_candidates,
+    )
+    hybrid_filtered_candidates = mark_validated_candidates(
+        hybrid_filtered_candidates,
+        warm_validated_pairs,
+    )
+    hybrid_filtered_candidates.attrs["total_als_predictions_before_top_filter"] = total_als_predictions
+    percent_metrics_parts.append(
+        precision_recall_global_top_percent(
+            hybrid_filtered_candidates,
+            warm_validated_pairs,
+            methods=["wgnn_dta"],
+        )
+    )
+    auc_metrics_parts.append(
+        auc_global_ranking(
+            hybrid_filtered_candidates,
+            methods=["wgnn_dta"],
+        )
+    )
+    pr_auc_metrics_parts.append(
+        pr_auc_global_ranking(
+            hybrid_filtered_candidates,
+            methods=["wgnn_dta"],
+        )
+    )
+    percent_metrics_parts.append(
+        precision_recall_als_top_percent_wgnn_filter(
+            hybrid_filtered_candidates,
+            warm_validated_pairs,
+        )
+    )
+    auc_metrics_parts.append(
+        auc_als_top_percent_wgnn_filter(hybrid_filtered_candidates)
+    )
+    pr_auc_metrics_parts.append(
+        pr_auc_als_top_percent_wgnn_filter(hybrid_filtered_candidates)
     )
 elif run_wgnn_dta_on_gold_standard_only():
     wgnn_gold_standard_pairs = normalize_pair_columns(gold_standard_pairs)
@@ -649,9 +969,16 @@ elif run_wgnn_dta_on_gold_standard_only():
             methods=["wgnn_dta"],
         )
     )
+    pr_auc_metrics_parts.append(
+        pr_auc_global_ranking(
+            wgnn_positive_candidates,
+            methods=["wgnn_dta"],
+        )
+    )
 
 percent_metrics = pd.concat(percent_metrics_parts, ignore_index=True)
 auc_metrics = pd.concat(auc_metrics_parts, ignore_index=True)
+pr_auc_metrics = pd.concat(pr_auc_metrics_parts, ignore_index=True)
 coverage = build_coverage(validated_pairs, ranked_candidates)
 if RUN_WGNN_DTA:
     wgnn_coverage = pd.DataFrame([
@@ -659,13 +986,19 @@ if RUN_WGNN_DTA:
         {"metric": "wgnn_dta_evaluated_only_gold_standard_pairs", "value": run_wgnn_dta_on_gold_standard_only()},
         {"metric": "wgnn_dta_pairs_requested", "value": wgnn_positive_candidates.attrs.get("wgnn_pairs_requested", np.nan)},
         {"metric": "wgnn_dta_pairs_scored", "value": wgnn_positive_candidates.attrs.get("wgnn_pairs_scored", np.nan)},
+        {"metric": "hybrid_wgnn_applied_percent", "value": hybrid_filtered_candidates.attrs.get("hybrid_wgnn_applied_percent", np.nan)},
+        {"metric": "hybrid_wgnn_applied_n", "value": hybrid_filtered_candidates.attrs.get("hybrid_wgnn_applied_n", np.nan)},
+        {"metric": "hybrid_wgnn_threshold", "value": hybrid_filtered_candidates.attrs.get("hybrid_wgnn_threshold", np.nan)},
+        {"metric": "hybrid_wgnn_pairs_scored", "value": hybrid_filtered_candidates.attrs.get("hybrid_wgnn_pairs_scored", np.nan)},
     ])
     coverage = pd.concat([coverage, wgnn_coverage], ignore_index=True)
 
 ranked_candidates.to_csv("holdout_2_ranked_candidates.csv", index=False)
 wgnn_positive_candidates.to_csv("holdout_2_wgnn_dta_positive_candidates.csv", index=False)
+hybrid_filtered_candidates.to_csv("holdout_2_als_wgnn_filtered_candidates.csv", index=False)
 percent_metrics.to_csv("holdout_2_precision_recall_top_percent.csv", index=False)
 auc_metrics.to_csv("holdout_2_auc.csv", index=False)
+pr_auc_metrics.to_csv("holdout_2_pr_auc.csv", index=False)
 coverage.to_csv("holdout_2_coverage.csv", index=False)
 validated_pairs.to_csv("holdout_2_validated_pairs_coverage.csv", index=False)
 gold_standard_pairs.to_csv("holdout_2_gold_standard_pairs.csv", index=False)
@@ -676,3 +1009,5 @@ print("Precision/Recall top percent ranking globale:")
 print(percent_metrics)
 print("AUC ranking globale:")
 print(auc_metrics)
+print("PR-AUC ranking globale:")
+print(pr_auc_metrics)

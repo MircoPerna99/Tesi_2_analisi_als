@@ -1,0 +1,2 @@
+method,score_column,total_predictions,positives_in_gold_standard,negatives_not_in_gold_standard,auc
+als,als_prediction,481536,194,481342,0.8966470868153116
