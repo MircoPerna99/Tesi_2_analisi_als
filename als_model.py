@@ -190,8 +190,8 @@ class RecommendedSystem():
         trained_als.write().overwrite().save("/Users/mircoperna/Desktop/ALS/saved_als_model")
         
     def load_pipeline(self):
-        self.als_model = ALSModel.load("/Users/mircoperna/Desktop/ALS/saved_als_model_2")
-        self.indexer_model = StringIndexerModel.load("/Users/mircoperna/Desktop/ALS/saved_indexer_2")
+        self.als_model = ALSModel.load("/Users/mircoperna/Desktop/ALS/saved_als_model")
+        self.indexer_model = StringIndexerModel.load("/Users/mircoperna/Desktop/ALS/saved_indexer")
 
     
     def calculate_recommended_proteins(self, number_of_protein_for_drug = 5):
