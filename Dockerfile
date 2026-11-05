@@ -15,8 +15,8 @@ COPY Holdout_2.py als_model.py configuration.py repository_my_sql.py offline_rep
 COPY data_manager.py predictor.py utils.py model.py fm.py nfm.py ./
 COPY test_positive_interactions_ids_ratio_1.csv ./
 COPY models/ ./models/
-COPY saved_als_model_2/ ./saved_als_model_2/
-COPY saved_indexer_2/ ./saved_indexer_2/
+COPY saved_als_model/ ./saved_als_model/
+COPY saved_indexer/ ./saved_indexer/
 
 ENV PYTHONPATH=/Users/mircoperna/Desktop/ALS \
     HOLDOUT_OFFLINE_DATA_DIR=/offline_data \
